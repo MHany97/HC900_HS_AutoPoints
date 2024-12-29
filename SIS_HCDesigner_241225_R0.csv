@@ -1,0 +1,1957 @@
+﻿RevisionID:,0106.0036.0012.0002.0022
+File Name:,HC900-C75S Rev 7.2x : WEB_SIS_241224 *
+Controller Name,WEBSIS
+Title:,
+Author:,
+Created Date:,2/14/2005 7:38:48 AM
+Modified Date:,12/24/2024 5:25:30 AM
+
+Report Title:,Modbus Signal Tags and Variables Report [Process & Safety]
+
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,EU,Decimal Places,Tag Type,'On' Label,'Off' Label,Initial/Source
+0x18C0,6337,PZIT-W201A,1001;AI,Variable,1,float 32,,0,Analog, , ,0.00
+0x18C2,6339,PZIT-W201A_RH,,Variable,2,float 32,,0,Analog, , ,100.00
+0x18C4,6341,PZIT-W201A_RL,,Variable,3,float 32,,0,Analog, , ,0.00
+0x18C6,6343,PZIT-W201A_HH_V,,Variable,4,float 32,,0,Analog, , ,100.00
+0x18C8,6345,PZIT-W201A_LL_V,,Variable,5,float 32,,0,Analog, , ,0.00
+0x18CA,6347,PZIT-W201A_DELAY,,Variable,6,float 32,,1,Analog, , ,0.00
+0x18CC,6349,PZIT-W201A_ACK,Acknowledge,Variable,7,float 32, , ,Digital,ON,OFF,OFF
+0x18CE,6351,PZIT-W201A_MANON,,Variable,8,float 32, , ,Digital,ON,OFF,OFF
+0x18D0,6353,PZIT-W201A_MOS,,Variable,9,float 32, , ,Digital,ON,OFF,OFF
+0x18D2,6355,PZIT-W202A_MOS,,Variable,10,float 32, , ,Digital,ON,OFF,OFF
+0x18D4,6357,PZIT-W202A_MANON,,Variable,11,float 32, , ,Digital,ON,OFF,OFF
+0x18D6,6359,PZIT-W202A_ACK,Acknowledge,Variable,12,float 32, , ,Digital,ON,OFF,OFF
+0x18D8,6361,PZIT-W202A_DELAY,,Variable,13,float 32,,1,Analog, , ,0.00
+0x18DA,6363,PZIT-W202A_LL_V,,Variable,14,float 32,,0,Analog, , ,0.00
+0x18DC,6365,PZIT-W202A_HH_V,,Variable,15,float 32,,0,Analog, , ,100.00
+0x18DE,6367,PZIT-W202A_RL,,Variable,16,float 32,,0,Analog, , ,0.00
+0x18E0,6369,PZIT-W202A_RH,,Variable,17,float 32,,0,Analog, , ,100.00
+0x18E2,6371,PZIT-W202A,,Variable,18,float 32,,0,Analog, , ,0.00
+0x18E4,6373,PZIT-W203A,,Variable,19,float 32,,0,Analog, , ,0.00
+0x18E6,6375,PZIT-W203A_RH,,Variable,20,float 32,,0,Analog, , ,100.00
+0x18E8,6377,PZIT-W203A_RL,,Variable,21,float 32,,0,Analog, , ,0.00
+0x18EA,6379,PZIT-W203A_HH_V,,Variable,22,float 32,,0,Analog, , ,100.00
+0x18EC,6381,PZIT-W203A_LL_V,,Variable,23,float 32,,0,Analog, , ,0.00
+0x18EE,6383,PZIT-W203A_DELAY,,Variable,24,float 32,,1,Analog, , ,0.00
+0x18F0,6385,PZIT-W203A_ACK,Acknowledge,Variable,25,float 32, , ,Digital,ON,OFF,OFF
+0x18F2,6387,PZIT-W203A_MANON,,Variable,26,float 32, , ,Digital,ON,OFF,OFF
+0x18F4,6389,PZIT-W203A_MOS,,Variable,27,float 32, , ,Digital,ON,OFF,OFF
+0x18F6,6391,PZIT-W208A,,Variable,28,float 32,,0,Analog, , ,0.00
+0x18F8,6393,PZIT-W208A_RH,,Variable,29,float 32,,0,Analog, , ,150.00
+0x18FA,6395,PZIT-W208A_RL,,Variable,30,float 32,,0,Analog, , ,0.00
+0x18FC,6397,PZIT-W208A_HH_V,,Variable,31,float 32,,0,Analog, , ,109.00
+0x18FE,6399,PZIT-W208A_LL_V,,Variable,32,float 32,,0,Analog, , ,0.00
+0x1900,6401,PZIT-W208A_DELAY,,Variable,33,float 32,,1,Analog, , ,0.00
+0x1902,6403,PZIT-W208A_ACK,Acknowledge,Variable,34,float 32, , ,Digital,ON,OFF,OFF
+0x1904,6405,PZIT-W208A_MANON,,Variable,35,float 32, , ,Digital,ON,OFF,OFF
+0x1906,6407,PZIT-W208A_MOS,,Variable,36,float 32, , ,Digital,ON,OFF,OFF
+0x1908,6409,PZIT-W207A,,Variable,37,float 32,,0,Analog, , ,0.00
+0x190A,6411,PZIT-W207A_RH,,Variable,38,float 32,,0,Analog, , ,150.00
+0x190C,6413,PZIT-W207A_RL,,Variable,39,float 32,,0,Analog, , ,0.00
+0x190E,6415,PZIT-W207A_HH_V,,Variable,40,float 32,,0,Analog, , ,100.00
+0x1910,6417,PZIT-W207A_LL_V,,Variable,41,float 32,,0,Analog, , ,50.00
+0x1912,6419,PZIT-W207A_DELAY,,Variable,42,float 32,,1,Analog, , ,0.00
+0x1914,6421,PZIT-W207A_ACK,Acknowledge,Variable,43,float 32, , ,Digital,ON,OFF,OFF
+0x1916,6423,PZIT-W207A_MANON,,Variable,44,float 32, , ,Digital,ON,OFF,OFF
+0x1918,6425,PZIT-W207A_MOS,,Variable,45,float 32, , ,Digital,ON,OFF,OFF
+0x191A,6427,LZIT-605A,,Variable,46,float 32,,0,Analog, , ,0.00
+0x191C,6429,LZIT-605A_RH,,Variable,47,float 32,,0,Analog, , ,950.00
+0x191E,6431,LZIT-605A_RL,,Variable,48,float 32,,0,Analog, , ,150.00
+0x1920,6433,LZIT-605A_HH_V,,Variable,49,float 32,,0,Analog, , ,800.00
+0x1922,6435,LZIT-605A_LL_V,,Variable,50,float 32,,0,Analog, , ,0.00
+0x1924,6437,LZIT-605A_DELAY,,Variable,51,float 32,,1,Analog, , ,0.00
+0x1926,6439,LZIT-605A_ACK,Acknowledge,Variable,52,float 32, , ,Digital,ON,OFF,OFF
+0x1928,6441,LZIT-605A_MANON,,Variable,53,float 32, , ,Digital,ON,OFF,OFF
+0x192A,6443,LZIT-605A_MOS,,Variable,54,float 32, , ,Digital,ON,OFF,OFF
+0x192C,6445,PZIT-219-1,,Variable,55,float 32,,0,Analog, , ,0.00
+0x192E,6447,PZIT-219-1_RH,,Variable,56,float 32,,0,Analog, , ,150.00
+0x1930,6449,PZIT-219-1_RL,,Variable,57,float 32,,0,Analog, , ,0.00
+0x1932,6451,PZIT-219-1_HH_V,,Variable,58,float 32,,0,Analog, , ,100.00
+0x1934,6453,PZIT-219-1_LL_V,,Variable,59,float 32,,0,Analog, , ,50.00
+0x1936,6455,PZIT-219-1_DELAY,,Variable,60,float 32,,1,Analog, , ,0.00
+0x1938,6457,PZIT-219-1_ACK,Acknowledge,Variable,61,float 32, , ,Digital,ON,OFF,OFF
+0x193A,6459,PZIT-219-1_MANON,,Variable,62,float 32, , ,Digital,ON,OFF,OFF
+0x193C,6461,PZIT-219-1_MOS,,Variable,63,float 32, , ,Digital,ON,OFF,OFF
+0x193E,6463,PZIT-230-1,,Variable,64,float 32,,0,Analog, , ,0.00
+0x1940,6465,PZIT-230-1_RH,,Variable,65,float 32,,0,Analog, , ,150.00
+0x1942,6467,PZIT-230-1_RL,,Variable,66,float 32,,0,Analog, , ,0.00
+0x1944,6469,PZIT-230-1_HH_V,,Variable,67,float 32,,0,Analog, , ,100.00
+0x1946,6471,PZIT-230-1_LL_V,,Variable,68,float 32,,0,Analog, , ,32.22
+0x1948,6473,PZIT-230-1_DELAY,,Variable,69,float 32,,1,Analog, , ,0.00
+0x194A,6475,PZIT-230-1_ACK,Acknowledge,Variable,70,float 32, , ,Digital,ON,OFF,OFF
+0x194C,6477,PZIT-230-1_MANON,,Variable,71,float 32, , ,Digital,ON,OFF,OFF
+0x194E,6479,PZIT-230-1_MOS,,Variable,72,float 32, , ,Digital,ON,OFF,OFF
+0x1950,6481,PZIT-229A,,Variable,73,float 32,,0,Analog, , ,0.00
+0x1952,6483,PZIT-229A_RH,,Variable,74,float 32,,0,Analog, , ,100.00
+0x1954,6485,PZIT-229A_RL,,Variable,75,float 32,,0,Analog, , ,0.00
+0x1956,6487,PZIT-229A_HH_V,,Variable,76,float 32,,0,Analog, , ,137.00
+0x1958,6489,PZIT-229A_LL_V,,Variable,77,float 32,,0,Analog, , ,0.00
+0x195A,6491,PZIT-229A_DELAY,,Variable,78,float 32,,1,Analog, , ,0.00
+0x195C,6493,PZIT-229A_ACK,Acknowledge,Variable,79,float 32, , ,Digital,ON,OFF,OFF
+0x195E,6495,PZIT-229A_MANON,,Variable,80,float 32, , ,Digital,ON,OFF,OFF
+0x1960,6497,PZIT-229A_MOS,,Variable,81,float 32, , ,Digital,ON,OFF,OFF
+0x1962,6499,PZIT-226A,,Variable,82,float 32,,0,Analog, , ,0.00
+0x1964,6501,PZIT-226A_RH,,Variable,83,float 32,,0,Analog, , ,100.00
+0x1966,6503,PZIT-226A_RL,,Variable,84,float 32,,0,Analog, , ,0.00
+0x1968,6505,PZIT-226A_HH_V,,Variable,85,float 32,,0,Analog, , ,275.00
+0x196A,6507,PZIT-226A_LL_V,,Variable,86,float 32,,0,Analog, , ,0.00
+0x196C,6509,PZIT-226A_DELAY,,Variable,87,float 32,,1,Analog, , ,0.00
+0x196E,6511,PZIT-226A_ACK,Acknowledge,Variable,88,float 32, , ,Digital,ON,OFF,OFF
+0x1970,6513,PZIT-226A_MANON,,Variable,89,float 32, , ,Digital,ON,OFF,OFF
+0x1972,6515,PZIT-226A_MOS,,Variable,90,float 32, , ,Digital,ON,OFF,OFF
+0x1974,6517,PZIT-227A,,Variable,91,float 32,,0,Analog, , ,0.00
+0x1976,6519,PZIT-227A_RH,,Variable,92,float 32,,0,Analog, , ,100.00
+0x1978,6521,PZIT-227A_RL,,Variable,93,float 32,,0,Analog, , ,0.00
+0x197A,6523,PZIT-227A_HH_V,,Variable,94,float 32,,0,Analog, , ,275.00
+0x197C,6525,PZIT-227A_LL_V,,Variable,95,float 32,,0,Analog, , ,0.00
+0x197E,6527,PZIT-227A_DELAY,,Variable,96,float 32,,1,Analog, , ,0.00
+0x1980,6529,PZIT-227A_ACK,Acknowledge,Variable,97,float 32, , ,Digital,ON,OFF,OFF
+0x1982,6531,PZIT-227A_MANON,,Variable,98,float 32, , ,Digital,ON,OFF,OFF
+0x1984,6533,PZIT-227A_MOS,,Variable,99,float 32, , ,Digital,ON,OFF,OFF
+0x1986,6535,PZIT-228A,,Variable,100,float 32,,0,Analog, , ,0.00
+0x1988,6537,PZIT-228A_RH,,Variable,101,float 32,,0,Analog, , ,100.00
+0x198A,6539,PZIT-228A_RL,,Variable,102,float 32,,0,Analog, , ,0.00
+0x198C,6541,PZIT-228A_HH_V,,Variable,103,float 32,,0,Analog, , ,275.00
+0x198E,6543,PZIT-228A_LL_V,,Variable,104,float 32,,0,Analog, , ,0.00
+0x1990,6545,PZIT-228A_DELAY,,Variable,105,float 32,,1,Analog, , ,0.00
+0x1992,6547,PZIT-228A_ACK,Acknowledge,Variable,106,float 32, , ,Digital,ON,OFF,OFF
+0x1994,6549,PZIT-228A_MANON,,Variable,107,float 32, , ,Digital,ON,OFF,OFF
+0x1996,6551,PZIT-228A_MOS,,Variable,108,float 32, , ,Digital,ON,OFF,OFF
+0x1998,6553,PZIT-W201B,,Variable,109,float 32,,0,Analog, , ,0.00
+0x199A,6555,PZIT-W201B_RH,,Variable,110,float 32,,0,Analog, , ,100.00
+0x199C,6557,PZIT-W201B_RL,,Variable,111,float 32,,0,Analog, , ,0.00
+0x199E,6559,PZIT-W201B_HH_V,,Variable,112,float 32,,0,Analog, , ,100.00
+0x19A0,6561,PZIT-W201B_LL_V,,Variable,113,float 32,,0,Analog, , ,0.00
+0x19A2,6563,PZIT-W201B_DELAY,,Variable,114,float 32,,1,Analog, , ,0.00
+0x19A4,6565,PZIT-W201B_ACK,Acknowledge,Variable,115,float 32, , ,Digital,ON,OFF,OFF
+0x19A6,6567,PZIT-W201B_MANON,,Variable,116,float 32, , ,Digital,ON,OFF,OFF
+0x19A8,6569,PZIT-W201B_MOS,,Variable,117,float 32, , ,Digital,ON,OFF,OFF
+0x19AA,6571,PZIT-W202B_MOS,,Variable,118,float 32, , ,Digital,ON,OFF,OFF
+0x19AC,6573,PZIT-W202B_MANON,,Variable,119,float 32, , ,Digital,ON,OFF,OFF
+0x19AE,6575,PZIT-W202B_ACK,Acknowledge,Variable,120,float 32, , ,Digital,ON,OFF,OFF
+0x19B0,6577,PZIT-W202B_DELAY,,Variable,121,float 32,,1,Analog, , ,0.00
+0x19B2,6579,PZIT-W202B_LL_V,,Variable,122,float 32,,0,Analog, , ,0.00
+0x19B4,6581,PZIT-W202B_HH_V,,Variable,123,float 32,,0,Analog, , ,100.00
+0x19B6,6583,PZIT-W202B_RL,,Variable,124,float 32,,0,Analog, , ,0.00
+0x19B8,6585,PZIT-W202B_RH,,Variable,125,float 32,,0,Analog, , ,100.00
+0x19BA,6587,PZIT-W202B,,Variable,126,float 32,,0,Analog, , ,0.00
+0x19BC,6589,PZIT-W203B,,Variable,127,float 32,,0,Analog, , ,0.00
+0x19BE,6591,PZIT-W203B_RH,,Variable,128,float 32,,0,Analog, , ,100.00
+0x19C0,6593,PZIT-W203B_RL,,Variable,129,float 32,,0,Analog, , ,0.00
+0x19C2,6595,PZIT-W203B_HH_V,,Variable,130,float 32,,0,Analog, , ,100.00
+0x19C4,6597,PZIT-W203B_LL_V,,Variable,131,float 32,,0,Analog, , ,0.00
+0x19C6,6599,PZIT-W203B_DELAY,,Variable,132,float 32,,1,Analog, , ,0.00
+0x19C8,6601,PZIT-W203B_ACK,Acknowledge,Variable,133,float 32, , ,Digital,ON,OFF,OFF
+0x19CA,6603,PZIT-W203B_MANON,,Variable,134,float 32, , ,Digital,ON,OFF,OFF
+0x19CC,6605,PZIT-W203B_MOS,,Variable,135,float 32, , ,Digital,ON,OFF,OFF
+0x19CE,6607,PZIT-W208B,,Variable,136,float 32,,0,Analog, , ,0.00
+0x19D0,6609,PZIT-W208B_RH,,Variable,137,float 32,,0,Analog, , ,150.00
+0x19D2,6611,PZIT-W208B_RL,,Variable,138,float 32,,0,Analog, , ,0.00
+0x19D4,6613,PZIT-W208B_HH_V,,Variable,139,float 32,,0,Analog, , ,109.00
+0x19D6,6615,PZIT-W208B_LL_V,,Variable,140,float 32,,0,Analog, , ,0.00
+0x19D8,6617,PZIT-W208B_DELAY,,Variable,141,float 32,,1,Analog, , ,0.00
+0x19DA,6619,PZIT-W208B_ACK,Acknowledge,Variable,142,float 32, , ,Digital,ON,OFF,OFF
+0x19DC,6621,PZIT-W208B_MANON,,Variable,143,float 32, , ,Digital,ON,OFF,OFF
+0x19DE,6623,PZIT-W208B_MOS,,Variable,144,float 32, , ,Digital,ON,OFF,OFF
+0x19E0,6625,PZIT-W207B,,Variable,145,float 32,,0,Analog, , ,0.00
+0x19E2,6627,PZIT-W207B_RH,,Variable,146,float 32,,0,Analog, , ,150.00
+0x19E4,6629,PZIT-W207B_RL,,Variable,147,float 32,,0,Analog, , ,0.00
+0x19E6,6631,PZIT-W207B_HH_V,,Variable,148,float 32,,0,Analog, , ,100.00
+0x19E8,6633,PZIT-W207B_LL_V,,Variable,149,float 32,,0,Analog, , ,50.00
+0x19EA,6635,PZIT-W207B_DELAY,,Variable,150,float 32,,1,Analog, , ,0.00
+0x19EC,6637,PZIT-W207B_ACK,Acknowledge,Variable,151,float 32, , ,Digital,ON,OFF,OFF
+0x19EE,6639,PZIT-W207B_MANON,,Variable,152,float 32, , ,Digital,ON,OFF,OFF
+0x19F0,6641,PZIT-W207B_MOS,,Variable,153,float 32, , ,Digital,ON,OFF,OFF
+0x19F2,6643,LZIT-605C,,Variable,154,float 32,,0,Analog, , ,0.00
+0x19F4,6645,LZIT-605C_RH,,Variable,155,float 32,,0,Analog, , ,950.00
+0x19F6,6647,LZIT-605C_RL,,Variable,156,float 32,,0,Analog, , ,150.00
+0x19F8,6649,LZIT-605C_HH_V,,Variable,157,float 32,,0,Analog, , ,800.00
+0x19FA,6651,LZIT-605C_LL_V,,Variable,158,float 32,,0,Analog, , ,0.00
+0x19FC,6653,LZIT-605C_DELAY,,Variable,159,float 32,,1,Analog, , ,0.00
+0x19FE,6655,LZIT-605C_ACK,Acknowledge,Variable,160,float 32, , ,Digital,ON,OFF,OFF
+0x1A00,6657,LZIT-605C_MANON,,Variable,161,float 32, , ,Digital,ON,OFF,OFF
+0x1A02,6659,LZIT-605C_MOS,,Variable,162,float 32, , ,Digital,ON,OFF,OFF
+0x1A04,6661,LZIT-607,,Variable,163,float 32,,0,Analog, , ,0.00
+0x1A06,6663,LZIT-607_RH,,Variable,164,float 32,,0,Analog, , ,1750.00
+0x1A08,6665,LZIT-607_RL,,Variable,165,float 32,,0,Analog, , ,100.00
+0x1A0A,6667,LZIT-607_HH_V,,Variable,166,float 32,,0,Analog, , ,1750.00
+0x1A0C,6669,LZIT-607_LL_V,,Variable,167,float 32,,0,Analog, , ,350.00
+0x1A0E,6671,LZIT-607_DELAY,,Variable,168,float 32,,1,Analog, , ,0.00
+0x1A10,6673,LZIT-607_ACK,Acknowledge,Variable,169,float 32, , ,Digital,ON,OFF,OFF
+0x1A12,6675,LZIT-607_MANON,,Variable,170,float 32, , ,Digital,ON,OFF,OFF
+0x1A14,6677,LZIT-607_MOS,,Variable,171,float 32, , ,Digital,ON,OFF,OFF
+0x1A16,6679,FZIT-104,,Variable,172,float 32,,0,Analog, , ,0.00
+0x1A18,6681,FZIT-104_RH,,Variable,173,float 32,,0,Analog, , ,250.00
+0x1A1A,6683,FZIT-104_RL,,Variable,174,float 32,,0,Analog, , ,150.00
+0x1A1C,6685,FZIT-104_HH_V,,Variable,175,float 32,,0,Analog, , ,800.00
+0x1A1E,6687,FZIT-104_LL_V,,Variable,176,float 32,,0,Analog, , ,27.50
+0x1A20,6689,FZIT-104_DELAY,,Variable,177,float 32,,1,Analog, , ,0.00
+0x1A22,6691,FZIT-104_ACK,Acknowledge,Variable,178,float 32, , ,Digital,ON,OFF,OFF
+0x1A24,6693,FZIT-104_MANON,,Variable,179,float 32, , ,Digital,ON,OFF,OFF
+0x1A26,6695,FZIT-104_MOS,,Variable,180,float 32, , ,Digital,ON,OFF,OFF
+0x1A28,6697,ZZT-906,,Variable,181,float 32,,0,Analog, , ,0.00
+0x1A2A,6699,ZZT-906_RH,,Variable,182,float 32,,0,Analog, , ,100.00
+0x1A2C,6701,ZZT-906_RL,,Variable,183,float 32,,0,Analog, , ,0.00
+0x1A2E,6703,ZZT-906_HH_V,,Variable,184,float 32,,0,Analog, , ,800.00
+0x1A30,6705,ZZT-906_LL_V,,Variable,185,float 32,,0,Analog, , ,0.00
+0x1A32,6707,ZZT-906_DELAY,,Variable,186,float 32,,1,Analog, , ,0.00
+0x1A34,6709,ZZT-906_ACK,Acknowledge,Variable,187,float 32, , ,Digital,ON,OFF,OFF
+0x1A36,6711,ZZT-906_MANON,,Variable,188,float 32, , ,Digital,ON,OFF,OFF
+0x1A38,6713,ZZT-906_MOS,,Variable,189,float 32, , ,Digital,ON,OFF,OFF
+0x1A3A,6715,ZZT-907,,Variable,190,float 32,,0,Analog, , ,0.00
+0x1A3C,6717,ZZT-907_RH,,Variable,191,float 32,,0,Analog, , ,100.00
+0x1A3E,6719,ZZT-907_RL,,Variable,192,float 32,,0,Analog, , ,0.00
+0x1A40,6721,ZZT-907_HH_V,,Variable,193,float 32,,0,Analog, , ,100.00
+0x1A42,6723,ZZT-907_LL_V,,Variable,194,float 32,,0,Analog, , ,0.00
+0x1A44,6725,ZZT-907_DELAY,,Variable,195,float 32,,1,Analog, , ,0.00
+0x1A46,6727,ZZT-907_ACK,Acknowledge,Variable,196,float 32, , ,Digital,ON,OFF,OFF
+0x1A48,6729,ZZT-907_MANON,,Variable,197,float 32, , ,Digital,ON,OFF,OFF
+0x1A4A,6731,ZZT-907_MOS,,Variable,198,float 32, , ,Digital,ON,OFF,OFF
+0x1A4C,6733,LZIT-602,,Variable,199,float 32,,0,Analog, , ,0.00
+0x1A4E,6735,LZIT-602_RH,,Variable,200,float 32,,0,Analog, , ,5100.00
+0x1A50,6737,LZIT-602_RL,,Variable,201,float 32,,0,Analog, , ,800.00
+0x1A52,6739,LZIT-602_HH_V,,Variable,202,float 32,,0,Analog, , ,5100.00
+0x1A54,6741,LZIT-602_LL_V,,Variable,203,float 32,,0,Analog, , ,1000.00
+0x1A56,6743,LZIT-602_DELAY,,Variable,204,float 32,,1,Analog, , ,0.00
+0x1A58,6745,LZIT-602_ACK,Acknowledge,Variable,205,float 32, , ,Digital,ON,OFF,OFF
+0x1A5A,6747,LZIT-602_MANON,,Variable,206,float 32, , ,Digital,ON,OFF,OFF
+0x1A5C,6749,LZIT-602_MOS,,Variable,207,float 32, , ,Digital,ON,OFF,OFF
+0x1A5E,6751,FZIT-103,,Variable,208,float 32,,0,Analog, , ,0.00
+0x1A60,6753,FZIT-103_RH,,Variable,209,float 32,,0,Analog, , ,100.00
+0x1A62,6755,FZIT-103_RL,,Variable,210,float 32,,0,Analog, , ,0.00
+0x1A64,6757,FZIT-103_HH_V,,Variable,211,float 32,,0,Analog, , ,100.00
+0x1A66,6759,FZIT-103_LL_V,,Variable,212,float 32,,0,Analog, , ,0.00
+0x1A68,6761,FZIT-103_DELAY,,Variable,213,float 32,,1,Analog, , ,0.00
+0x1A6A,6763,FZIT-103_ACK,Acknowledge,Variable,214,float 32, , ,Digital,ON,OFF,OFF
+0x1A6C,6765,FZIT-103_MANON,,Variable,215,float 32, , ,Digital,ON,OFF,OFF
+0x1A6E,6767,FZIT-103_MOS,,Variable,216,float 32, , ,Digital,ON,OFF,OFF
+0x1A70,6769,ZZT-908_MOS,,Variable,217,float 32, , ,Digital,ON,OFF,OFF
+0x1A72,6771,ZZT-908_MANON,,Variable,218,float 32, , ,Digital,ON,OFF,OFF
+0x1A74,6773,ZZT-908_ACK,Acknowledge,Variable,219,float 32, , ,Digital,ON,OFF,OFF
+0x1A76,6775,ZZT-908_DELAY,,Variable,220,float 32,,1,Analog, , ,0.00
+0x1A78,6777,ZZT-908_LL_V,,Variable,221,float 32,,0,Analog, , ,0.00
+0x1A7A,6779,ZZT-908_HH_V,,Variable,222,float 32,,0,Analog, , ,100.00
+0x1A7C,6781,ZZT-908_RL,,Variable,223,float 32,,0,Analog, , ,0.00
+0x1A7E,6783,ZZT-908_RH,,Variable,224,float 32,,0,Analog, , ,100.00
+0x1A80,6785,ZZT-908,,Variable,225,float 32,,0,Analog, , ,0.00
+0x1A82,6787,LZIT-632_MOS,,Variable,226,float 32, , ,Digital,ON,OFF,OFF
+0x1A84,6789,LZIT-632_MANON,,Variable,227,float 32, , ,Digital,ON,OFF,OFF
+0x1A86,6791,LZIT-632_ACK,Acknowledge,Variable,228,float 32, , ,Digital,ON,OFF,OFF
+0x1A88,6793,LZIT-632_DELAY,,Variable,229,float 32,,1,Analog, , ,0.00
+0x1A8A,6795,LZIT-632_LL_V,,Variable,230,float 32,,0,Analog, , ,300.00
+0x1A8C,6797,LZIT-632_HH_V,,Variable,231,float 32,,0,Analog, , ,3000.00
+0x1A8E,6799,LZIT-632_RL,,Variable,232,float 32,,0,Analog, , ,0.00
+0x1A90,6801,LZIT-632_RH,,Variable,233,float 32,,0,Analog, , ,3000.00
+0x1A92,6803,LZIT-632,,Variable,234,float 32,,0,Analog, , ,0.00
+0x1A94,6805,LZIT-625_MOS,,Variable,235,float 32, , ,Digital,ON,OFF,OFF
+0x1A96,6807,LZIT-625_MANON,,Variable,236,float 32, , ,Digital,ON,OFF,OFF
+0x1A98,6809,LZIT-625_ACK,Acknowledge,Variable,237,float 32, , ,Digital,ON,OFF,OFF
+0x1A9A,6811,LZIT-625_DELAY,,Variable,238,float 32,,1,Analog, , ,0.00
+0x1A9C,6813,LZIT-625_LL_V,,Variable,239,float 32,,0,Analog, , ,300.00
+0x1A9E,6815,LZIT-625_HH_V,,Variable,240,float 32,,0,Analog, , ,3000.00
+0x1AA0,6817,LZIT-625_RL,,Variable,241,float 32,,0,Analog, , ,0.00
+0x1AA2,6819,LZIT-625_RH,,Variable,242,float 32,,0,Analog, , ,3000.00
+0x1AA4,6821,LZIT-625,,Variable,243,float 32,,0,Analog, , ,0.00
+0x1AA6,6823,LZIT-627_MOS,,Variable,244,float 32, , ,Digital,ON,OFF,OFF
+0x1AA8,6825,LZIT-627_MANON,,Variable,245,float 32, , ,Digital,ON,OFF,OFF
+0x1AAA,6827,LZIT-627_ACK,Acknowledge,Variable,246,float 32, , ,Digital,ON,OFF,OFF
+0x1AAC,6829,LZIT-627_DELAY,,Variable,247,float 32,,1,Analog, , ,0.00
+0x1AAE,6831,LZIT-627_LL_V,,Variable,248,float 32,,0,Analog, , ,300.00
+0x1AB0,6833,LZIT-627_HH_V,,Variable,249,float 32,,0,Analog, , ,3000.00
+0x1AB2,6835,LZIT-627_RL,,Variable,250,float 32,,0,Analog, , ,0.00
+0x1AB4,6837,LZIT-627_RH,,Variable,251,float 32,,0,Analog, , ,3000.00
+0x1AB6,6839,LZIT-627,,Variable,252,float 32,,0,Analog, , ,0.00
+0x1AB8,6841,LZIT-629_MOS,,Variable,253,float 32, , ,Digital,ON,OFF,OFF
+0x1ABA,6843,LZIT-629_MANON,,Variable,254,float 32, , ,Digital,ON,OFF,OFF
+0x1ABC,6845,LZIT-629_ACK,Acknowledge,Variable,255,float 32, , ,Digital,ON,OFF,OFF
+0x1ABE,6847,LZIT-629_DELAY,,Variable,256,float 32,,1,Analog, , ,0.00
+0x1AC0,6849,LZIT-629_LL_V,,Variable,257,float 32,,0,Analog, , ,300.00
+0x1AC2,6851,LZIT-629_HH_V,,Variable,258,float 32,,0,Analog, , ,3000.00
+0x1AC4,6853,LZIT-629_RL,,Variable,259,float 32,,0,Analog, , ,0.00
+0x1AC6,6855,LZIT-629_RH,,Variable,260,float 32,,0,Analog, , ,3000.00
+0x1AC8,6857,LZIT-629,,Variable,261,float 32,,0,Analog, , ,0.00
+0x1ACA,6859,PZIT-W201C,,Variable,262,float 32,,0,Analog, , ,0.00
+0x1ACC,6861,PZIT-W201C_RH,,Variable,263,float 32,,0,Analog, , ,100.00
+0x1ACE,6863,PZIT-W201C_RL,,Variable,264,float 32,,0,Analog, , ,0.00
+0x1AD0,6865,PZIT-W201C_HH_V,,Variable,265,float 32,,0,Analog, , ,100.00
+0x1AD2,6867,PZIT-W201C_LL_V,,Variable,266,float 32,,0,Analog, , ,0.00
+0x1AD4,6869,PZIT-W201C_DELAY,,Variable,267,float 32,,1,Analog, , ,0.00
+0x1AD6,6871,PZIT-W201C_ACK,Acknowledge,Variable,268,float 32, , ,Digital,ON,OFF,OFF
+0x1AD8,6873,PZIT-W201C_MANON,,Variable,269,float 32, , ,Digital,ON,OFF,OFF
+0x1ADA,6875,PZIT-W201C_MOS,,Variable,270,float 32, , ,Digital,ON,OFF,OFF
+0x1ADC,6877,PZIT-W202C_MOS,,Variable,271,float 32, , ,Digital,ON,OFF,OFF
+0x1ADE,6879,PZIT-W202C_MANON,,Variable,272,float 32, , ,Digital,ON,OFF,OFF
+0x1AE0,6881,PZIT-W202C_ACK,Acknowledge,Variable,273,float 32, , ,Digital,ON,OFF,OFF
+0x1AE2,6883,PZIT-W202C_DELAY,,Variable,274,float 32,,1,Analog, , ,0.00
+0x1AE4,6885,PZIT-W202C_LL_V,,Variable,275,float 32,,0,Analog, , ,0.00
+0x1AE6,6887,PZIT-W202C_HH_V,,Variable,276,float 32,,0,Analog, , ,100.00
+0x1AE8,6889,PZIT-W202C_RL,,Variable,277,float 32,,0,Analog, , ,0.00
+0x1AEA,6891,PZIT-W202C_RH,,Variable,278,float 32,,0,Analog, , ,100.00
+0x1AEC,6893,PZIT-W202C,,Variable,279,float 32,,0,Analog, , ,0.00
+0x1AEE,6895,PZIT-W203C,,Variable,280,float 32,,0,Analog, , ,0.00
+0x1AF0,6897,PZIT-W203C_RH,,Variable,281,float 32,,0,Analog, , ,100.00
+0x1AF2,6899,PZIT-W203C_RL,,Variable,282,float 32,,0,Analog, , ,0.00
+0x1AF4,6901,PZIT-W203C_HH_V,,Variable,283,float 32,,0,Analog, , ,100.00
+0x1AF6,6903,PZIT-W203C_LL_V,,Variable,284,float 32,,0,Analog, , ,0.00
+0x1AF8,6905,PZIT-W203C_DELAY,,Variable,285,float 32,,1,Analog, , ,0.00
+0x1AFA,6907,PZIT-W203C_ACK,Acknowledge,Variable,286,float 32, , ,Digital,ON,OFF,OFF
+0x1AFC,6909,PZIT-W203C_MANON,,Variable,287,float 32, , ,Digital,ON,OFF,OFF
+0x1AFE,6911,PZIT-W203C_MOS,,Variable,288,float 32, , ,Digital,ON,OFF,OFF
+0x1B00,6913,PZIT-W208C,,Variable,289,float 32,,0,Analog, , ,0.00
+0x1B02,6915,PZIT-W208C_RH,,Variable,290,float 32,,0,Analog, , ,150.00
+0x1B04,6917,PZIT-W208C_RL,,Variable,291,float 32,,0,Analog, , ,0.00
+0x1B06,6919,PZIT-W208C_HH_V,,Variable,292,float 32,,0,Analog, , ,109.00
+0x1B08,6921,PZIT-W208C_LL_V,,Variable,293,float 32,,0,Analog, , ,0.00
+0x1B0A,6923,PZIT-W208C_DELAY,,Variable,294,float 32,,1,Analog, , ,0.00
+0x1B0C,6925,PZIT-W208C_ACK,Acknowledge,Variable,295,float 32, , ,Digital,ON,OFF,OFF
+0x1B0E,6927,PZIT-W208C_MANON,,Variable,296,float 32, , ,Digital,ON,OFF,OFF
+0x1B10,6929,PZIT-W208C_MOS,,Variable,297,float 32, , ,Digital,ON,OFF,OFF
+0x1B12,6931,PZIT-W207C,,Variable,298,float 32,,0,Analog, , ,0.00
+0x1B14,6933,PZIT-W207C_RH,,Variable,299,float 32,,0,Analog, , ,150.00
+0x1B16,6935,PZIT-W207C_RL,,Variable,300,float 32,,0,Analog, , ,0.00
+0x1B18,6937,PZIT-W207C_HH_V,,Variable,301,float 32,,0,Analog, , ,100.00
+0x1B1A,6939,PZIT-W207C_LL_V,,Variable,302,float 32,,0,Analog, , ,50.00
+0x1B1C,6941,PZIT-W207C_DELAY,,Variable,303,float 32,,1,Analog, , ,0.00
+0x1B1E,6943,PZIT-W207C_ACK,Acknowledge,Variable,304,float 32, , ,Digital,ON,OFF,OFF
+0x1B20,6945,PZIT-W207C_MANON,,Variable,305,float 32, , ,Digital,ON,OFF,OFF
+0x1B22,6947,PZIT-W207C_MOS,,Variable,306,float 32, , ,Digital,ON,OFF,OFF
+0x1B24,6949,LZIT-605B,,Variable,307,float 32,,0,Analog, , ,0.00
+0x1B26,6951,LZIT-605B_RH,,Variable,308,float 32,,0,Analog, , ,950.00
+0x1B28,6953,LZIT-605B_RL,,Variable,309,float 32,,0,Analog, , ,150.00
+0x1B2A,6955,LZIT-605B_HH_V,,Variable,310,float 32,,0,Analog, , ,800.00
+0x1B2C,6957,LZIT-605B_LL_V,,Variable,311,float 32,,0,Analog, , ,0.00
+0x1B2E,6959,LZIT-605B_DELAY,,Variable,312,float 32,,1,Analog, , ,0.00
+0x1B30,6961,LZIT-605B_ACK,Acknowledge,Variable,313,float 32, , ,Digital,ON,OFF,OFF
+0x1B32,6963,LZIT-605B_MANON,,Variable,314,float 32, , ,Digital,ON,OFF,OFF
+0x1B34,6965,LZIT-605B_MOS,,Variable,315,float 32, , ,Digital,ON,OFF,OFF
+0x1B36,6967,PZIT-219-2,,Variable,316,float 32,,0,Analog, , ,0.00
+0x1B38,6969,PZIT-219-2_RH,,Variable,317,float 32,,0,Analog, , ,150.00
+0x1B3A,6971,PZIT-219-2_RL,,Variable,318,float 32,,0,Analog, , ,0.00
+0x1B3C,6973,PZIT-219-2_HH_V,,Variable,319,float 32,,0,Analog, , ,100.00
+0x1B3E,6975,PZIT-219-2_LL_V,,Variable,320,float 32,,0,Analog, , ,50.00
+0x1B40,6977,PZIT-219-2_DELAY,,Variable,321,float 32,,1,Analog, , ,0.00
+0x1B42,6979,PZIT-219-2_ACK,Acknowledge,Variable,322,float 32, , ,Digital,ON,OFF,OFF
+0x1B44,6981,PZIT-219-2_MANON,,Variable,323,float 32, , ,Digital,ON,OFF,OFF
+0x1B46,6983,PZIT-219-2_MOS,,Variable,324,float 32, , ,Digital,ON,OFF,OFF
+0x1B48,6985,PZIT-230-2,,Variable,325,float 32,,0,Analog, , ,0.00
+0x1B4A,6987,PZIT-230-2_RH,,Variable,326,float 32,,0,Analog, , ,150.00
+0x1B4C,6989,PZIT-230-2_RL,,Variable,327,float 32,,0,Analog, , ,0.00
+0x1B4E,6991,PZIT-230-2_HH_V,,Variable,328,float 32,,0,Analog, , ,100.00
+0x1B50,6993,PZIT-230-2_LL_V,,Variable,329,float 32,,0,Analog, , ,32.22
+0x1B52,6995,PZIT-230-2_DELAY,,Variable,330,float 32,,1,Analog, , ,0.00
+0x1B54,6997,PZIT-230-2_ACK,Acknowledge,Variable,331,float 32, , ,Digital,ON,OFF,OFF
+0x1B56,6999,PZIT-230-2_MANON,,Variable,332,float 32, , ,Digital,ON,OFF,OFF
+0x1B58,7001,PZIT-230-2_MOS,,Variable,333,float 32, , ,Digital,ON,OFF,OFF
+0x1B5A,7003,PZIT-229B,,Variable,334,float 32,,0,Analog, , ,0.00
+0x1B5C,7005,PZIT-229B_RH,,Variable,335,float 32,,0,Analog, , ,100.00
+0x1B5E,7007,PZIT-229B_RL,,Variable,336,float 32,,0,Analog, , ,0.00
+0x1B60,7009,PZIT-229B_HH_V,,Variable,337,float 32,,0,Analog, , ,137.00
+0x1B62,7011,PZIT-229B_LL_V,,Variable,338,float 32,,0,Analog, , ,0.00
+0x1B64,7013,PZIT-229B_DELAY,,Variable,339,float 32,,1,Analog, , ,0.00
+0x1B66,7015,PZIT-229B_ACK,Acknowledge,Variable,340,float 32, , ,Digital,ON,OFF,OFF
+0x1B68,7017,PZIT-229B_MANON,,Variable,341,float 32, , ,Digital,ON,OFF,OFF
+0x1B6A,7019,PZIT-229B_MOS,,Variable,342,float 32, , ,Digital,ON,OFF,OFF
+0x1B6C,7021,PZIT-226B,,Variable,343,float 32,,0,Analog, , ,0.00
+0x1B6E,7023,PZIT-226B_RH,,Variable,344,float 32,,0,Analog, , ,100.00
+0x1B70,7025,PZIT-226B_RL,,Variable,345,float 32,,0,Analog, , ,0.00
+0x1B72,7027,PZIT-226B_HH_V,,Variable,346,float 32,,0,Analog, , ,275.00
+0x1B74,7029,PZIT-226B_LL_V,,Variable,347,float 32,,0,Analog, , ,0.00
+0x1B76,7031,PZIT-226B_DELAY,,Variable,348,float 32,,1,Analog, , ,0.00
+0x1B78,7033,PZIT-226B_ACK,Acknowledge,Variable,349,float 32, , ,Digital,ON,OFF,OFF
+0x1B7A,7035,PZIT-226B_MANON,,Variable,350,float 32, , ,Digital,ON,OFF,OFF
+0x1B7C,7037,PZIT-226B_MOS,,Variable,351,float 32, , ,Digital,ON,OFF,OFF
+0x1B7E,7039,PZIT-227B,,Variable,352,float 32,,0,Analog, , ,0.00
+0x1B80,7041,PZIT-227B_RH,,Variable,353,float 32,,0,Analog, , ,100.00
+0x1B82,7043,PZIT-227B_RL,,Variable,354,float 32,,0,Analog, , ,0.00
+0x1B84,7045,PZIT-227B_HH_V,,Variable,355,float 32,,0,Analog, , ,275.00
+0x1B86,7047,PZIT-227B_LL_V,,Variable,356,float 32,,0,Analog, , ,0.00
+0x1B88,7049,PZIT-227B_DELAY,,Variable,357,float 32,,1,Analog, , ,0.00
+0x1B8A,7051,PZIT-227B_ACK,Acknowledge,Variable,358,float 32, , ,Digital,ON,OFF,OFF
+0x1B8C,7053,PZIT-227B_MANON,,Variable,359,float 32, , ,Digital,ON,OFF,OFF
+0x1B8E,7055,PZIT-227B_MOS,,Variable,360,float 32, , ,Digital,ON,OFF,OFF
+0x1B90,7057,PZIT-228B,,Variable,361,float 32,,0,Analog, , ,0.00
+0x1B92,7059,PZIT-228B_RH,,Variable,362,float 32,,0,Analog, , ,100.00
+0x1B94,7061,PZIT-228B_RL,,Variable,363,float 32,,0,Analog, , ,0.00
+0x1B96,7063,PZIT-228B_HH_V,,Variable,364,float 32,,0,Analog, , ,275.00
+0x1B98,7065,PZIT-228B_LL_V,,Variable,365,float 32,,0,Analog, , ,0.00
+0x1B9A,7067,PZIT-228B_DELAY,,Variable,366,float 32,,1,Analog, , ,0.00
+0x1B9C,7069,PZIT-228B_ACK,Acknowledge,Variable,367,float 32, , ,Digital,ON,OFF,OFF
+0x1B9E,7071,PZIT-228B_MANON,,Variable,368,float 32, , ,Digital,ON,OFF,OFF
+0x1BA0,7073,PZIT-228B_MOS,,Variable,369,float 32, , ,Digital,ON,OFF,OFF
+0x1BA2,7075,PZIT-W201D,,Variable,370,float 32,,0,Analog, , ,0.00
+0x1BA4,7077,PZIT-W201D_RH,,Variable,371,float 32,,0,Analog, , ,100.00
+0x1BA6,7079,PZIT-W201D_RL,,Variable,372,float 32,,0,Analog, , ,0.00
+0x1BA8,7081,PZIT-W201D_HH_V,,Variable,373,float 32,,0,Analog, , ,100.00
+0x1BAA,7083,PZIT-W201D_LL_V,,Variable,374,float 32,,0,Analog, , ,0.00
+0x1BAC,7085,PZIT-W201D_DELAY,,Variable,375,float 32,,1,Analog, , ,0.00
+0x1BAE,7087,PZIT-W201D_ACK,Acknowledge,Variable,376,float 32, , ,Digital,ON,OFF,OFF
+0x1BB0,7089,PZIT-W201D_MANON,,Variable,377,float 32, , ,Digital,ON,OFF,OFF
+0x1BB2,7091,PZIT-W201D_MOS,,Variable,378,float 32, , ,Digital,ON,OFF,OFF
+0x1BB4,7093,PZIT-W202D_MOS,,Variable,379,float 32, , ,Digital,ON,OFF,OFF
+0x1BB6,7095,PZIT-W202D_MANON,,Variable,380,float 32, , ,Digital,ON,OFF,OFF
+0x1BB8,7097,PZIT-W202D_ACK,Acknowledge,Variable,381,float 32, , ,Digital,ON,OFF,OFF
+0x1BBA,7099,PZIT-W202D_DELAY,,Variable,382,float 32,,1,Analog, , ,0.00
+0x1BBC,7101,PZIT-W202D_LL_V,,Variable,383,float 32,,0,Analog, , ,0.00
+0x1BBE,7103,PZIT-W202D_HH_V,,Variable,384,float 32,,0,Analog, , ,100.00
+0x1BC0,7105,PZIT-W202D_RL,,Variable,385,float 32,,0,Analog, , ,0.00
+0x1BC2,7107,PZIT-W202D_RH,,Variable,386,float 32,,0,Analog, , ,100.00
+0x1BC4,7109,PZIT-W202D,,Variable,387,float 32,,0,Analog, , ,0.00
+0x1BC6,7111,PZIT-W203D,,Variable,388,float 32,,0,Analog, , ,0.00
+0x1BC8,7113,PZIT-W203D_RH,,Variable,389,float 32,,0,Analog, , ,100.00
+0x1BCA,7115,PZIT-W203D_RL,,Variable,390,float 32,,0,Analog, , ,0.00
+0x1BCC,7117,PZIT-W203D_HH_V,,Variable,391,float 32,,0,Analog, , ,100.00
+0x1BCE,7119,PZIT-W203D_LL_V,,Variable,392,float 32,,0,Analog, , ,0.00
+0x1BD0,7121,PZIT-W203D_DELAY,,Variable,393,float 32,,1,Analog, , ,0.00
+0x1BD2,7123,PZIT-W203D_ACK,Acknowledge,Variable,394,float 32, , ,Digital,ON,OFF,OFF
+0x1BD4,7125,PZIT-W203D_MANON,,Variable,395,float 32, , ,Digital,ON,OFF,OFF
+0x1BD6,7127,PZIT-W203D_MOS,,Variable,396,float 32, , ,Digital,ON,OFF,OFF
+0x1BD8,7129,PZIT-W208D,,Variable,397,float 32,,0,Analog, , ,0.00
+0x1BDA,7131,PZIT-W208D_RH,,Variable,398,float 32,,0,Analog, , ,150.00
+0x1BDC,7133,PZIT-W208D_RL,,Variable,399,float 32,,0,Analog, , ,0.00
+0x1BDE,7135,PZIT-W208D_HH_V,,Variable,400,float 32,,0,Analog, , ,109.00
+0x1BE0,7137,PZIT-W208D_LL_V,,Variable,401,float 32,,0,Analog, , ,0.00
+0x1BE2,7139,PZIT-W208D_DELAY,,Variable,402,float 32,,1,Analog, , ,0.00
+0x1BE4,7141,PZIT-W208D_ACK,Acknowledge,Variable,403,float 32, , ,Digital,ON,OFF,OFF
+0x1BE6,7143,PZIT-W208D_MANON,,Variable,404,float 32, , ,Digital,ON,OFF,OFF
+0x1BE8,7145,PZIT-W208D_MOS,,Variable,405,float 32, , ,Digital,ON,OFF,OFF
+0x1BEA,7147,PZIT-W207D,,Variable,406,float 32,,0,Analog, , ,0.00
+0x1BEC,7149,PZIT-W207D_RH,,Variable,407,float 32,,0,Analog, , ,150.00
+0x1BEE,7151,PZIT-W207D_RL,,Variable,408,float 32,,0,Analog, , ,0.00
+0x1BF0,7153,PZIT-W207D_HH_V,,Variable,409,float 32,,0,Analog, , ,100.00
+0x1BF2,7155,PZIT-W207D_LL_V,,Variable,410,float 32,,0,Analog, , ,50.00
+0x1BF4,7157,PZIT-W207D_DELAY,,Variable,411,float 32,,1,Analog, , ,0.00
+0x1BF6,7159,PZIT-W207D_ACK,Acknowledge,Variable,412,float 32, , ,Digital,ON,OFF,OFF
+0x1BF8,7161,PZIT-W207D_MANON,,Variable,413,float 32, , ,Digital,ON,OFF,OFF
+0x1BFA,7163,PZIT-W207D_MOS,,Variable,414,float 32, , ,Digital,ON,OFF,OFF
+0x1BFC,7165,PZIT-606,,Variable,415,float 32,,0,Analog, , ,0.00
+0x1BFE,7167,PZIT-606_RH,,Variable,416,float 32,,0,Analog, , ,150.00
+0x1C00,7169,PZIT-606_RL,,Variable,417,float 32,,0,Analog, , ,0.00
+0x1C02,7171,PZIT-606_HH_V,,Variable,418,float 32,,0,Analog, , ,100.00
+0x1C04,7173,PZIT-606_LL_V,,Variable,419,float 32,,0,Analog, , ,50.00
+0x1C06,7175,PZIT-606_DELAY,,Variable,420,float 32,,1,Analog, , ,0.00
+0x1C08,7177,PZIT-606_ACK,Acknowledge,Variable,421,float 32, , ,Digital,ON,OFF,OFF
+0x1C0A,7179,PZIT-606_MANON,,Variable,422,float 32, , ,Digital,ON,OFF,OFF
+0x1C0C,7181,PZIT-606_MOS,,Variable,423,float 32, , ,Digital,ON,OFF,OFF
+0x1C0E,7183,PZIT-608,,Variable,424,float 32,,0,Analog, , ,0.00
+0x1C10,7185,PZIT-608_RH,,Variable,425,float 32,,0,Analog, , ,150.00
+0x1C12,7187,PZIT-608_RL,,Variable,426,float 32,,0,Analog, , ,0.00
+0x1C14,7189,PZIT-608_HH_V,,Variable,427,float 32,,0,Analog, , ,100.00
+0x1C16,7191,PZIT-608_LL_V,,Variable,428,float 32,,0,Analog, , ,50.00
+0x1C18,7193,PZIT-608_DELAY,,Variable,429,float 32,,1,Analog, , ,0.00
+0x1C1A,7195,PZIT-608_ACK,Acknowledge,Variable,430,float 32, , ,Digital,ON,OFF,OFF
+0x1C1C,7197,PZIT-608_MANON,,Variable,431,float 32, , ,Digital,ON,OFF,OFF
+0x1C1E,7199,PZIT-608_MOS,,Variable,432,float 32, , ,Digital,ON,OFF,OFF
+0x1C20,7201,PZIT-613,,Variable,433,float 32,,0,Analog, , ,0.00
+0x1C22,7203,PZIT-613_RH,,Variable,434,float 32,,0,Analog, , ,150.00
+0x1C24,7205,PZIT-613_RL,,Variable,435,float 32,,0,Analog, , ,0.00
+0x1C26,7207,PZIT-613_HH_V,,Variable,436,float 32,,0,Analog, , ,100.00
+0x1C28,7209,PZIT-613_LL_V,,Variable,437,float 32,,0,Analog, , ,50.00
+0x1C2A,7211,PZIT-613_DELAY,,Variable,438,float 32,,1,Analog, , ,0.00
+0x1C2C,7213,PZIT-613_ACK,Acknowledge,Variable,439,float 32, , ,Digital,ON,OFF,OFF
+0x1C2E,7215,PZIT-613_MANON,,Variable,440,float 32, , ,Digital,ON,OFF,OFF
+0x1C30,7217,PZIT-613_MOS,,Variable,441,float 32, , ,Digital,ON,OFF,OFF
+0x1C32,7219,PZIT-614,,Variable,442,float 32,,0,Analog, , ,0.00
+0x1C34,7221,PZIT-614_RH,,Variable,443,float 32,,0,Analog, , ,150.00
+0x1C36,7223,PZIT-614_RL,,Variable,444,float 32,,0,Analog, , ,0.00
+0x1C38,7225,PZIT-614_HH_V,,Variable,445,float 32,,0,Analog, , ,100.00
+0x1C3A,7227,PZIT-614_LL_V,,Variable,446,float 32,,0,Analog, , ,50.00
+0x1C3C,7229,PZIT-614_DELAY,,Variable,447,float 32,,1,Analog, , ,0.00
+0x1C3E,7231,PZIT-614_ACK,Acknowledge,Variable,448,float 32, , ,Digital,ON,OFF,OFF
+0x1C40,7233,PZIT-614_MANON,,Variable,449,float 32, , ,Digital,ON,OFF,OFF
+0x1C42,7235,PZIT-614_MOS,,Variable,450,float 32, , ,Digital,ON,OFF,OFF
+0x1C44,7237,PZIT-616,,Variable,451,float 32,,0,Analog, , ,0.00
+0x1C46,7239,PZIT-616_RH,,Variable,452,float 32,,0,Analog, , ,150.00
+0x1C48,7241,PZIT-616_RL,,Variable,453,float 32,,0,Analog, , ,0.00
+0x1C4A,7243,PZIT-616_HH_V,,Variable,454,float 32,,0,Analog, , ,100.00
+0x1C4C,7245,PZIT-616_LL_V,,Variable,455,float 32,,0,Analog, , ,50.00
+0x1C4E,7247,PZIT-616_DELAY,,Variable,456,float 32,,1,Analog, , ,0.00
+0x1C50,7249,PZIT-616_ACK,Acknowledge,Variable,457,float 32, , ,Digital,ON,OFF,OFF
+0x1C52,7251,PZIT-616_MANON,,Variable,458,float 32, , ,Digital,ON,OFF,OFF
+0x1C54,7253,PZIT-616_MOS,,Variable,459,float 32, , ,Digital,ON,OFF,OFF
+0x1C56,7255,PZIT-617,,Variable,460,float 32,,0,Analog, , ,0.00
+0x1C58,7257,PZIT-617_RH,,Variable,461,float 32,,0,Analog, , ,150.00
+0x1C5A,7259,PZIT-617_RL,,Variable,462,float 32,,0,Analog, , ,0.00
+0x1C5C,7261,PZIT-617_HH_V,,Variable,463,float 32,,0,Analog, , ,100.00
+0x1C5E,7263,PZIT-617_LL_V,,Variable,464,float 32,,0,Analog, , ,50.00
+0x1C60,7265,PZIT-617_DELAY,,Variable,465,float 32,,1,Analog, , ,0.00
+0x1C62,7267,PZIT-617_ACK,Acknowledge,Variable,466,float 32, , ,Digital,ON,OFF,OFF
+0x1C64,7269,PZIT-617_MANON,,Variable,467,float 32, , ,Digital,ON,OFF,OFF
+0x1C66,7271,PZIT-617_MOS,,Variable,468,float 32, , ,Digital,ON,OFF,OFF
+0x1C68,7273,LZIT-603,,Variable,469,float 32,,0,Analog, , ,0.00
+0x1C6A,7275,LZIT-603_RH,,Variable,470,float 32,,0,Analog, , ,100.00
+0x1C6C,7277,LZIT-603_RL,,Variable,471,float 32,,0,Analog, , ,0.00
+0x1C6E,7279,LZIT-603_HH_V,,Variable,472,float 32,,0,Analog, , ,100.00
+0x1C70,7281,LZIT-603_LL_V,,Variable,473,float 32,,0,Analog, , ,0.00
+0x1C72,7283,LZIT-603_DELAY,,Variable,474,float 32,,1,Analog, , ,0.00
+0x1C74,7285,LZIT-603_ACK,Acknowledge,Variable,475,float 32, , ,Digital,ON,OFF,OFF
+0x1C76,7287,LZIT-603_MANON,,Variable,476,float 32, , ,Digital,ON,OFF,OFF
+0x1C78,7289,LZIT-603_MOS,,Variable,477,float 32, , ,Digital,ON,OFF,OFF
+0x1C7A,7291,LZIT-604_MOS,,Variable,478,float 32, , ,Digital,ON,OFF,OFF
+0x1C7C,7293,LZIT-604_MANON,,Variable,479,float 32, , ,Digital,ON,OFF,OFF
+0x1C7E,7295,LZIT-604_ACK,Acknowledge,Variable,480,float 32, , ,Digital,ON,OFF,OFF
+0x1C80,7297,LZIT-604_DELAY,,Variable,481,float 32,,1,Analog, , ,0.00
+0x1C82,7299,LZIT-604_LL_V,,Variable,482,float 32,,0,Analog, , ,0.00
+0x1C84,7301,LZIT-604_HH_V,,Variable,483,float 32,,0,Analog, , ,100.00
+0x1C86,7303,LZIT-604_RL,,Variable,484,float 32,,0,Analog, , ,0.00
+0x1C88,7305,LZIT-604_RH,,Variable,485,float 32,,0,Analog, , ,100.00
+0x1C8A,7307,LZIT-604,,Variable,486,float 32,,0,Analog, , ,0.00
+0x1C8C,7309,HS-ESD-001,,Variable,487,float 32, , ,Digital,ON,OFF,OFF
+0x1C8E,7311,HS-ESD-001_MANON,,Variable,488,float 32, , ,Digital,ON,OFF,OFF
+0x1C90,7313,HS-ESD-001_ACK,,Variable,489,float 32, , ,Digital,ON,OFF,OFF
+0x1C92,7315,HS-ESD-001_MOS,,Variable,490,float 32, , ,Digital,ON,OFF,OFF
+0x1C94,7317,HS-ESD-002_MOS,,Variable,491,float 32, , ,Digital,ON,OFF,OFF
+0x1C96,7319,HS-ESD-002_ACK,,Variable,492,float 32, , ,Digital,ON,OFF,OFF
+0x1C98,7321,HS-ESD-002_MANON,,Variable,493,float 32, , ,Digital,ON,OFF,OFF
+0x1C9A,7323,HS-ESD-002,,Variable,494,float 32, , ,Digital,ON,OFF,OFF
+0x1C9C,7325,HS-ESD-003_MOS,,Variable,495,float 32, , ,Digital,ON,OFF,OFF
+0x1C9E,7327,HS-ESD-003_ACK,,Variable,496,float 32, , ,Digital,ON,OFF,OFF
+0x1CA0,7329,HS-ESD-003_MANON,,Variable,497,float 32, , ,Digital,ON,OFF,OFF
+0x1CA2,7331,HS-ESD-003,,Variable,498,float 32, , ,Digital,ON,OFF,OFF
+0x1CA4,7333,HS-ESD-004_MOS,,Variable,499,float 32, , ,Digital,ON,OFF,OFF
+0x1CA6,7335,HS-ESD-004_ACK,,Variable,500,float 32, , ,Digital,ON,OFF,OFF
+0x1CA8,7337,HS-ESD-004_MANON,,Variable,501,float 32, , ,Digital,ON,OFF,OFF
+0x1CAA,7339,HS-ESD-004,,Variable,502,float 32, , ,Digital,ON,OFF,OFF
+0x1CAC,7341,HS-ESD-007_MOS,,Variable,503,float 32, , ,Digital,ON,OFF,OFF
+0x1CAE,7343,HS-ESD-007_ACK,,Variable,504,float 32, , ,Digital,ON,OFF,OFF
+0x1CB0,7345,HS-ESD-007_MANON,,Variable,505,float 32, , ,Digital,ON,OFF,OFF
+0x1CB2,7347,HS-ESD-007,,Variable,506,float 32, , ,Digital,ON,OFF,OFF
+0x1CB4,7349,HS-ESD-008_MOS,,Variable,507,float 32, , ,Digital,ON,OFF,OFF
+0x1CB6,7351,HS-ESD-008_ACK,,Variable,508,float 32, , ,Digital,ON,OFF,OFF
+0x1CB8,7353,HS-ESD-008_MANON,,Variable,509,float 32, , ,Digital,ON,OFF,OFF
+0x1CBA,7355,HS-ESD-008,,Variable,510,float 32, , ,Digital,ON,OFF,OFF
+0x1CBC,7357,HS-ESD-009_MOS,,Variable,511,float 32, , ,Digital,ON,OFF,OFF
+0x1CBE,7359,HS-ESD-009_ACK,,Variable,512,float 32, , ,Digital,ON,OFF,OFF
+0x1CC0,7361,HS-ESD-009_MANON,,Variable,513,float 32, , ,Digital,ON,OFF,OFF
+0x1CC2,7363,HS-ESD-009,,Variable,514,float 32, , ,Digital,ON,OFF,OFF
+0x1CC4,7365,HS-ESD-005_MOS,,Variable,515,float 32, , ,Digital,ON,OFF,OFF
+0x1CC6,7367,HS-ESD-005_ACK,,Variable,516,float 32, , ,Digital,ON,OFF,OFF
+0x1CC8,7369,HS-ESD-005_MANON,,Variable,517,float 32, , ,Digital,ON,OFF,OFF
+0x1CCA,7371,HS-ESD-005,,Variable,518,float 32, , ,Digital,ON,OFF,OFF
+0x1CCC,7373,HS-ESD-006_MOS,,Variable,519,float 32, , ,Digital,ON,OFF,OFF
+0x1CCE,7375,HS-ESD-006_ACK,,Variable,520,float 32, , ,Digital,ON,OFF,OFF
+0x1CD0,7377,HS-ESD-006_MANON,,Variable,521,float 32, , ,Digital,ON,OFF,OFF
+0x1CD2,7379,HS-ESD-006,,Variable,522,float 32, , ,Digital,ON,OFF,OFF
+0x1CD4,7381,PS-906_MOS,,Variable,523,float 32, , ,Digital,ON,OFF,OFF
+0x1CD6,7383,PS-906_ACK,,Variable,524,float 32, , ,Digital,ON,OFF,OFF
+0x1CD8,7385,PS-906_MANON,,Variable,525,float 32, , ,Digital,ON,OFF,OFF
+0x1CDA,7387,PS-906,,Variable,526,float 32, , ,Digital,ON,OFF,OFF
+0x1CDC,7389,PS-907_MOS,,Variable,527,float 32, , ,Digital,ON,OFF,OFF
+0x1CDE,7391,PS-907_ACK,,Variable,528,float 32, , ,Digital,ON,OFF,OFF
+0x1CE0,7393,PS-907_MANON,,Variable,529,float 32, , ,Digital,ON,OFF,OFF
+0x1CE2,7395,PS-907,,Variable,530,float 32, , ,Digital,ON,OFF,OFF
+0x1CE4,7397,XS-018_MOS,,Variable,531,float 32, , ,Digital,ON,OFF,OFF
+0x1CE6,7399,XS-018_ACK,,Variable,532,float 32, , ,Digital,ON,OFF,OFF
+0x1CE8,7401,XS-018_MANON,,Variable,533,float 32, , ,Digital,ON,OFF,OFF
+0x1CEA,7403,XS-018,,Variable,534,float 32, , ,Digital,ON,OFF,OFF
+0x1CEC,7405,XS-019_MOS,,Variable,535,float 32, , ,Digital,ON,OFF,OFF
+0x1CEE,7407,XS-019_ACK,,Variable,536,float 32, , ,Digital,ON,OFF,OFF
+0x1CF0,7409,XS-019_MANON,,Variable,537,float 32, , ,Digital,ON,OFF,OFF
+0x1CF2,7411,XS-019,,Variable,538,float 32, , ,Digital,ON,OFF,OFF
+0x1CF4,7413,XS-012_MOS,,Variable,539,float 32, , ,Digital,ON,OFF,OFF
+0x1CF6,7415,XS-012_ACK,,Variable,540,float 32, , ,Digital,ON,OFF,OFF
+0x1CF8,7417,XS-012_MANON,,Variable,541,float 32, , ,Digital,ON,OFF,OFF
+0x1CFA,7419,XS-012,,Variable,542,float 32, , ,Digital,ON,OFF,OFF
+0x1CFC,7421,XS-013_MOS,,Variable,543,float 32, , ,Digital,ON,OFF,OFF
+0x1CFE,7423,XS-013_ACK,,Variable,544,float 32, , ,Digital,ON,OFF,OFF
+0x1D00,7425,XS-013_MANON,,Variable,545,float 32, , ,Digital,ON,OFF,OFF
+0x1D02,7427,XS-013,,Variable,546,float 32, , ,Digital,ON,OFF,OFF
+0x1D04,7429,PB-001_MOS,,Variable,547,float 32, , ,Digital,ON,OFF,OFF
+0x1D06,7431,PB-001_ACK,,Variable,548,float 32, , ,Digital,ON,OFF,OFF
+0x1D08,7433,PB-001_MANON,,Variable,549,float 32, , ,Digital,ON,OFF,OFF
+0x1D0A,7435,PB-001,,Variable,550,float 32, , ,Digital,ON,OFF,OFF
+0x1D0C,7437,PB-002_MOS,,Variable,551,float 32, , ,Digital,ON,OFF,OFF
+0x1D0E,7439,PB-002_ACK,,Variable,552,float 32, , ,Digital,ON,OFF,OFF
+0x1D10,7441,PB-002_MANON,,Variable,553,float 32, , ,Digital,ON,OFF,OFF
+0x1D12,7443,PB-002,,Variable,554,float 32, , ,Digital,ON,OFF,OFF
+0x1D14,7445,PB-003_MOS,,Variable,555,float 32, , ,Digital,ON,OFF,OFF
+0x1D16,7447,PB-003_ACK,,Variable,556,float 32, , ,Digital,ON,OFF,OFF
+0x1D18,7449,PB-003_MANON,,Variable,557,float 32, , ,Digital,ON,OFF,OFF
+0x1D1A,7451,PB-003,,Variable,558,float 32, , ,Digital,ON,OFF,OFF
+0x1D1C,7453,PB-004_MOS,,Variable,559,float 32, , ,Digital,ON,OFF,OFF
+0x1D1E,7455,PB-004_ACK,,Variable,560,float 32, , ,Digital,ON,OFF,OFF
+0x1D20,7457,PB-004_MANON,,Variable,561,float 32, , ,Digital,ON,OFF,OFF
+0x1D22,7459,PB-004,,Variable,562,float 32, , ,Digital,ON,OFF,OFF
+0x1D24,7461,PB-005_MOS,,Variable,563,float 32, , ,Digital,ON,OFF,OFF
+0x1D26,7463,PB-005_ACK,,Variable,564,float 32, , ,Digital,ON,OFF,OFF
+0x1D28,7465,PB-005_MANON,,Variable,565,float 32, , ,Digital,ON,OFF,OFF
+0x1D2A,7467,PB-005,,Variable,566,float 32, , ,Digital,ON,OFF,OFF
+0x1D2C,7469,PB-006_MOS,,Variable,567,float 32, , ,Digital,ON,OFF,OFF
+0x1D2E,7471,PB-006_ACK,,Variable,568,float 32, , ,Digital,ON,OFF,OFF
+0x1D30,7473,PB-006_MANON,,Variable,569,float 32, , ,Digital,ON,OFF,OFF
+0x1D32,7475,PB-006,,Variable,570,float 32, , ,Digital,ON,OFF,OFF
+0x1D34,7477,PB-007_MOS,,Variable,571,float 32, , ,Digital,ON,OFF,OFF
+0x1D36,7479,PB-007_ACK,,Variable,572,float 32, , ,Digital,ON,OFF,OFF
+0x1D38,7481,PB-007_MANON,,Variable,573,float 32, , ,Digital,ON,OFF,OFF
+0x1D3A,7483,PB-007,,Variable,574,float 32, , ,Digital,ON,OFF,OFF
+0x1D3C,7485,PB-008_MOS,,Variable,575,float 32, , ,Digital,ON,OFF,OFF
+0x1D3E,7487,PB-008_ACK,,Variable,576,float 32, , ,Digital,ON,OFF,OFF
+0x1D40,7489,PB-008_MANON,,Variable,577,float 32, , ,Digital,ON,OFF,OFF
+0x1D42,7491,PB-008,,Variable,578,float 32, , ,Digital,ON,OFF,OFF
+0x1D44,7493,PB-009_MOS,,Variable,579,float 32, , ,Digital,ON,OFF,OFF
+0x1D46,7495,PB-009_ACK,,Variable,580,float 32, , ,Digital,ON,OFF,OFF
+0x1D48,7497,PB-009_MANON,,Variable,581,float 32, , ,Digital,ON,OFF,OFF
+0x1D4A,7499,PB-009,,Variable,582,float 32, , ,Digital,ON,OFF,OFF
+0x1D4C,7501,PB-011_MOS,,Variable,583,float 32, , ,Digital,ON,OFF,OFF
+0x1D4E,7503,PB-011_ACK,,Variable,584,float 32, , ,Digital,ON,OFF,OFF
+0x1D50,7505,PB-011_MANON,,Variable,585,float 32, , ,Digital,ON,OFF,OFF
+0x1D52,7507,PB-011,,Variable,586,float 32, , ,Digital,ON,OFF,OFF
+0x1D54,7509,PB-012_MOS,,Variable,587,float 32, , ,Digital,ON,OFF,OFF
+0x1D56,7511,PB-012_ACK,,Variable,588,float 32, , ,Digital,ON,OFF,OFF
+0x1D58,7513,PB-012_MANON,,Variable,589,float 32, , ,Digital,ON,OFF,OFF
+0x1D5A,7515,PB-012,,Variable,590,float 32, , ,Digital,ON,OFF,OFF
+0x1D5C,7517,PB-013_MOS,,Variable,591,float 32, , ,Digital,ON,OFF,OFF
+0x1D5E,7519,PB-013_ACK,,Variable,592,float 32, , ,Digital,ON,OFF,OFF
+0x1D60,7521,PB-013_MANON,,Variable,593,float 32, , ,Digital,ON,OFF,OFF
+0x1D62,7523,PB-013,,Variable,594,float 32, , ,Digital,ON,OFF,OFF
+0x1D64,7525,PB-014_MOS,,Variable,595,float 32, , ,Digital,ON,OFF,OFF
+0x1D66,7527,PB-014_ACK,,Variable,596,float 32, , ,Digital,ON,OFF,OFF
+0x1D68,7529,PB-014_MANON,,Variable,597,float 32, , ,Digital,ON,OFF,OFF
+0x1D6A,7531,PB-014,,Variable,598,float 32, , ,Digital,ON,OFF,OFF
+0x1D6C,7533,PB-015_MOS,,Variable,599,float 32, , ,Digital,ON,OFF,OFF
+0x1D6E,7535,PB-015_ACK,,Variable,600,float 32, , ,Digital,ON,OFF,OFF
+0xEA60,60001,PB-015_MANON,,Variable,601,float 32, , ,Digital,ON,OFF,OFF
+0xEA62,60003,PB-015,,Variable,602,float 32, , ,Digital,ON,OFF,OFF
+0xEA64,60005,PB-016_MOS,,Variable,603,float 32, , ,Digital,ON,OFF,OFF
+0xEA66,60007,PB-016_ACK,,Variable,604,float 32, , ,Digital,ON,OFF,OFF
+0xEA68,60009,PB-016_MANON,,Variable,605,float 32, , ,Digital,ON,OFF,OFF
+0xEA6A,60011,PB-016,,Variable,606,float 32, , ,Digital,ON,OFF,OFF
+0xEA6C,60013,CG-001,Confirmed Gas,Variable,607,float 32, , ,Digital,ON,OFF,OFF
+0xEA6E,60015,CG-001_R,,Variable,608,float 32, , ,Digital,ON,OFF,OFF
+0xEA70,60017,ESD-W010,Remote ESD PB,Variable,609,float 32, , ,Digital,ON,OFF,OFF
+0xEA72,60019,ESD-W010_R,,Variable,610,float 32, , ,Digital,ON,OFF,OFF
+0xEA74,60021,PSD-W010,Remote PSD PB,Variable,611,float 32, , ,Digital,ON,OFF,OFF
+0xEA76,60023,PSD-W010_R,,Variable,612,float 32, , ,Digital,ON,OFF,OFF
+0xEA78,60025,HSR-W902A,Confirmed Fire,Variable,613,float 32, , ,Digital,ON,OFF,OFF
+0xEA7A,60027,HSR-W902A_R,,Variable,614,float 32, , ,Digital,ON,OFF,OFF
+0xEA7C,60029,HSR-W903A,Confirmed Fire,Variable,615,float 32, , ,Digital,ON,OFF,OFF
+0xEA7E,60031,CF-001,Confirmed Fire,Variable,616,float 32, , ,Digital,ON,OFF,OFF
+0xEA80,60033,CF-001_R,,Variable,617,float 32, , ,Digital,ON,OFF,OFF
+0xEA82,60035,HSR-W903A_R,,Variable,618,float 32, , ,Digital,ON,OFF,OFF
+0xEA84,60037,HSR-W903B_R,,Variable,619,float 32, , ,Digital,ON,OFF,OFF
+0xEA86,60039,HSR-W903B,Confirmed Fire,Variable,620,float 32, , ,Digital,ON,OFF,OFF
+0xEA88,60041,HSR-W902B,Confirmed Fire,Variable,621,float 32, , ,Digital,ON,OFF,OFF
+0xEA8A,60043,HSR-W902B_R,,Variable,622,float 32, , ,Digital,ON,OFF,OFF
+0xEA8C,60045,HSR-W903C_R,,Variable,623,float 32, , ,Digital,ON,OFF,OFF
+0xEA8E,60047,HSR-W903C,Confirmed Fire,Variable,624,float 32, , ,Digital,ON,OFF,OFF
+0xEA90,60049,HSR-W902C,Confirmed Fire,Variable,625,float 32, , ,Digital,ON,OFF,OFF
+0xEA92,60051,HSR-W902C_R,,Variable,626,float 32, , ,Digital,ON,OFF,OFF
+0xEA94,60053,HSR-W903D_R,,Variable,627,float 32, , ,Digital,ON,OFF,OFF
+0xEA96,60055,HSR-W903D,Confirmed Fire,Variable,628,float 32, , ,Digital,ON,OFF,OFF
+0xEA98,60057,HSR-W902D,Confirmed Fire,Variable,629,float 32, , ,Digital,ON,OFF,OFF
+0xEA9A,60059,HSR-W902D_R,,Variable,630,float 32, , ,Digital,ON,OFF,OFF
+0xEA9C,60061,HS-908,Confirmed Fire,Variable,631,float 32, , ,Digital,ON,OFF,OFF
+0xEA9E,60063,HS-908_R,,Variable,632,float 32, , ,Digital,ON,OFF,OFF
+0xEAA0,60065,HS-906,Confirmed Fire,Variable,633,float 32, , ,Digital,ON,OFF,OFF
+0xEAA2,60067,HS-906_R,,Variable,634,float 32, , ,Digital,ON,OFF,OFF
+0xEAA4,60069,HS-907,Confirmed Fire,Variable,635,float 32, , ,Digital,ON,OFF,OFF
+0xEAA6,60071,HS-907_R,,Variable,636,float 32, , ,Digital,ON,OFF,OFF
+0xEAA8,60073,PZIT-219-1_E_STO,Enable STO,Variable,637,float 32, , ,Digital,ON,OFF,OFF
+0xEAAA,60075,PZIT-219-1_STO_T,Time of STO,Variable,638,float 32,second,0,Analog, , ,5.00
+0xEAAC,60077,PZIT-230-1_E_STO,Enable STO,Variable,639,float 32, , ,Digital,ON,OFF,OFF
+0xEAAE,60079,PZIT-230-1_STO_T,Time of STO,Variable,640,float 32,second,0,Analog, , ,5.00
+0xEAB0,60081,FZIT-103_E_STO,Enable STO,Variable,641,float 32, , ,Digital,ON,OFF,OFF
+0xEAB2,60083,FZIT-103_STO_T,Time of STO,Variable,642,float 32,second,0,Analog, , ,5.00
+0xEAB4,60085,FZIT-104_E_STO,Enable STO,Variable,643,float 32, , ,Digital,ON,OFF,OFF
+0xEAB6,60087,FZIT-104_STO_T,Time of STO,Variable,644,float 32,second,0,Analog, , ,5.00
+0xEAB8,60089,SY-W902A_CMD,,Variable,645,float 32, , ,Digital,ON,OFF,OFF
+0xEABA,60091,SY-W902A_ACK,,Variable,646,float 32, , ,Digital,ON,OFF,OFF
+0x2000,8193,PZIT-W201A_CH,,Signal Tag,1,float 32,,0,Analog, , ,Block 637  Output 1
+0x2002,8195,PZIT-W201A_CH_F,Channel Fail,Signal Tag,2,float 32, , ,Digital,ON,OFF,Block 651  Output 1
+0x2004,8197,PZIT-W201A_D_F,Discrepancy Fail,Signal Tag,3,float 32, , ,Digital,ON,OFF,Block 656  Output 1
+0x2006,8199,PZIT-W201A_FO,First Out,Signal Tag,4,float 32, , ,Digital,ON,OFF,Block 660  Output 1
+0x2008,8201,PZIT-W201A_STO,Startup Override,Signal Tag,5,float 32, , ,Digital,ON,OFF,Block 659  Output 1
+0x200A,8203,PZIT-W201A_HH,Alarm High High,Signal Tag,6,float 32, , ,Digital,ON,OFF,Block 644  Output 1
+0x200C,8205,PZIT-W201A_LL,Alarm Low Low,Signal Tag,7,float 32, , ,Digital,ON,OFF,Block 648  Output 1
+0x200E,8207,PZIT-W201A_RAW,,Signal Tag,8,float 32,barg,3,Analog, , ,Block 636  Output 6
+0x2010,8209,PZIT-W201A_V,Analog Value,Signal Tag,9,float 32,,0,Analog, , ,Variable #:1
+0x2012,8211,PZIT-W201A_F,,Signal Tag,10,float 32, , ,Digital,ON,OFF,Block 649  Output 1
+0x2014,8213,PZIT-W201A_R,Alarm Reset,Signal Tag,11,float 32, , ,Digital,ON,OFF,Variable #:7
+0x2016,8215,PZIT-W201A_MOS1,,Signal Tag,12,float 32, , ,Digital,ON,OFF,Variable #:9
+0x2018,8217,PZIT-W201B_CH,,Signal Tag,13,float 32,,0,Analog, , ,Block 961  Output 1
+0x201A,8219,PZIT-W202A_CH,,Signal Tag,14,float 32,,0,Analog, , ,Block 664  Output 1
+0x201C,8221,PZIT-W202A_CH_F,Channel Fail,Signal Tag,15,float 32, , ,Digital,ON,OFF,Block 678  Output 1
+0x201E,8223,PZIT-W202A_D_F,Discrepancy Fail,Signal Tag,16,float 32, , ,Digital,ON,OFF,Block 683  Output 1
+0x2020,8225,PZIT-W202A_FO,First Out,Signal Tag,17,float 32, , ,Digital,ON,OFF,Block 687  Output 1
+0x2022,8227,PZIT-W202A_STO,Startup Override,Signal Tag,18,float 32, , ,Digital,ON,OFF,Block 686  Output 1
+0x2024,8229,PZIT-W202A_HH,Alarm High High,Signal Tag,19,float 32, , ,Digital,ON,OFF,Block 671  Output 1
+0x2026,8231,PZIT-W202A_LL,Alarm Low Low,Signal Tag,20,float 32, , ,Digital,ON,OFF,Block 675  Output 1
+0x2028,8233,PZIT-W202A_RAW,,Signal Tag,21,float 32,barg,3,Analog, , ,Block 663  Output 6
+0x202A,8235,PZIT-W202A_V,Analog Value,Signal Tag,22,float 32,,0,Analog, , ,Variable #:18
+0x202C,8237,PZIT-W202A_F,,Signal Tag,23,float 32, , ,Digital,ON,OFF,Block 676  Output 1
+0x202E,8239,PZIT-W202A_R,Alarm Reset,Signal Tag,24,float 32, , ,Digital,ON,OFF,Variable #:12
+0x2030,8241,PZIT-W202A_MOS1,,Signal Tag,25,float 32, , ,Digital,ON,OFF,Variable #:10
+0x2032,8243,PZIT-W201B_CH_F,Channel Fail,Signal Tag,26,float 32, , ,Digital,ON,OFF,Block 975  Output 1
+0x2034,8245,PZIT-W203A_CH,,Signal Tag,27,float 32,,0,Analog, , ,Block 691  Output 1
+0x2036,8247,PZIT-W203A_CH_F,Channel Fail,Signal Tag,28,float 32, , ,Digital,ON,OFF,Block 705  Output 1
+0x2038,8249,PZIT-W203A_D_F,Discrepancy Fail,Signal Tag,29,float 32, , ,Digital,ON,OFF,Block 710  Output 1
+0x203A,8251,PZIT-W203A_FO,First Out,Signal Tag,30,float 32, , ,Digital,ON,OFF,Block 714  Output 1
+0x203C,8253,PZIT-W203A_STO,Startup Override,Signal Tag,31,float 32, , ,Digital,ON,OFF,Block 713  Output 1
+0x203E,8255,PZIT-W203A_HH,Alarm High High,Signal Tag,32,float 32, , ,Digital,ON,OFF,Block 698  Output 1
+0x2040,8257,PZIT-W203A_LL,Alarm Low Low,Signal Tag,33,float 32, , ,Digital,ON,OFF,Block 702  Output 1
+0x2042,8259,PZIT-W203A_RAW,,Signal Tag,34,float 32,barg,3,Analog, , ,Block 690  Output 6
+0x2044,8261,PZIT-W203A_V,Analog Value,Signal Tag,35,float 32,,0,Analog, , ,Variable #:19
+0x2046,8263,PZIT-W203A_F,,Signal Tag,36,float 32, , ,Digital,ON,OFF,Block 703  Output 1
+0x2048,8265,PZIT-W203A_R,Alarm Reset,Signal Tag,37,float 32, , ,Digital,ON,OFF,Variable #:25
+0x204A,8267,PZIT-W203A_MOS1,,Signal Tag,38,float 32, , ,Digital,ON,OFF,Variable #:27
+0x204C,8269,PZIT-W201B_D_F,Discrepancy Fail,Signal Tag,39,float 32, , ,Digital,ON,OFF,Block 980  Output 1
+0x204E,8271,PZIT-W208A_CH,,Signal Tag,40,float 32,,0,Analog, , ,Block 718  Output 1
+0x2050,8273,PZIT-W208A_CH_F,Channel Fail,Signal Tag,41,float 32, , ,Digital,ON,OFF,Block 732  Output 1
+0x2052,8275,PZIT-W208A_D_F,Discrepancy Fail,Signal Tag,42,float 32, , ,Digital,ON,OFF,Block 737  Output 1
+0x2054,8277,PZIT-W208A_FO,First Out,Signal Tag,43,float 32, , ,Digital,ON,OFF,Block 3635  Output 1
+0x2056,8279,PZIT-W208A_STO,Startup Override,Signal Tag,44,float 32, , ,Digital,ON,OFF,Block 741  Output 1
+0x2058,8281,PZIT-W208A_HH,Alarm High High,Signal Tag,45,float 32, , ,Digital,ON,OFF,Block 725  Output 1
+0x205A,8283,PZIT-W208A_LL,Alarm Low Low,Signal Tag,46,float 32, , ,Digital,ON,OFF,Block 729  Output 1
+0x205C,8285,PZIT-W208A_RAW,,Signal Tag,47,float 32,barg,3,Analog, , ,Block 717  Output 6
+0x205E,8287,PZIT-W208A_V,Analog Value,Signal Tag,48,float 32,,0,Analog, , ,Variable #:28
+0x2060,8289,PZIT-W208A_F,,Signal Tag,49,float 32, , ,Digital,ON,OFF,Block 730  Output 1
+0x2062,8291,PZIT-W208A_R,Alarm Reset,Signal Tag,50,float 32, , ,Digital,ON,OFF,Variable #:34
+0x2064,8293,PZIT-W208A_MOS1,,Signal Tag,51,float 32, , ,Digital,ON,OFF,Variable #:36
+0x2066,8295,PZIT-W201B_FO,First Out,Signal Tag,52,float 32, , ,Digital,ON,OFF,Block 984  Output 1
+0x2068,8297,PZIT-W207A_CH,,Signal Tag,53,float 32,,0,Analog, , ,Block 745  Output 1
+0x206A,8299,PZIT-W207A_CH_F,Channel Fail,Signal Tag,54,float 32, , ,Digital,ON,OFF,Block 759  Output 1
+0x206C,8301,PZIT-W207A_D_F,Discrepancy Fail,Signal Tag,55,float 32, , ,Digital,ON,OFF,Block 764  Output 1
+0x206E,8303,PZIT-W207A_FO,First Out,Signal Tag,56,float 32, , ,Digital,ON,OFF,Block 3640  Output 1
+0x2070,8305,PZIT-W207A_STO,Startup Override,Signal Tag,57,float 32, , ,Digital,ON,OFF,Block 767  Output 1
+0x2072,8307,PZIT-W207A_HH,Alarm High High,Signal Tag,58,float 32, , ,Digital,ON,OFF,Block 752  Output 1
+0x2074,8309,PZIT-W207A_LL,Alarm Low Low,Signal Tag,59,float 32, , ,Digital,ON,OFF,Block 756  Output 1
+0x2076,8311,PZIT-W207A_RAW,,Signal Tag,60,float 32,barg,3,Analog, , ,Block 744  Output 6
+0x2078,8313,PZIT-W207A_V,Analog Value,Signal Tag,61,float 32,,0,Analog, , ,Variable #:37
+0x207A,8315,PZIT-W207A_F,,Signal Tag,62,float 32, , ,Digital,ON,OFF,Block 757  Output 1
+0x207C,8317,PZIT-W207A_R,Alarm Reset,Signal Tag,63,float 32, , ,Digital,ON,OFF,Variable #:43
+0x207E,8319,PZIT-W207A_MOS1,,Signal Tag,64,float 32, , ,Digital,ON,OFF,Variable #:45
+0x2080,8321,PZIT-W201B_STO,Startup Override,Signal Tag,65,float 32, , ,Digital,ON,OFF,Block 983  Output 1
+0x2082,8323,LZIT-605A_CH,,Signal Tag,66,float 32,,0,Analog, , ,Block 772  Output 1
+0x2084,8325,LZIT-605A_CH_F,Channel Fail,Signal Tag,67,float 32, , ,Digital,ON,OFF,Block 786  Output 1
+0x2086,8327,LZIT-605A_D_F,Discrepancy Fail,Signal Tag,68,float 32, , ,Digital,ON,OFF,Block 791  Output 1
+0x2088,8329,LZIT-605A_FO,First Out,Signal Tag,69,float 32, , ,Digital,ON,OFF,Block 3610  Output 1
+0x208A,8331,LZIT-605A_STO,Startup Override,Signal Tag,70,float 32, , ,Digital,ON,OFF,Block 794  Output 1
+0x208C,8333,LZIT-605A_HH,Alarm High High,Signal Tag,71,float 32, , ,Digital,ON,OFF,Block 779  Output 1
+0x208E,8335,LZIT-605A_LL,Alarm Low Low,Signal Tag,72,float 32, , ,Digital,ON,OFF,Block 783  Output 1
+0x2090,8337,LZIT-605A_RAW,,Signal Tag,73,float 32,mm,3,Analog, , ,Block 771  Output 6
+0x2092,8339,LZIT-605A_V,Analog Value,Signal Tag,74,float 32,,0,Analog, , ,Variable #:46
+0x2094,8341,LZIT-605A_F,,Signal Tag,75,float 32, , ,Digital,ON,OFF,Block 784  Output 1
+0x2096,8343,LZIT-605A_R,Alarm Reset,Signal Tag,76,float 32, , ,Digital,ON,OFF,Variable #:52
+0x2098,8345,LZIT-605A_MOS1,,Signal Tag,77,float 32, , ,Digital,ON,OFF,Variable #:54
+0x209A,8347,LZIT-605A_D_F1,Vote Discrepancy,Signal Tag,78,float 32, , ,Digital,ON,OFF,Block 797  Output 1
+0x209C,8349,PZIT-219-1_CH,,Signal Tag,79,float 32,,0,Analog, , ,Block 799  Output 1
+0x209E,8351,PZIT-219-1_CH_F,Channel Fail,Signal Tag,80,float 32, , ,Digital,ON,OFF,Block 813  Output 1
+0x20A0,8353,PZIT-219-1_D_F,Discrepancy Fail,Signal Tag,81,float 32, , ,Digital,ON,OFF,Block 818  Output 1
+0x20A2,8355,PZIT-219-1_FO,First Out,Signal Tag,82,float 32, , ,Digital,ON,OFF,Block 3240  Output 1
+0x20A4,8357,PZIT-219-1_STO,Startup Override,Signal Tag,83,float 32, , ,Digital,ON,OFF,Block 821  Output 1
+0x20A6,8359,PZIT-219-1_HH,Alarm High High,Signal Tag,84,float 32, , ,Digital,ON,OFF,Block 806  Output 1
+0x20A8,8361,PZIT-219-1_LL,Alarm Low Low,Signal Tag,85,float 32, , ,Digital,ON,OFF,Block 810  Output 1
+0x20AA,8363,PZIT-219-1_RAW,,Signal Tag,86,float 32,barg,3,Analog, , ,Block 798  Output 6
+0x20AC,8365,PZIT-219-1_V,Analog Value,Signal Tag,87,float 32,,0,Analog, , ,Variable #:55
+0x20AE,8367,PZIT-219-1_F,,Signal Tag,88,float 32, , ,Digital,ON,OFF,Block 811  Output 1
+0x20B0,8369,PZIT-219-1_R,Alarm Reset,Signal Tag,89,float 32, , ,Digital,ON,OFF,Variable #:61
+0x20B2,8371,PZIT-219-1_MOS1,,Signal Tag,90,float 32, , ,Digital,ON,OFF,Variable #:63
+0x20B4,8373,PZIT-219-1_D_F1,Vote Discrepancy,Signal Tag,91,float 32, , ,Digital,ON,OFF,Block 824  Output 1
+0x20B6,8375,PZIT-230-1_CH,,Signal Tag,92,float 32,,0,Analog, , ,Block 826  Output 1
+0x20B8,8377,PZIT-230-1_CH_F,Channel Fail,Signal Tag,93,float 32, , ,Digital,ON,OFF,Block 840  Output 1
+0x20BA,8379,PZIT-230-1_D_F,Discrepancy Fail,Signal Tag,94,float 32, , ,Digital,ON,OFF,Block 845  Output 1
+0x20BC,8381,PZIT-230-1_FO,First Out,Signal Tag,95,float 32, , ,Digital,ON,OFF,Block 3245  Output 1
+0x20BE,8383,PZIT-230-1_STO,Startup Override,Signal Tag,96,float 32, , ,Digital,ON,OFF,Block 848  Output 1
+0x20C0,8385,PZIT-230-1_HH,Alarm High High,Signal Tag,97,float 32, , ,Digital,ON,OFF,Block 833  Output 1
+0x20C2,8387,PZIT-230-1_LL,Alarm Low Low,Signal Tag,98,float 32, , ,Digital,ON,OFF,Block 837  Output 1
+0x20C4,8389,PZIT-230-1_RAW,,Signal Tag,99,float 32,barg,3,Analog, , ,Block 825  Output 6
+0x20C6,8391,PZIT-230-1_V,Analog Value,Signal Tag,100,float 32,,0,Analog, , ,Variable #:64
+0x20C8,8393,PZIT-230-1_F,,Signal Tag,101,float 32, , ,Digital,ON,OFF,Block 838  Output 1
+0x20CA,8395,PZIT-230-1_R,Alarm Reset,Signal Tag,102,float 32, , ,Digital,ON,OFF,Variable #:70
+0x20CC,8397,PZIT-230-1_MOS1,,Signal Tag,103,float 32, , ,Digital,ON,OFF,Variable #:72
+0x20CE,8399,PZIT-230-1_D_F1,Vote Discrepancy,Signal Tag,104,float 32, , ,Digital,ON,OFF,Block 851  Output 1
+0x20D0,8401,PZIT-229A_CH,,Signal Tag,105,float 32,,0,Analog, , ,Block 853  Output 1
+0x20D2,8403,PZIT-229A_CH_F,Channel Fail,Signal Tag,106,float 32, , ,Digital,ON,OFF,Block 867  Output 1
+0x20D4,8405,PZIT-229A_D_F,Discrepancy Fail,Signal Tag,107,float 32, , ,Digital,ON,OFF,Block 872  Output 1
+0x20D6,8407,PZIT-229A_FO,First Out,Signal Tag,108,float 32, , ,Digital,ON,OFF,Block 3690  Output 1
+0x20D8,8409,PZIT-229A_STO,Startup Override,Signal Tag,109,float 32, , ,Digital,ON,OFF,Block 875  Output 1
+0x20DA,8411,PZIT-229A_HH,Alarm High High,Signal Tag,110,float 32, , ,Digital,ON,OFF,Block 860  Output 1
+0x20DC,8413,PZIT-229A_LL,Alarm Low Low,Signal Tag,111,float 32, , ,Digital,ON,OFF,Block 864  Output 1
+0x20DE,8415,PZIT-229A_RAW,,Signal Tag,112,float 32,barg,3,Analog, , ,Block 852  Output 6
+0x20E0,8417,PZIT-229A_V,Analog Value,Signal Tag,113,float 32,,0,Analog, , ,Variable #:73
+0x20E2,8419,PZIT-229A_F,,Signal Tag,114,float 32, , ,Digital,ON,OFF,Block 865  Output 1
+0x20E4,8421,PZIT-229A_R,Alarm Reset,Signal Tag,115,float 32, , ,Digital,ON,OFF,Variable #:79
+0x20E6,8423,PZIT-229A_MOS1,,Signal Tag,116,float 32, , ,Digital,ON,OFF,Variable #:81
+0x20E8,8425,PZIT-W201B_HH,Alarm High High,Signal Tag,117,float 32, , ,Digital,ON,OFF,Block 968  Output 1
+0x20EA,8427,PZIT-226A_CH,,Signal Tag,118,float 32,,0,Analog, , ,Block 880  Output 1
+0x20EC,8429,PZIT-226A_CH_F,Channel Fail,Signal Tag,119,float 32, , ,Digital,ON,OFF,Block 894  Output 1
+0x20EE,8431,PZIT-226A_D_F,Discrepancy Fail,Signal Tag,120,float 32, , ,Digital,ON,OFF,Block 899  Output 1
+0x20F0,8433,PZIT-226A_FO,First Out,Signal Tag,121,float 32, , ,Digital,ON,OFF,Block 3695  Output 1
+0x20F2,8435,PZIT-226A_STO,Startup Override,Signal Tag,122,float 32, , ,Digital,ON,OFF,Block 902  Output 1
+0x20F4,8437,PZIT-226A_HH,Alarm High High,Signal Tag,123,float 32, , ,Digital,ON,OFF,Block 887  Output 1
+0x20F6,8439,PZIT-226A_LL,Alarm Low Low,Signal Tag,124,float 32, , ,Digital,ON,OFF,Block 891  Output 1
+0x20F8,8441,PZIT-226A_RAW,,Signal Tag,125,float 32,barg,3,Analog, , ,Block 879  Output 6
+0x20FA,8443,PZIT-226A_V,Analog Value,Signal Tag,126,float 32,,0,Analog, , ,Variable #:82
+0x20FC,8445,PZIT-226A_F,,Signal Tag,127,float 32, , ,Digital,ON,OFF,Block 892  Output 1
+0x20FE,8447,PZIT-226A_R,Alarm Reset,Signal Tag,128,float 32, , ,Digital,ON,OFF,Variable #:88
+0x2100,8449,PZIT-226A_MOS1,,Signal Tag,129,float 32, , ,Digital,ON,OFF,Variable #:90
+0x2102,8451,PZIT-W201B_LL,Alarm Low Low,Signal Tag,130,float 32, , ,Digital,ON,OFF,Block 972  Output 1
+0x2104,8453,PZIT-227A_CH,,Signal Tag,131,float 32,,0,Analog, , ,Block 907  Output 1
+0x2106,8455,PZIT-227A_CH_F,Channel Fail,Signal Tag,132,float 32, , ,Digital,ON,OFF,Block 921  Output 1
+0x2108,8457,PZIT-227A_D_F,Discrepancy Fail,Signal Tag,133,float 32, , ,Digital,ON,OFF,Block 926  Output 1
+0x210A,8459,PZIT-227A_FO,First Out,Signal Tag,134,float 32, , ,Digital,ON,OFF,Block 3700  Output 1
+0x210C,8461,PZIT-227A_STO,Startup Override,Signal Tag,135,float 32, , ,Digital,ON,OFF,Block 929  Output 1
+0x210E,8463,PZIT-227A_HH,Alarm High High,Signal Tag,136,float 32, , ,Digital,ON,OFF,Block 914  Output 1
+0x2110,8465,PZIT-227A_LL,Alarm Low Low,Signal Tag,137,float 32, , ,Digital,ON,OFF,Block 918  Output 1
+0x2112,8467,PZIT-227A_RAW,,Signal Tag,138,float 32,barg,3,Analog, , ,Block 906  Output 6
+0x2114,8469,PZIT-227A_V,Analog Value,Signal Tag,139,float 32,,0,Analog, , ,Variable #:91
+0x2116,8471,PZIT-227A_F,,Signal Tag,140,float 32, , ,Digital,ON,OFF,Block 919  Output 1
+0x2118,8473,PZIT-227A_R,Alarm Reset,Signal Tag,141,float 32, , ,Digital,ON,OFF,Variable #:97
+0x211A,8475,PZIT-227A_MOS1,,Signal Tag,142,float 32, , ,Digital,ON,OFF,Variable #:99
+0x211C,8477,PZIT-W201B_RAW,,Signal Tag,143,float 32,barg,3,Analog, , ,Block 960  Output 6
+0x211E,8479,PZIT-228A_CH,,Signal Tag,144,float 32,,0,Analog, , ,Block 934  Output 1
+0x2120,8481,PZIT-228A_CH_F,Channel Fail,Signal Tag,145,float 32, , ,Digital,ON,OFF,Block 948  Output 1
+0x2122,8483,PZIT-228A_D_F,Discrepancy Fail,Signal Tag,146,float 32, , ,Digital,ON,OFF,Block 953  Output 1
+0x2124,8485,PZIT-228A_FO,First Out,Signal Tag,147,float 32, , ,Digital,ON,OFF,Block 3705  Output 1
+0x2126,8487,PZIT-228A_STO,Startup Override,Signal Tag,148,float 32, , ,Digital,ON,OFF,Block 956  Output 1
+0x2128,8489,PZIT-228A_HH,Alarm High High,Signal Tag,149,float 32, , ,Digital,ON,OFF,Block 941  Output 1
+0x212A,8491,PZIT-228A_LL,Alarm Low Low,Signal Tag,150,float 32, , ,Digital,ON,OFF,Block 945  Output 1
+0x212C,8493,PZIT-228A_RAW,,Signal Tag,151,float 32,barg,3,Analog, , ,Block 933  Output 6
+0x212E,8495,PZIT-228A_V,Analog Value,Signal Tag,152,float 32,,0,Analog, , ,Variable #:100
+0x2130,8497,PZIT-228A_F,,Signal Tag,153,float 32, , ,Digital,ON,OFF,Block 946  Output 1
+0x2132,8499,PZIT-228A_R,Alarm Reset,Signal Tag,154,float 32, , ,Digital,ON,OFF,Variable #:106
+0x2134,8501,PZIT-228A_MOS1,,Signal Tag,155,float 32, , ,Digital,ON,OFF,Variable #:108
+0x2136,8503,PZIT-W201B_V,Analog Value,Signal Tag,156,float 32,,0,Analog, , ,Variable #:109
+0x2138,8505,PZIT-W201B_F,,Signal Tag,157,float 32, , ,Digital,ON,OFF,Block 973  Output 1
+0x213A,8507,PZIT-W201B_R,Alarm Reset,Signal Tag,158,float 32, , ,Digital,ON,OFF,Variable #:115
+0x213C,8509,PZIT-W201B_MOS1,,Signal Tag,159,float 32, , ,Digital,ON,OFF,Variable #:117
+0x213E,8511,PZIT-W202B_CH,,Signal Tag,160,float 32,,0,Analog, , ,Block 986  Output 1
+0x2140,8513,PZIT-W202B_CH_F,Channel Fail,Signal Tag,161,float 32, , ,Digital,ON,OFF,Block 1000  Output 1
+0x2142,8515,PZIT-W202B_D_F,Discrepancy Fail,Signal Tag,162,float 32, , ,Digital,ON,OFF,Block 1005  Output 1
+0x2144,8517,PZIT-W202B_FO,First Out,Signal Tag,163,float 32, , ,Digital,ON,OFF,Block 1009  Output 1
+0x2146,8519,PZIT-W202B_STO,Startup Override,Signal Tag,164,float 32, , ,Digital,ON,OFF,Block 1008  Output 1
+0x2148,8521,PZIT-W202B_HH,Alarm High High,Signal Tag,165,float 32, , ,Digital,ON,OFF,Block 993  Output 1
+0x214A,8523,PZIT-W202B_LL,Alarm Low Low,Signal Tag,166,float 32, , ,Digital,ON,OFF,Block 997  Output 1
+0x214C,8525,PZIT-W202B_RAW,,Signal Tag,167,float 32,barg,3,Analog, , ,Block 985  Output 6
+0x214E,8527,PZIT-W202B_V,Analog Value,Signal Tag,168,float 32,,0,Analog, , ,Variable #:126
+0x2150,8529,PZIT-W202B_F,,Signal Tag,169,float 32, , ,Digital,ON,OFF,Block 998  Output 1
+0x2152,8531,PZIT-W202B_R,Alarm Reset,Signal Tag,170,float 32, , ,Digital,ON,OFF,Variable #:120
+0x2154,8533,PZIT-W202B_MOS1,,Signal Tag,171,float 32, , ,Digital,ON,OFF,Variable #:118
+0x2156,8535,PZIT-W203B_CH,,Signal Tag,172,float 32,,0,Analog, , ,Block 1011  Output 1
+0x2158,8537,PZIT-W203B_CH_F,Channel Fail,Signal Tag,173,float 32, , ,Digital,ON,OFF,Block 1025  Output 1
+0x215A,8539,PZIT-W203B_D_F,Discrepancy Fail,Signal Tag,174,float 32, , ,Digital,ON,OFF,Block 1030  Output 1
+0x215C,8541,PZIT-W203B_FO,First Out,Signal Tag,175,float 32, , ,Digital,ON,OFF,Block 1034  Output 1
+0x215E,8543,PZIT-W203B_STO,Startup Override,Signal Tag,176,float 32, , ,Digital,ON,OFF,Block 1033  Output 1
+0x2160,8545,PZIT-W203B_HH,Alarm High High,Signal Tag,177,float 32, , ,Digital,ON,OFF,Block 1018  Output 1
+0x2162,8547,PZIT-W203B_LL,Alarm Low Low,Signal Tag,178,float 32, , ,Digital,ON,OFF,Block 1022  Output 1
+0x2164,8549,PZIT-W203B_RAW,,Signal Tag,179,float 32,barg,3,Analog, , ,Block 1010  Output 6
+0x2166,8551,PZIT-W203B_V,Analog Value,Signal Tag,180,float 32,,0,Analog, , ,Variable #:127
+0x2168,8553,PZIT-W203B_F,,Signal Tag,181,float 32, , ,Digital,ON,OFF,Block 1023  Output 1
+0x216A,8555,PZIT-W203B_R,Alarm Reset,Signal Tag,182,float 32, , ,Digital,ON,OFF,Variable #:133
+0x216C,8557,PZIT-W203B_MOS1,,Signal Tag,183,float 32, , ,Digital,ON,OFF,Variable #:135
+0x216E,8559,PZIT-W208B_CH,,Signal Tag,184,float 32,,0,Analog, , ,Block 1036  Output 1
+0x2170,8561,PZIT-W208B_CH_F,Channel Fail,Signal Tag,185,float 32, , ,Digital,ON,OFF,Block 1050  Output 1
+0x2172,8563,PZIT-W208B_D_F,Discrepancy Fail,Signal Tag,186,float 32, , ,Digital,ON,OFF,Block 1055  Output 1
+0x2174,8565,PZIT-W208B_FO,First Out,Signal Tag,187,float 32, , ,Digital,ON,OFF,Block 3645  Output 1
+0x2176,8567,PZIT-W208B_STO,Startup Override,Signal Tag,188,float 32, , ,Digital,ON,OFF,Block 1058  Output 1
+0x2178,8569,PZIT-W208B_HH,Alarm High High,Signal Tag,189,float 32, , ,Digital,ON,OFF,Block 1043  Output 1
+0x217A,8571,PZIT-W208B_LL,Alarm Low Low,Signal Tag,190,float 32, , ,Digital,ON,OFF,Block 1047  Output 1
+0x217C,8573,PZIT-W208B_RAW,,Signal Tag,191,float 32,barg,3,Analog, , ,Block 1035  Output 6
+0x217E,8575,PZIT-W208B_V,Analog Value,Signal Tag,192,float 32,,0,Analog, , ,Variable #:136
+0x2180,8577,PZIT-W208B_F,,Signal Tag,193,float 32, , ,Digital,ON,OFF,Block 1048  Output 1
+0x2182,8579,PZIT-W208B_R,Alarm Reset,Signal Tag,194,float 32, , ,Digital,ON,OFF,Variable #:142
+0x2184,8581,PZIT-W208B_MOS1,,Signal Tag,195,float 32, , ,Digital,ON,OFF,Variable #:144
+0x2186,8583,PZIT-W207B_CH,,Signal Tag,196,float 32,,0,Analog, , ,Block 1061  Output 1
+0x2188,8585,PZIT-W207B_CH_F,Channel Fail,Signal Tag,197,float 32, , ,Digital,ON,OFF,Block 1075  Output 1
+0x218A,8587,PZIT-W207B_D_F,Discrepancy Fail,Signal Tag,198,float 32, , ,Digital,ON,OFF,Block 1080  Output 1
+0x218C,8589,PZIT-W207B_FO,First Out,Signal Tag,199,float 32, , ,Digital,ON,OFF,Block 3650  Output 1
+0x218E,8591,PZIT-W207B_STO,Startup Override,Signal Tag,200,float 32, , ,Digital,ON,OFF,Block 1083  Output 1
+0x2190,8593,PZIT-W207B_HH,Alarm High High,Signal Tag,201,float 32, , ,Digital,ON,OFF,Block 1068  Output 1
+0x2192,8595,PZIT-W207B_LL,Alarm Low Low,Signal Tag,202,float 32, , ,Digital,ON,OFF,Block 1072  Output 1
+0x2194,8597,PZIT-W207B_RAW,,Signal Tag,203,float 32,barg,3,Analog, , ,Block 1060  Output 6
+0x2196,8599,PZIT-W207B_V,Analog Value,Signal Tag,204,float 32,,0,Analog, , ,Variable #:145
+0x2198,8601,PZIT-W207B_F,,Signal Tag,205,float 32, , ,Digital,ON,OFF,Block 1073  Output 1
+0x219A,8603,PZIT-W207B_R,Alarm Reset,Signal Tag,206,float 32, , ,Digital,ON,OFF,Variable #:151
+0x219C,8605,PZIT-W207B_MOS1,,Signal Tag,207,float 32, , ,Digital,ON,OFF,Variable #:153
+0x219E,8607,LZIT-605C_CH,,Signal Tag,208,float 32,,0,Analog, , ,Block 1113  Output 1
+0x21A0,8609,LZIT-605C_CH_F,Channel Fail,Signal Tag,209,float 32, , ,Digital,ON,OFF,Block 1127  Output 1
+0x21A2,8611,LZIT-605C_D_F,Discrepancy Fail,Signal Tag,210,float 32, , ,Digital,ON,OFF,Block 1132  Output 1
+0x21A4,8613,LZIT-605C_FO,First Out,Signal Tag,211,float 32, , ,Digital,ON,OFF,Block 1136  Output 1
+0x21A6,8615,LZIT-605C_STO,Startup Override,Signal Tag,212,float 32, , ,Digital,ON,OFF,Block 1135  Output 1
+0x21A8,8617,LZIT-605C_HH,Alarm High High,Signal Tag,213,float 32, , ,Digital,ON,OFF,Block 1120  Output 1
+0x21AA,8619,LZIT-605C_LL,Alarm Low Low,Signal Tag,214,float 32, , ,Digital,ON,OFF,Block 1124  Output 1
+0x21AC,8621,LZIT-605C_RAW,,Signal Tag,215,float 32,mm,3,Analog, , ,Block 1112  Output 6
+0x21AE,8623,LZIT-605C_V,Analog Value,Signal Tag,216,float 32,,0,Analog, , ,Variable #:154
+0x21B0,8625,LZIT-605C_F,,Signal Tag,217,float 32, , ,Digital,ON,OFF,Block 1125  Output 1
+0x21B2,8627,LZIT-605C_R,Alarm Reset,Signal Tag,218,float 32, , ,Digital,ON,OFF,Variable #:160
+0x21B4,8629,LZIT-605C_MOS1,,Signal Tag,219,float 32, , ,Digital,ON,OFF,Variable #:162
+0x21B6,8631,LZIT-605C_D_F1,Vote Discrepancy,Signal Tag,220,float 32, , ,Digital,ON,OFF,Block 1138  Output 1
+0x21B8,8633,LZIT-607_CH,,Signal Tag,221,float 32,,0,Analog, , ,Block 1140  Output 1
+0x21BA,8635,LZIT-607_CH_F,Channel Fail,Signal Tag,222,float 32, , ,Digital,ON,OFF,Block 1154  Output 1
+0x21BC,8637,LZIT-607_D_F,Discrepancy Fail,Signal Tag,223,float 32, , ,Digital,ON,OFF,Block 1159  Output 1
+0x21BE,8639,LZIT-607_FO,First Out,Signal Tag,224,float 32, , ,Digital,ON,OFF,Block 3680  Output 1
+0x21C0,8641,LZIT-607_STO,Startup Override,Signal Tag,225,float 32, , ,Digital,ON,OFF,Block 1162  Output 1
+0x21C2,8643,LZIT-607_HH,Alarm High High,Signal Tag,226,float 32, , ,Digital,ON,OFF,Block 1147  Output 1
+0x21C4,8645,LZIT-607_LL,Alarm Low Low,Signal Tag,227,float 32, , ,Digital,ON,OFF,Block 1151  Output 1
+0x21C6,8647,LZIT-607_RAW,,Signal Tag,228,float 32,mm,3,Analog, , ,Block 1139  Output 6
+0x21C8,8649,LZIT-607_V,Analog Value,Signal Tag,229,float 32,,0,Analog, , ,Variable #:163
+0x21CA,8651,LZIT-607_F,,Signal Tag,230,float 32, , ,Digital,ON,OFF,Block 1152  Output 1
+0x21CC,8653,LZIT-607_R,Alarm Reset,Signal Tag,231,float 32, , ,Digital,ON,OFF,Variable #:169
+0x21CE,8655,LZIT-607_MOS1,,Signal Tag,232,float 32, , ,Digital,ON,OFF,Variable #:171
+0x21D0,8657,LZIT-607_D_F1,Vote Discrepancy,Signal Tag,233,float 32, , ,Digital,ON,OFF,Block 1165  Output 1
+0x21D2,8659,FZIT-104_CH,,Signal Tag,234,float 32,,0,Analog, , ,Block 1167  Output 1
+0x21D4,8661,FZIT-104_CH_F,Channel Fail,Signal Tag,235,float 32, , ,Digital,ON,OFF,Block 1181  Output 1
+0x21D6,8663,FZIT-104_D_F,Discrepancy Fail,Signal Tag,236,float 32, , ,Digital,ON,OFF,Block 1186  Output 1
+0x21D8,8665,FZIT-104_FO,First Out,Signal Tag,237,float 32, , ,Digital,ON,OFF,Block 3230  Output 1
+0x21DA,8667,FZIT-104_STO,Startup Override,Signal Tag,238,float 32, , ,Digital,ON,OFF,Block 1189  Output 1
+0x21DC,8669,FZIT-104_HH,Alarm High High,Signal Tag,239,float 32, , ,Digital,ON,OFF,Block 1174  Output 1
+0x21DE,8671,FZIT-104_LL,Alarm Low Low,Signal Tag,240,float 32, , ,Digital,ON,OFF,Block 1178  Output 1
+0x21E0,8673,FZIT-104_RAW,kg/hr,Signal Tag,241,float 32,mm,3,Analog, , ,Block 1166  Output 6
+0x21E2,8675,FZIT-104_V,Analog Value,Signal Tag,242,float 32,,0,Analog, , ,Variable #:172
+0x21E4,8677,FZIT-104_F,,Signal Tag,243,float 32, , ,Digital,ON,OFF,Block 1179  Output 1
+0x21E6,8679,FZIT-104_R,Alarm Reset,Signal Tag,244,float 32, , ,Digital,ON,OFF,Variable #:178
+0x21E8,8681,FZIT-104_MOS1,,Signal Tag,245,float 32, , ,Digital,ON,OFF,Variable #:180
+0x21EA,8683,FZIT-104_D_F1,Vote Discrepancy,Signal Tag,246,float 32, , ,Digital,ON,OFF,Block 1192  Output 1
+0x21EC,8685,ZZT-906_CH,,Signal Tag,247,float 32,,0,Analog, , ,Block 1194  Output 1
+0x21EE,8687,ZZT-906_CH_F,Channel Fail,Signal Tag,248,float 32, , ,Digital,ON,OFF,Block 1208  Output 1
+0x21F0,8689,ZZT-906_D_F,Discrepancy Fail,Signal Tag,249,float 32, , ,Digital,ON,OFF,Block 1213  Output 1
+0x21F2,8691,ZZT-906_FO,First Out,Signal Tag,250,float 32, , ,Digital,ON,OFF,Block 1217  Output 1
+0x21F4,8693,ZZT-906_STO,Startup Override,Signal Tag,251,float 32, , ,Digital,ON,OFF,Block 1216  Output 1
+0x21F6,8695,ZZT-906_HH,Alarm High High,Signal Tag,252,float 32, , ,Digital,ON,OFF,Block 1201  Output 1
+0x21F8,8697,ZZT-906_LL,Alarm Low Low,Signal Tag,253,float 32, , ,Digital,ON,OFF,Block 1205  Output 1
+0x21FA,8699,ZZT-906_RAW,,Signal Tag,254,float 32,%,3,Analog, , ,Block 1193  Output 6
+0x21FC,8701,ZZT-906_V,Analog Value,Signal Tag,255,float 32,,0,Analog, , ,Variable #:181
+0x21FE,8703,ZZT-906_F,,Signal Tag,256,float 32, , ,Digital,ON,OFF,Block 1206  Output 1
+0x2200,8705,ZZT-906_R,Alarm Reset,Signal Tag,257,float 32, , ,Digital,ON,OFF,Variable #:187
+0x2202,8707,ZZT-906_MOS1,,Signal Tag,258,float 32, , ,Digital,ON,OFF,Variable #:189
+0x2204,8709,ZZT-906_D_F1,Vote Discrepancy,Signal Tag,259,float 32, , ,Digital,ON,OFF,Block 1407  Output 1
+0x2206,8711,ZZT-907_CH,,Signal Tag,260,float 32,,0,Analog, , ,Block 1221  Output 1
+0x2208,8713,ZZT-907_CH_F,Channel Fail,Signal Tag,261,float 32, , ,Digital,ON,OFF,Block 1235  Output 1
+0x220A,8715,ZZT-907_D_F,Discrepancy Fail,Signal Tag,262,float 32, , ,Digital,ON,OFF,Block 1240  Output 1
+0x220C,8717,ZZT-907_FO,First Out,Signal Tag,263,float 32, , ,Digital,ON,OFF,Block 1244  Output 1
+0x220E,8719,ZZT-907_STO,Startup Override,Signal Tag,264,float 32, , ,Digital,ON,OFF,Block 1243  Output 1
+0x2210,8721,ZZT-907_HH,Alarm High High,Signal Tag,265,float 32, , ,Digital,ON,OFF,Block 1228  Output 1
+0x2212,8723,ZZT-907_LL,Alarm Low Low,Signal Tag,266,float 32, , ,Digital,ON,OFF,Block 1232  Output 1
+0x2214,8725,ZZT-907_RAW,,Signal Tag,267,float 32,%,3,Analog, , ,Block 1220  Output 6
+0x2216,8727,ZZT-907_V,Analog Value,Signal Tag,268,float 32,,0,Analog, , ,Variable #:190
+0x2218,8729,ZZT-907_F,,Signal Tag,269,float 32, , ,Digital,ON,OFF,Block 1233  Output 1
+0x221A,8731,ZZT-907_R,Alarm Reset,Signal Tag,270,float 32, , ,Digital,ON,OFF,Variable #:196
+0x221C,8733,ZZT-907_MOS1,,Signal Tag,271,float 32, , ,Digital,ON,OFF,Variable #:198
+0x221E,8735,ZZT-907_D_F1,Vote Discrepancy,Signal Tag,272,float 32, , ,Digital,ON,OFF,Block 1246  Output 1
+0x2220,8737,LZIT-602_CH,,Signal Tag,273,float 32,,0,Analog, , ,Block 1248  Output 1
+0x2222,8739,LZIT-602_CH_F,Channel Fail,Signal Tag,274,float 32, , ,Digital,ON,OFF,Block 1262  Output 1
+0x2224,8741,LZIT-602_D_F,Discrepancy Fail,Signal Tag,275,float 32, , ,Digital,ON,OFF,Block 1267  Output 1
+0x2226,8743,LZIT-602_FO,First Out,Signal Tag,276,float 32, , ,Digital,ON,OFF,Block 3675  Output 1
+0x2228,8745,LZIT-602_STO,Startup Override,Signal Tag,277,float 32, , ,Digital,ON,OFF,Block 1270  Output 1
+0x222A,8747,LZIT-602_HH,Alarm High High,Signal Tag,278,float 32, , ,Digital,ON,OFF,Block 1255  Output 1
+0x222C,8749,LZIT-602_LL,Alarm Low Low,Signal Tag,279,float 32, , ,Digital,ON,OFF,Block 1259  Output 1
+0x222E,8751,LZIT-602_RAW,,Signal Tag,280,float 32,mm,3,Analog, , ,Block 1247  Output 6
+0x2230,8753,LZIT-602_V,Analog Value,Signal Tag,281,float 32,,0,Analog, , ,Variable #:199
+0x2232,8755,LZIT-602_F,,Signal Tag,282,float 32, , ,Digital,ON,OFF,Block 1260  Output 1
+0x2234,8757,LZIT-602_R,Alarm Reset,Signal Tag,283,float 32, , ,Digital,ON,OFF,Variable #:205
+0x2236,8759,LZIT-602_MOS1,,Signal Tag,284,float 32, , ,Digital,ON,OFF,Variable #:207
+0x2238,8761,LZIT-602_D_F1,Vote Discrepancy,Signal Tag,285,float 32, , ,Digital,ON,OFF,Block 1273  Output 1
+0x223A,8763,FZIT-103_CH,,Signal Tag,286,float 32,,0,Analog, , ,Block 1436  Output 1
+0x223C,8765,FZIT-103_CH_F,Channel Fail,Signal Tag,287,float 32, , ,Digital,ON,OFF,Block 1450  Output 1
+0x223E,8767,FZIT-103_D_F,Discrepancy Fail,Signal Tag,288,float 32, , ,Digital,ON,OFF,Block 1455  Output 1
+0x2240,8769,FZIT-103_FO,First Out,Signal Tag,289,float 32, , ,Digital,ON,OFF,Block 3235  Output 1
+0x2242,8771,FZIT-103_STO,Startup Override,Signal Tag,290,float 32, , ,Digital,ON,OFF,Block 1458  Output 1
+0x2244,8773,FZIT-103_HH,Alarm High High,Signal Tag,291,float 32, , ,Digital,ON,OFF,Block 1443  Output 1
+0x2246,8775,FZIT-103_LL,Alarm Low Low,Signal Tag,292,float 32, , ,Digital,ON,OFF,Block 1447  Output 1
+0x2248,8777,FZIT-103_RAW,,Signal Tag,293,float 32,kg/hr,3,Analog, , ,Block 1435  Output 6
+0x224A,8779,FZIT-103_V,Analog Value,Signal Tag,294,float 32,,0,Analog, , ,Variable #:208
+0x224C,8781,FZIT-103_F,,Signal Tag,295,float 32, , ,Digital,ON,OFF,Block 1448  Output 1
+0x224E,8783,FZIT-103_R,Alarm Reset,Signal Tag,296,float 32, , ,Digital,ON,OFF,Variable #:214
+0x2250,8785,FZIT-103_MOS1,,Signal Tag,297,float 32, , ,Digital,ON,OFF,Variable #:216
+0x2252,8787,FZIT-103_D_F1,Vote Discrepancy,Signal Tag,298,float 32, , ,Digital,ON,OFF,Block 1461  Output 1
+0x2254,8789,ZZT-908_CH,,Signal Tag,299,float 32,,0,Analog, , ,Block 1463  Output 1
+0x2256,8791,ZZT-908_CH_F,Channel Fail,Signal Tag,300,float 32, , ,Digital,ON,OFF,Block 1477  Output 1
+0x2258,8793,ZZT-908_D_F,Discrepancy Fail,Signal Tag,301,float 32, , ,Digital,ON,OFF,Block 1482  Output 1
+0x225A,8795,ZZT-908_FO,First Out,Signal Tag,302,float 32, , ,Digital,ON,OFF,Block 1486  Output 1
+0x225C,8797,ZZT-908_STO,Startup Override,Signal Tag,303,float 32, , ,Digital,ON,OFF,Block 1485  Output 1
+0x225E,8799,ZZT-908_HH,Alarm High High,Signal Tag,304,float 32, , ,Digital,ON,OFF,Block 1470  Output 1
+0x2260,8801,ZZT-908_LL,Alarm Low Low,Signal Tag,305,float 32, , ,Digital,ON,OFF,Block 1474  Output 1
+0x2262,8803,ZZT-908_RAW,,Signal Tag,306,float 32,kg/hr,3,Analog, , ,Block 1462  Output 6
+0x2264,8805,ZZT-908_V,Analog Value,Signal Tag,307,float 32,,0,Analog, , ,Variable #:225
+0x2266,8807,ZZT-908_F,,Signal Tag,308,float 32, , ,Digital,ON,OFF,Block 1475  Output 1
+0x2268,8809,ZZT-908_R,Alarm Reset,Signal Tag,309,float 32, , ,Digital,ON,OFF,Variable #:219
+0x226A,8811,ZZT-908_MOS1,,Signal Tag,310,float 32, , ,Digital,ON,OFF,Variable #:217
+0x226C,8813,ZZT-908_D_F1,Vote Discrepancy,Signal Tag,311,float 32, , ,Digital,ON,OFF,Block 1487  Output 1
+0x226E,8815,LZIT-632_CH,,Signal Tag,312,float 32,,0,Analog, , ,Block 1489  Output 1
+0x2270,8817,LZIT-632_CH_F,Channel Fail,Signal Tag,313,float 32, , ,Digital,ON,OFF,Block 1503  Output 1
+0x2272,8819,LZIT-632_D_F,Discrepancy Fail,Signal Tag,314,float 32, , ,Digital,ON,OFF,Block 1508  Output 1
+0x2274,8821,LZIT-632_FO,First Out,Signal Tag,315,float 32, , ,Digital,ON,OFF,Block 3730  Output 1
+0x2276,8823,LZIT-632_STO,Startup Override,Signal Tag,316,float 32, , ,Digital,ON,OFF,Block 1511  Output 1
+0x2278,8825,LZIT-632_HH,Alarm High High,Signal Tag,317,float 32, , ,Digital,ON,OFF,Block 1496  Output 1
+0x227A,8827,LZIT-632_LL,Alarm Low Low,Signal Tag,318,float 32, , ,Digital,ON,OFF,Block 1500  Output 1
+0x227C,8829,LZIT-632_RAW,,Signal Tag,319,float 32,mm,3,Analog, , ,Block 1488  Output 6
+0x227E,8831,LZIT-632_V,Analog Value,Signal Tag,320,float 32,,0,Analog, , ,Variable #:234
+0x2280,8833,LZIT-632_F,,Signal Tag,321,float 32, , ,Digital,ON,OFF,Block 1501  Output 1
+0x2282,8835,LZIT-632_R,Alarm Reset,Signal Tag,322,float 32, , ,Digital,ON,OFF,Variable #:228
+0x2284,8837,LZIT-632_MOS1,,Signal Tag,323,float 32, , ,Digital,ON,OFF,Variable #:226
+0x2286,8839,LZIT-632_D_F1,Vote Discrepancy,Signal Tag,324,float 32, , ,Digital,ON,OFF,Block 1513  Output 1
+0x2288,8841,LZIT-625_CH,,Signal Tag,325,float 32,,0,Analog, , ,Block 1515  Output 1
+0x228A,8843,LZIT-625_CH_F,Channel Fail,Signal Tag,326,float 32, , ,Digital,ON,OFF,Block 1529  Output 1
+0x228C,8845,LZIT-625_D_F,Discrepancy Fail,Signal Tag,327,float 32, , ,Digital,ON,OFF,Block 1534  Output 1
+0x228E,8847,LZIT-625_FO,First Out,Signal Tag,328,float 32, , ,Digital,ON,OFF,Block 3685  Output 1
+0x2290,8849,LZIT-625_STO,Startup Override,Signal Tag,329,float 32, , ,Digital,ON,OFF,Block 1537  Output 1
+0x2292,8851,LZIT-625_HH,Alarm High High,Signal Tag,330,float 32, , ,Digital,ON,OFF,Block 1522  Output 1
+0x2294,8853,LZIT-625_LL,Alarm Low Low,Signal Tag,331,float 32, , ,Digital,ON,OFF,Block 1526  Output 1
+0x2296,8855,LZIT-625_RAW,,Signal Tag,332,float 32,mm,3,Analog, , ,Block 1514  Output 6
+0x2298,8857,LZIT-625_V,Analog Value,Signal Tag,333,float 32,,0,Analog, , ,Variable #:243
+0x229A,8859,LZIT-625_F,,Signal Tag,334,float 32, , ,Digital,ON,OFF,Block 1527  Output 1
+0x229C,8861,LZIT-625_R,Alarm Reset,Signal Tag,335,float 32, , ,Digital,ON,OFF,Variable #:237
+0x229E,8863,LZIT-625_MOS1,,Signal Tag,336,float 32, , ,Digital,ON,OFF,Variable #:235
+0x22A0,8865,SY-W902A_TRIP,,Signal Tag,337,float 32, , ,Digital,ON,OFF,Block 3761  Output 1
+0x22A2,8867,LZIT-627_CH,,Signal Tag,338,float 32,,0,Analog, , ,Block 1541  Output 1
+0x22A4,8869,LZIT-627_CH_F,Channel Fail,Signal Tag,339,float 32, , ,Digital,ON,OFF,Block 1555  Output 1
+0x22A6,8871,LZIT-627_D_F,Discrepancy Fail,Signal Tag,340,float 32, , ,Digital,ON,OFF,Block 1560  Output 1
+0x22A8,8873,LZIT-627_FO,First Out,Signal Tag,341,float 32, , ,Digital,ON,OFF,Block 3720  Output 1
+0x22AA,8875,LZIT-627_STO,Startup Override,Signal Tag,342,float 32, , ,Digital,ON,OFF,Block 1563  Output 1
+0x22AC,8877,LZIT-627_HH,Alarm High High,Signal Tag,343,float 32, , ,Digital,ON,OFF,Block 1548  Output 1
+0x22AE,8879,LZIT-627_LL,Alarm Low Low,Signal Tag,344,float 32, , ,Digital,ON,OFF,Block 1552  Output 1
+0x22B0,8881,LZIT-627_RAW,,Signal Tag,345,float 32,mm,3,Analog, , ,Block 1540  Output 6
+0x22B2,8883,LZIT-627_V,Analog Value,Signal Tag,346,float 32,,0,Analog, , ,Variable #:252
+0x22B4,8885,LZIT-627_F,,Signal Tag,347,float 32, , ,Digital,ON,OFF,Block 1553  Output 1
+0x22B6,8887,LZIT-627_R,Alarm Reset,Signal Tag,348,float 32, , ,Digital,ON,OFF,Variable #:246
+0x22B8,8889,LZIT-627_MOS1,,Signal Tag,349,float 32, , ,Digital,ON,OFF,Variable #:244
+0x22BA,8891,LZIT-627_D_F1,Vote Discrepancy,Signal Tag,350,float 32, , ,Digital,ON,OFF,Block 1565  Output 1
+0x22BC,8893,LZIT-629_CH,,Signal Tag,351,float 32,,0,Analog, , ,Block 1567  Output 1
+0x22BE,8895,LZIT-629_CH_F,Channel Fail,Signal Tag,352,float 32, , ,Digital,ON,OFF,Block 1581  Output 1
+0x22C0,8897,LZIT-629_D_F,Discrepancy Fail,Signal Tag,353,float 32, , ,Digital,ON,OFF,Block 1586  Output 1
+0x22C2,8899,LZIT-629_FO,First Out,Signal Tag,354,float 32, , ,Digital,ON,OFF,Block 3725  Output 1
+0x22C4,8901,LZIT-629_STO,Startup Override,Signal Tag,355,float 32, , ,Digital,ON,OFF,Block 1589  Output 1
+0x22C6,8903,LZIT-629_HH,Alarm High High,Signal Tag,356,float 32, , ,Digital,ON,OFF,Block 1574  Output 1
+0x22C8,8905,LZIT-629_LL,Alarm Low Low,Signal Tag,357,float 32, , ,Digital,ON,OFF,Block 1578  Output 1
+0x22CA,8907,LZIT-629_RAW,,Signal Tag,358,float 32,mm,3,Analog, , ,Block 1566  Output 6
+0x22CC,8909,LZIT-629_V,Analog Value,Signal Tag,359,float 32,,0,Analog, , ,Variable #:261
+0x22CE,8911,LZIT-629_F,,Signal Tag,360,float 32, , ,Digital,ON,OFF,Block 1579  Output 1
+0x22D0,8913,LZIT-629_R,Alarm Reset,Signal Tag,361,float 32, , ,Digital,ON,OFF,Variable #:255
+0x22D2,8915,LZIT-629_MOS1,,Signal Tag,362,float 32, , ,Digital,ON,OFF,Variable #:253
+0x22D4,8917,LZIT-629_D_F1,Vote Discrepancy,Signal Tag,363,float 32, , ,Digital,ON,OFF,Block 1591  Output 1
+0x22D6,8919,PZIT-W201C_CH,,Signal Tag,364,float 32,,0,Analog, , ,Block 1593  Output 1
+0x22D8,8921,PZIT-W201C_CH_F,Channel Fail,Signal Tag,365,float 32, , ,Digital,ON,OFF,Block 1607  Output 1
+0x22DA,8923,PZIT-W201C_D_F,Discrepancy Fail,Signal Tag,366,float 32, , ,Digital,ON,OFF,Block 1612  Output 1
+0x22DC,8925,PZIT-W201C_FO,First Out,Signal Tag,367,float 32, , ,Digital,ON,OFF,Block 1616  Output 1
+0x22DE,8927,PZIT-W201C_STO,Startup Override,Signal Tag,368,float 32, , ,Digital,ON,OFF,Block 1615  Output 1
+0x22E0,8929,PZIT-W201C_HH,Alarm High High,Signal Tag,369,float 32, , ,Digital,ON,OFF,Block 1600  Output 1
+0x22E2,8931,PZIT-W201C_LL,Alarm Low Low,Signal Tag,370,float 32, , ,Digital,ON,OFF,Block 1604  Output 1
+0x22E4,8933,PZIT-W201C_RAW,,Signal Tag,371,float 32,barg,3,Analog, , ,Block 1592  Output 6
+0x22E6,8935,PZIT-W201C_V,Analog Value,Signal Tag,372,float 32,,0,Analog, , ,Variable #:262
+0x22E8,8937,PZIT-W201C_F,,Signal Tag,373,float 32, , ,Digital,ON,OFF,Block 1605  Output 1
+0x22EA,8939,PZIT-W201C_R,Alarm Reset,Signal Tag,374,float 32, , ,Digital,ON,OFF,Variable #:268
+0x22EC,8941,PZIT-W201C_MOS1,,Signal Tag,375,float 32, , ,Digital,ON,OFF,Variable #:270
+0x22EE,8943,PZIT-W202C_CH,,Signal Tag,376,float 32,,0,Analog, , ,Block 1618  Output 1
+0x22F0,8945,PZIT-W202C_CH_F,Channel Fail,Signal Tag,377,float 32, , ,Digital,ON,OFF,Block 1632  Output 1
+0x22F2,8947,PZIT-W202C_D_F,Discrepancy Fail,Signal Tag,378,float 32, , ,Digital,ON,OFF,Block 1637  Output 1
+0x22F4,8949,PZIT-W202C_FO,First Out,Signal Tag,379,float 32, , ,Digital,ON,OFF,Block 1641  Output 1
+0x22F6,8951,PZIT-W202C_STO,Startup Override,Signal Tag,380,float 32, , ,Digital,ON,OFF,Block 1640  Output 1
+0x22F8,8953,PZIT-W202C_HH,Alarm High High,Signal Tag,381,float 32, , ,Digital,ON,OFF,Block 1625  Output 1
+0x22FA,8955,PZIT-W202C_LL,Alarm Low Low,Signal Tag,382,float 32, , ,Digital,ON,OFF,Block 1629  Output 1
+0x22FC,8957,PZIT-W202C_RAW,,Signal Tag,383,float 32,barg,3,Analog, , ,Block 1617  Output 6
+0x22FE,8959,PZIT-W202C_V,Analog Value,Signal Tag,384,float 32,,0,Analog, , ,Variable #:279
+0x2300,8961,PZIT-W202C_F,,Signal Tag,385,float 32, , ,Digital,ON,OFF,Block 1630  Output 1
+0x2302,8963,PZIT-W202C_R,Alarm Reset,Signal Tag,386,float 32, , ,Digital,ON,OFF,Variable #:273
+0x2304,8965,PZIT-W202C_MOS1,,Signal Tag,387,float 32, , ,Digital,ON,OFF,Variable #:271
+0x2306,8967,PZIT-W203C_CH,,Signal Tag,388,float 32,,0,Analog, , ,Block 1643  Output 1
+0x2308,8969,PZIT-W203C_CH_F,Channel Fail,Signal Tag,389,float 32, , ,Digital,ON,OFF,Block 1657  Output 1
+0x230A,8971,PZIT-W203C_D_F,Discrepancy Fail,Signal Tag,390,float 32, , ,Digital,ON,OFF,Block 1662  Output 1
+0x230C,8973,PZIT-W203C_FO,First Out,Signal Tag,391,float 32, , ,Digital,ON,OFF,Block 1666  Output 1
+0x230E,8975,PZIT-W203C_STO,Startup Override,Signal Tag,392,float 32, , ,Digital,ON,OFF,Block 1665  Output 1
+0x2310,8977,PZIT-W203C_HH,Alarm High High,Signal Tag,393,float 32, , ,Digital,ON,OFF,Block 1650  Output 1
+0x2312,8979,PZIT-W203C_LL,Alarm Low Low,Signal Tag,394,float 32, , ,Digital,ON,OFF,Block 1654  Output 1
+0x2314,8981,PZIT-W203C_RAW,,Signal Tag,395,float 32,barg,3,Analog, , ,Block 1642  Output 6
+0x2316,8983,PZIT-W203C_V,Analog Value,Signal Tag,396,float 32,,0,Analog, , ,Variable #:280
+0x2318,8985,PZIT-W203C_F,,Signal Tag,397,float 32, , ,Digital,ON,OFF,Block 1655  Output 1
+0x231A,8987,PZIT-W203C_R,Alarm Reset,Signal Tag,398,float 32, , ,Digital,ON,OFF,Variable #:286
+0x231C,8989,PZIT-W203C_MOS1,,Signal Tag,399,float 32, , ,Digital,ON,OFF,Variable #:288
+0x231E,8991,PZIT-W208C_CH,,Signal Tag,400,float 32,,0,Analog, , ,Block 1668  Output 1
+0x2320,8993,PZIT-W208C_CH_F,Channel Fail,Signal Tag,401,float 32, , ,Digital,ON,OFF,Block 1682  Output 1
+0x2322,8995,PZIT-W208C_D_F,Discrepancy Fail,Signal Tag,402,float 32, , ,Digital,ON,OFF,Block 1687  Output 1
+0x2324,8997,PZIT-W208C_FO,First Out,Signal Tag,403,float 32, , ,Digital,ON,OFF,Block 3655  Output 1
+0x2326,8999,PZIT-W208C_STO,Startup Override,Signal Tag,404,float 32, , ,Digital,ON,OFF,Block 1690  Output 1
+0x2328,9001,PZIT-W208C_HH,Alarm High High,Signal Tag,405,float 32, , ,Digital,ON,OFF,Block 1675  Output 1
+0x232A,9003,PZIT-W208C_LL,Alarm Low Low,Signal Tag,406,float 32, , ,Digital,ON,OFF,Block 1679  Output 1
+0x232C,9005,PZIT-W208C_RAW,,Signal Tag,407,float 32,barg,3,Analog, , ,Block 1667  Output 6
+0x232E,9007,PZIT-W208C_V,Analog Value,Signal Tag,408,float 32,,0,Analog, , ,Variable #:289
+0x2330,9009,PZIT-W208C_F,,Signal Tag,409,float 32, , ,Digital,ON,OFF,Block 1680  Output 1
+0x2332,9011,PZIT-W208C_R,Alarm Reset,Signal Tag,410,float 32, , ,Digital,ON,OFF,Variable #:295
+0x2334,9013,PZIT-W208C_MOS1,,Signal Tag,411,float 32, , ,Digital,ON,OFF,Variable #:297
+0x2336,9015,PZIT-W207C_CH,,Signal Tag,412,float 32,,0,Analog, , ,Block 1693  Output 1
+0x2338,9017,PZIT-W207C_CH_F,Channel Fail,Signal Tag,413,float 32, , ,Digital,ON,OFF,Block 1707  Output 1
+0x233A,9019,PZIT-W207C_D_F,Discrepancy Fail,Signal Tag,414,float 32, , ,Digital,ON,OFF,Block 1712  Output 1
+0x233C,9021,PZIT-W207C_FO,First Out,Signal Tag,415,float 32, , ,Digital,ON,OFF,Block 3660  Output 1
+0x233E,9023,PZIT-W207C_STO,Startup Override,Signal Tag,416,float 32, , ,Digital,ON,OFF,Block 1715  Output 1
+0x2340,9025,PZIT-W207C_HH,Alarm High High,Signal Tag,417,float 32, , ,Digital,ON,OFF,Block 1700  Output 1
+0x2342,9027,PZIT-W207C_LL,Alarm Low Low,Signal Tag,418,float 32, , ,Digital,ON,OFF,Block 1704  Output 1
+0x2344,9029,PZIT-W207C_RAW,,Signal Tag,419,float 32,barg,3,Analog, , ,Block 1692  Output 6
+0x2346,9031,PZIT-W207C_V,Analog Value,Signal Tag,420,float 32,,0,Analog, , ,Variable #:298
+0x2348,9033,PZIT-W207C_F,,Signal Tag,421,float 32, , ,Digital,ON,OFF,Block 1705  Output 1
+0x234A,9035,PZIT-W207C_R,Alarm Reset,Signal Tag,422,float 32, , ,Digital,ON,OFF,Variable #:304
+0x234C,9037,PZIT-W207C_MOS1,,Signal Tag,423,float 32, , ,Digital,ON,OFF,Variable #:306
+0x234E,9039,LZIT-605B_CH,,Signal Tag,424,float 32,,0,Analog, , ,Block 1718  Output 1
+0x2350,9041,LZIT-605B_CH_F,Channel Fail,Signal Tag,425,float 32, , ,Digital,ON,OFF,Block 1732  Output 1
+0x2352,9043,LZIT-605B_D_F,Discrepancy Fail,Signal Tag,426,float 32, , ,Digital,ON,OFF,Block 1737  Output 1
+0x2354,9045,LZIT-605B_FO,First Out,Signal Tag,427,float 32, , ,Digital,ON,OFF,Block 1741  Output 1
+0x2356,9047,LZIT-605B_STO,Startup Override,Signal Tag,428,float 32, , ,Digital,ON,OFF,Block 1740  Output 1
+0x2358,9049,LZIT-605B_HH,Alarm High High,Signal Tag,429,float 32, , ,Digital,ON,OFF,Block 1725  Output 1
+0x235A,9051,LZIT-605B_LL,Alarm Low Low,Signal Tag,430,float 32, , ,Digital,ON,OFF,Block 1729  Output 1
+0x235C,9053,LZIT-605B_RAW,,Signal Tag,431,float 32,mm,3,Analog, , ,Block 1717  Output 6
+0x235E,9055,LZIT-605B_V,Analog Value,Signal Tag,432,float 32,,0,Analog, , ,Variable #:307
+0x2360,9057,LZIT-605B_F,,Signal Tag,433,float 32, , ,Digital,ON,OFF,Block 1730  Output 1
+0x2362,9059,LZIT-605B_R,Alarm Reset,Signal Tag,434,float 32, , ,Digital,ON,OFF,Variable #:313
+0x2364,9061,LZIT-605B_MOS1,,Signal Tag,435,float 32, , ,Digital,ON,OFF,Variable #:315
+0x2366,9063,LZIT-605B_D_F1,Vote Discrepancy,Signal Tag,436,float 32, , ,Digital,ON,OFF,Block 1743  Output 1
+0x2368,9065,PZIT-219-2_CH,,Signal Tag,437,float 32,,0,Analog, , ,Block 1745  Output 1
+0x236A,9067,PZIT-219-2_CH_F,Channel Fail,Signal Tag,438,float 32, , ,Digital,ON,OFF,Block 1759  Output 1
+0x236C,9069,PZIT-219-2_D_F,Discrepancy Fail,Signal Tag,439,float 32, , ,Digital,ON,OFF,Block 1764  Output 1
+0x236E,9071,PZIT-219-2_FO,First Out,Signal Tag,440,float 32, , ,Digital,ON,OFF,Block 1768  Output 1
+0x2370,9073,PZIT-219-2_STO,Startup Override,Signal Tag,441,float 32, , ,Digital,ON,OFF,Block 1767  Output 1
+0x2372,9075,PZIT-219-2_HH,Alarm High High,Signal Tag,442,float 32, , ,Digital,ON,OFF,Block 1752  Output 1
+0x2374,9077,PZIT-219-2_LL,Alarm Low Low,Signal Tag,443,float 32, , ,Digital,ON,OFF,Block 1756  Output 1
+0x2376,9079,PZIT-219-2_RAW,,Signal Tag,444,float 32,barg,3,Analog, , ,Block 1744  Output 6
+0x2378,9081,PZIT-219-2_V,Analog Value,Signal Tag,445,float 32,,0,Analog, , ,Variable #:316
+0x237A,9083,PZIT-219-2_F,,Signal Tag,446,float 32, , ,Digital,ON,OFF,Block 1757  Output 1
+0x237C,9085,PZIT-219-2_R,Alarm Reset,Signal Tag,447,float 32, , ,Digital,ON,OFF,Variable #:322
+0x237E,9087,PZIT-219-2_MOS1,,Signal Tag,448,float 32, , ,Digital,ON,OFF,Variable #:324
+0x2380,9089,PZIT-219-2_D_F1,Vote Discrepancy,Signal Tag,449,float 32, , ,Digital,ON,OFF,Block 1770  Output 1
+0x2382,9091,PZIT-230-2_CH,,Signal Tag,450,float 32,,0,Analog, , ,Block 1772  Output 1
+0x2384,9093,PZIT-230-2_CH_F,Channel Fail,Signal Tag,451,float 32, , ,Digital,ON,OFF,Block 1786  Output 1
+0x2386,9095,PZIT-230-2_D_F,Discrepancy Fail,Signal Tag,452,float 32, , ,Digital,ON,OFF,Block 1791  Output 1
+0x2388,9097,PZIT-230-2_FO,First Out,Signal Tag,453,float 32, , ,Digital,ON,OFF,Block 1795  Output 1
+0x238A,9099,PZIT-230-2_STO,Startup Override,Signal Tag,454,float 32, , ,Digital,ON,OFF,Block 1794  Output 1
+0x238C,9101,PZIT-230-2_HH,Alarm High High,Signal Tag,455,float 32, , ,Digital,ON,OFF,Block 1779  Output 1
+0x238E,9103,PZIT-230-2_LL,Alarm Low Low,Signal Tag,456,float 32, , ,Digital,ON,OFF,Block 1783  Output 1
+0x2390,9105,PZIT-230-2_RAW,,Signal Tag,457,float 32,barg,3,Analog, , ,Block 1771  Output 6
+0x2392,9107,PZIT-230-2_V,Analog Value,Signal Tag,458,float 32,,0,Analog, , ,Variable #:325
+0x2394,9109,PZIT-230-2_F,,Signal Tag,459,float 32, , ,Digital,ON,OFF,Block 1784  Output 1
+0x2396,9111,PZIT-230-2_R,Alarm Reset,Signal Tag,460,float 32, , ,Digital,ON,OFF,Variable #:331
+0x2398,9113,PZIT-230-2_MOS1,,Signal Tag,461,float 32, , ,Digital,ON,OFF,Variable #:333
+0x239A,9115,PZIT-230-2_D_F1,Vote Discrepancy,Signal Tag,462,float 32, , ,Digital,ON,OFF,Block 1797  Output 1
+0x239C,9117,PZIT-229B_CH,,Signal Tag,463,float 32,,0,Analog, , ,Block 1799  Output 1
+0x239E,9119,PZIT-229B_CH_F,Channel Fail,Signal Tag,464,float 32, , ,Digital,ON,OFF,Block 1813  Output 1
+0x23A0,9121,PZIT-229B_D_F,Discrepancy Fail,Signal Tag,465,float 32, , ,Digital,ON,OFF,Block 1818  Output 1
+0x23A2,9123,PZIT-229B_FO,First Out,Signal Tag,466,float 32, , ,Digital,ON,OFF,Block 3710  Output 1
+0x23A4,9125,PZIT-229B_STO,Startup Override,Signal Tag,467,float 32, , ,Digital,ON,OFF,Block 1821  Output 1
+0x23A6,9127,PZIT-229B_HH,Alarm High High,Signal Tag,468,float 32, , ,Digital,ON,OFF,Block 1806  Output 1
+0x23A8,9129,PZIT-229B_LL,Alarm Low Low,Signal Tag,469,float 32, , ,Digital,ON,OFF,Block 1810  Output 1
+0x23AA,9131,PZIT-229B_RAW,,Signal Tag,470,float 32,barg,3,Analog, , ,Block 1798  Output 6
+0x23AC,9133,PZIT-229B_V,Analog Value,Signal Tag,471,float 32,,0,Analog, , ,Variable #:334
+0x23AE,9135,PZIT-229B_F,,Signal Tag,472,float 32, , ,Digital,ON,OFF,Block 1811  Output 1
+0x23B0,9137,PZIT-229B_R,Alarm Reset,Signal Tag,473,float 32, , ,Digital,ON,OFF,Variable #:340
+0x23B2,9139,PZIT-229B_MOS1,,Signal Tag,474,float 32, , ,Digital,ON,OFF,Variable #:342
+0x23B4,9141,PZIT-226B_CH,,Signal Tag,475,float 32,,0,Analog, , ,Block 1824  Output 1
+0x23B6,9143,PZIT-226B_CH_F,Channel Fail,Signal Tag,476,float 32, , ,Digital,ON,OFF,Block 1838  Output 1
+0x23B8,9145,PZIT-226B_D_F,Discrepancy Fail,Signal Tag,477,float 32, , ,Digital,ON,OFF,Block 1843  Output 1
+0x23BA,9147,PZIT-226B_FO,First Out,Signal Tag,478,float 32, , ,Digital,ON,OFF,Block 3715  Output 1
+0x23BC,9149,PZIT-226B_STO,Startup Override,Signal Tag,479,float 32, , ,Digital,ON,OFF,Block 1846  Output 1
+0x23BE,9151,PZIT-226B_HH,Alarm High High,Signal Tag,480,float 32, , ,Digital,ON,OFF,Block 1831  Output 1
+0x23C0,9153,PZIT-226B_LL,Alarm Low Low,Signal Tag,481,float 32, , ,Digital,ON,OFF,Block 1835  Output 1
+0x23C2,9155,PZIT-226B_RAW,,Signal Tag,482,float 32,barg,3,Analog, , ,Block 1823  Output 6
+0x23C4,9157,PZIT-226B_V,Analog Value,Signal Tag,483,float 32,,0,Analog, , ,Variable #:343
+0x23C6,9159,PZIT-226B_F,,Signal Tag,484,float 32, , ,Digital,ON,OFF,Block 1836  Output 1
+0x23C8,9161,PZIT-226B_R,Alarm Reset,Signal Tag,485,float 32, , ,Digital,ON,OFF,Variable #:349
+0x23CA,9163,PZIT-226B_MOS1,,Signal Tag,486,float 32, , ,Digital,ON,OFF,Variable #:351
+0x23CC,9165,PZIT-227B_CH,,Signal Tag,487,float 32,,0,Analog, , ,Block 1849  Output 1
+0x23CE,9167,PZIT-227B_CH_F,Channel Fail,Signal Tag,488,float 32, , ,Digital,ON,OFF,Block 1863  Output 1
+0x23D0,9169,PZIT-227B_D_F,Discrepancy Fail,Signal Tag,489,float 32, , ,Digital,ON,OFF,Block 1868  Output 1
+0x23D2,9171,PZIT-227B_FO,First Out,Signal Tag,490,float 32, , ,Digital,ON,OFF,Block 1872  Output 1
+0x23D4,9173,PZIT-227B_STO,Startup Override,Signal Tag,491,float 32, , ,Digital,ON,OFF,Block 1871  Output 1
+0x23D6,9175,PZIT-227B_HH,Alarm High High,Signal Tag,492,float 32, , ,Digital,ON,OFF,Block 1856  Output 1
+0x23D8,9177,PZIT-227B_LL,Alarm Low Low,Signal Tag,493,float 32, , ,Digital,ON,OFF,Block 1860  Output 1
+0x23DA,9179,PZIT-227B_RAW,,Signal Tag,494,float 32,barg,3,Analog, , ,Block 1848  Output 6
+0x23DC,9181,PZIT-227B_V,Analog Value,Signal Tag,495,float 32,,0,Analog, , ,Variable #:352
+0x23DE,9183,PZIT-227B_F,,Signal Tag,496,float 32, , ,Digital,ON,OFF,Block 1861  Output 1
+0x23E0,9185,PZIT-227B_R,Alarm Reset,Signal Tag,497,float 32, , ,Digital,ON,OFF,Variable #:358
+0x23E2,9187,PZIT-227B_MOS1,,Signal Tag,498,float 32, , ,Digital,ON,OFF,Variable #:360
+0x23E4,9189,PZIT-228B_CH,,Signal Tag,499,float 32,,0,Analog, , ,Block 1874  Output 1
+0x23E6,9191,PZIT-228B_CH_F,Channel Fail,Signal Tag,500,float 32, , ,Digital,ON,OFF,Block 1888  Output 1
+0x23E8,9193,PZIT-228B_D_F,Discrepancy Fail,Signal Tag,501,float 32, , ,Digital,ON,OFF,Block 1893  Output 1
+0x23EA,9195,PZIT-228B_FO,First Out,Signal Tag,502,float 32, , ,Digital,ON,OFF,Block 1897  Output 1
+0x23EC,9197,PZIT-228B_STO,Startup Override,Signal Tag,503,float 32, , ,Digital,ON,OFF,Block 1896  Output 1
+0x23EE,9199,PZIT-228B_HH,Alarm High High,Signal Tag,504,float 32, , ,Digital,ON,OFF,Block 1881  Output 1
+0x23F0,9201,PZIT-228B_LL,Alarm Low Low,Signal Tag,505,float 32, , ,Digital,ON,OFF,Block 1885  Output 1
+0x23F2,9203,PZIT-228B_RAW,,Signal Tag,506,float 32,barg,3,Analog, , ,Block 1873  Output 6
+0x23F4,9205,PZIT-228B_V,Analog Value,Signal Tag,507,float 32,,0,Analog, , ,Variable #:361
+0x23F6,9207,PZIT-228B_F,,Signal Tag,508,float 32, , ,Digital,ON,OFF,Block 1886  Output 1
+0x23F8,9209,PZIT-228B_R,Alarm Reset,Signal Tag,509,float 32, , ,Digital,ON,OFF,Variable #:367
+0x23FA,9211,PZIT-228B_MOS1,,Signal Tag,510,float 32, , ,Digital,ON,OFF,Variable #:369
+0x23FC,9213,PZIT-W201D_CH,,Signal Tag,511,float 32,,0,Analog, , ,Block 1899  Output 1
+0x23FE,9215,PZIT-W201D_CH_F,Channel Fail,Signal Tag,512,float 32, , ,Digital,ON,OFF,Block 1913  Output 1
+0x2400,9217,PZIT-W201D_D_F,Discrepancy Fail,Signal Tag,513,float 32, , ,Digital,ON,OFF,Block 1918  Output 1
+0x2402,9219,PZIT-W201D_FO,First Out,Signal Tag,514,float 32, , ,Digital,ON,OFF,Block 1922  Output 1
+0x2404,9221,PZIT-W201D_STO,Startup Override,Signal Tag,515,float 32, , ,Digital,ON,OFF,Block 1921  Output 1
+0x2406,9223,PZIT-W201D_HH,Alarm High High,Signal Tag,516,float 32, , ,Digital,ON,OFF,Block 1906  Output 1
+0x2408,9225,PZIT-W201D_LL,Alarm Low Low,Signal Tag,517,float 32, , ,Digital,ON,OFF,Block 1910  Output 1
+0x240A,9227,PZIT-W201D_RAW,,Signal Tag,518,float 32,barg,3,Analog, , ,Block 1898  Output 6
+0x240C,9229,PZIT-W201D_V,Analog Value,Signal Tag,519,float 32,,0,Analog, , ,Variable #:370
+0x240E,9231,PZIT-W201D_F,,Signal Tag,520,float 32, , ,Digital,ON,OFF,Block 1911  Output 1
+0x2410,9233,PZIT-W201D_R,Alarm Reset,Signal Tag,521,float 32, , ,Digital,ON,OFF,Variable #:376
+0x2412,9235,PZIT-W201D_MOS1,,Signal Tag,522,float 32, , ,Digital,ON,OFF,Variable #:378
+0x2414,9237,PZIT-W202D_CH,,Signal Tag,523,float 32,,0,Analog, , ,Block 1924  Output 1
+0x2416,9239,PZIT-W202D_CH_F,Channel Fail,Signal Tag,524,float 32, , ,Digital,ON,OFF,Block 1938  Output 1
+0x2418,9241,PZIT-W202D_D_F,Discrepancy Fail,Signal Tag,525,float 32, , ,Digital,ON,OFF,Block 1943  Output 1
+0x241A,9243,PZIT-W202D_FO,First Out,Signal Tag,526,float 32, , ,Digital,ON,OFF,Block 1947  Output 1
+0x241C,9245,PZIT-W202D_STO,Startup Override,Signal Tag,527,float 32, , ,Digital,ON,OFF,Block 1946  Output 1
+0x241E,9247,PZIT-W202D_HH,Alarm High High,Signal Tag,528,float 32, , ,Digital,ON,OFF,Block 1931  Output 1
+0x2420,9249,PZIT-W202D_LL,Alarm Low Low,Signal Tag,529,float 32, , ,Digital,ON,OFF,Block 1935  Output 1
+0x2422,9251,PZIT-W202D_RAW,,Signal Tag,530,float 32,barg,3,Analog, , ,Block 1923  Output 6
+0x2424,9253,PZIT-W202D_V,Analog Value,Signal Tag,531,float 32,,0,Analog, , ,Variable #:387
+0x2426,9255,PZIT-W202D_F,,Signal Tag,532,float 32, , ,Digital,ON,OFF,Block 1936  Output 1
+0x2428,9257,PZIT-W202D_R,Alarm Reset,Signal Tag,533,float 32, , ,Digital,ON,OFF,Variable #:381
+0x242A,9259,PZIT-W202D_MOS1,,Signal Tag,534,float 32, , ,Digital,ON,OFF,Variable #:379
+0x242C,9261,PZIT-W203D_CH,,Signal Tag,535,float 32,,0,Analog, , ,Block 1949  Output 1
+0x242E,9263,PZIT-W203D_CH_F,Channel Fail,Signal Tag,536,float 32, , ,Digital,ON,OFF,Block 1963  Output 1
+0x2430,9265,PZIT-W203D_D_F,Discrepancy Fail,Signal Tag,537,float 32, , ,Digital,ON,OFF,Block 1968  Output 1
+0x2432,9267,PZIT-W203D_FO,First Out,Signal Tag,538,float 32, , ,Digital,ON,OFF,Block 1972  Output 1
+0x2434,9269,PZIT-W203D_STO,Startup Override,Signal Tag,539,float 32, , ,Digital,ON,OFF,Block 1971  Output 1
+0x2436,9271,PZIT-W203D_HH,Alarm High High,Signal Tag,540,float 32, , ,Digital,ON,OFF,Block 1956  Output 1
+0x2438,9273,PZIT-W203D_LL,Alarm Low Low,Signal Tag,541,float 32, , ,Digital,ON,OFF,Block 1960  Output 1
+0x243A,9275,PZIT-W203D_RAW,,Signal Tag,542,float 32,barg,3,Analog, , ,Block 1948  Output 6
+0x243C,9277,PZIT-W203D_V,Analog Value,Signal Tag,543,float 32,,0,Analog, , ,Variable #:388
+0x243E,9279,PZIT-W203D_F,,Signal Tag,544,float 32, , ,Digital,ON,OFF,Block 1961  Output 1
+0x2440,9281,PZIT-W203D_R,Alarm Reset,Signal Tag,545,float 32, , ,Digital,ON,OFF,Variable #:394
+0x2442,9283,PZIT-W203D_MOS1,,Signal Tag,546,float 32, , ,Digital,ON,OFF,Variable #:396
+0x2444,9285,PZIT-W208D_CH,,Signal Tag,547,float 32,,0,Analog, , ,Block 1974  Output 1
+0x2446,9287,PZIT-W208D_CH_F,Channel Fail,Signal Tag,548,float 32, , ,Digital,ON,OFF,Block 1988  Output 1
+0x2448,9289,PZIT-W208D_D_F,Discrepancy Fail,Signal Tag,549,float 32, , ,Digital,ON,OFF,Block 1993  Output 1
+0x244A,9291,PZIT-W208D_FO,First Out,Signal Tag,550,float 32, , ,Digital,ON,OFF,Block 3670  Output 1
+0x244C,9293,PZIT-W208D_STO,Startup Override,Signal Tag,551,float 32, , ,Digital,ON,OFF,Block 1996  Output 1
+0x244E,9295,PZIT-W208D_HH,Alarm High High,Signal Tag,552,float 32, , ,Digital,ON,OFF,Block 1981  Output 1
+0x2450,9297,PZIT-W208D_LL,Alarm Low Low,Signal Tag,553,float 32, , ,Digital,ON,OFF,Block 1985  Output 1
+0x2452,9299,PZIT-W208D_RAW,,Signal Tag,554,float 32,barg,3,Analog, , ,Block 1973  Output 6
+0x2454,9301,PZIT-W208D_V,Analog Value,Signal Tag,555,float 32,,0,Analog, , ,Variable #:397
+0x2456,9303,PZIT-W208D_F,,Signal Tag,556,float 32, , ,Digital,ON,OFF,Block 1986  Output 1
+0x2458,9305,PZIT-W208D_R,Alarm Reset,Signal Tag,557,float 32, , ,Digital,ON,OFF,Variable #:403
+0x245A,9307,PZIT-W208D_MOS1,,Signal Tag,558,float 32, , ,Digital,ON,OFF,Variable #:405
+0x245C,9309,PZIT-W207D_CH,,Signal Tag,559,float 32,,0,Analog, , ,Block 1999  Output 1
+0x245E,9311,PZIT-W207D_CH_F,Channel Fail,Signal Tag,560,float 32, , ,Digital,ON,OFF,Block 2013  Output 1
+0x2460,9313,PZIT-W207D_D_F,Discrepancy Fail,Signal Tag,561,float 32, , ,Digital,ON,OFF,Block 2018  Output 1
+0x2462,9315,PZIT-W207D_FO,First Out,Signal Tag,562,float 32, , ,Digital,ON,OFF,Block 3665  Output 1
+0x2464,9317,PZIT-W207D_STO,Startup Override,Signal Tag,563,float 32, , ,Digital,ON,OFF,Block 2021  Output 1
+0x2466,9319,PZIT-W207D_HH,Alarm High High,Signal Tag,564,float 32, , ,Digital,ON,OFF,Block 2006  Output 1
+0x2468,9321,PZIT-W207D_LL,Alarm Low Low,Signal Tag,565,float 32, , ,Digital,ON,OFF,Block 2010  Output 1
+0x246A,9323,PZIT-W207D_RAW,,Signal Tag,566,float 32,barg,3,Analog, , ,Block 1998  Output 6
+0x246C,9325,PZIT-W207D_V,Analog Value,Signal Tag,567,float 32,,0,Analog, , ,Variable #:406
+0x246E,9327,PZIT-W207D_F,,Signal Tag,568,float 32, , ,Digital,ON,OFF,Block 2011  Output 1
+0x2470,9329,PZIT-W207D_R,Alarm Reset,Signal Tag,569,float 32, , ,Digital,ON,OFF,Variable #:412
+0x2472,9331,PZIT-W207D_MOS1,,Signal Tag,570,float 32, , ,Digital,ON,OFF,Variable #:414
+0x2474,9333,PZIT-606_CH,,Signal Tag,571,float 32,,0,Analog, , ,Block 2048  Output 1
+0x2476,9335,PZIT-606_CH_F,Channel Fail,Signal Tag,572,float 32, , ,Digital,ON,OFF,Block 2062  Output 1
+0x2478,9337,PZIT-606_D_F,Discrepancy Fail,Signal Tag,573,float 32, , ,Digital,ON,OFF,Block 2067  Output 1
+0x247A,9339,PZIT-606_FO,First Out,Signal Tag,574,float 32, , ,Digital,ON,OFF,Block 3745  Output 1
+0x247C,9341,PZIT-606_STO,Startup Override,Signal Tag,575,float 32, , ,Digital,ON,OFF,Block 2070  Output 1
+0x247E,9343,PZIT-606_HH,Alarm High High,Signal Tag,576,float 32, , ,Digital,ON,OFF,Block 2055  Output 1
+0x2480,9345,PZIT-606_LL,Alarm Low Low,Signal Tag,577,float 32, , ,Digital,ON,OFF,Block 2059  Output 1
+0x2482,9347,PZIT-606_RAW,,Signal Tag,578,float 32,barg,3,Analog, , ,Block 2047  Output 6
+0x2484,9349,PZIT-606_V,Analog Value,Signal Tag,579,float 32,,0,Analog, , ,Variable #:415
+0x2486,9351,PZIT-606_F,,Signal Tag,580,float 32, , ,Digital,ON,OFF,Block 2060  Output 1
+0x2488,9353,PZIT-606_R,Alarm Reset,Signal Tag,581,float 32, , ,Digital,ON,OFF,Variable #:421
+0x248A,9355,PZIT-606_MOS1,,Signal Tag,582,float 32, , ,Digital,ON,OFF,Variable #:423
+0x248C,9357,PZIT-608_CH,,Signal Tag,583,float 32,,0,Analog, , ,Block 2073  Output 1
+0x248E,9359,PZIT-608_CH_F,Channel Fail,Signal Tag,584,float 32, , ,Digital,ON,OFF,Block 2087  Output 1
+0x2490,9361,PZIT-608_D_F,Discrepancy Fail,Signal Tag,585,float 32, , ,Digital,ON,OFF,Block 2092  Output 1
+0x2492,9363,PZIT-608_FO,First Out,Signal Tag,586,float 32, , ,Digital,ON,OFF,Block 3750  Output 1
+0x2494,9365,PZIT-608_STO,Startup Override,Signal Tag,587,float 32, , ,Digital,ON,OFF,Block 2095  Output 1
+0x2496,9367,PZIT-608_HH,Alarm High High,Signal Tag,588,float 32, , ,Digital,ON,OFF,Block 2080  Output 1
+0x2498,9369,PZIT-608_LL,Alarm Low Low,Signal Tag,589,float 32, , ,Digital,ON,OFF,Block 2084  Output 1
+0x249A,9371,PZIT-608_RAW,,Signal Tag,590,float 32,barg,3,Analog, , ,Block 2072  Output 6
+0x249C,9373,PZIT-608_V,Analog Value,Signal Tag,591,float 32,,0,Analog, , ,Variable #:424
+0x249E,9375,PZIT-608_F,,Signal Tag,592,float 32, , ,Digital,ON,OFF,Block 2085  Output 1
+0x24A0,9377,PZIT-608_R,Alarm Reset,Signal Tag,593,float 32, , ,Digital,ON,OFF,Variable #:430
+0x24A2,9379,PZIT-608_MOS1,,Signal Tag,594,float 32, , ,Digital,ON,OFF,Variable #:432
+0x24A4,9381,PZIT-613_CH,,Signal Tag,595,float 32,,0,Analog, , ,Block 2098  Output 1
+0x24A6,9383,PZIT-613_CH_F,Channel Fail,Signal Tag,596,float 32, , ,Digital,ON,OFF,Block 2112  Output 1
+0x24A8,9385,PZIT-613_D_F,Discrepancy Fail,Signal Tag,597,float 32, , ,Digital,ON,OFF,Block 2117  Output 1
+0x24AA,9387,PZIT-613_FO,First Out,Signal Tag,598,float 32, , ,Digital,ON,OFF,Block 3755  Output 1
+0x24AC,9389,PZIT-613_STO,Startup Override,Signal Tag,599,float 32, , ,Digital,ON,OFF,Block 2120  Output 1
+0x24AE,9391,PZIT-613_HH,Alarm High High,Signal Tag,600,float 32, , ,Digital,ON,OFF,Block 2105  Output 1
+0x24B0,9393,PZIT-613_LL,Alarm Low Low,Signal Tag,601,float 32, , ,Digital,ON,OFF,Block 2109  Output 1
+0x24B2,9395,PZIT-613_RAW,,Signal Tag,602,float 32,barg,3,Analog, , ,Block 2097  Output 6
+0x24B4,9397,PZIT-613_V,Analog Value,Signal Tag,603,float 32,,0,Analog, , ,Variable #:433
+0x24B6,9399,PZIT-613_F,,Signal Tag,604,float 32, , ,Digital,ON,OFF,Block 2110  Output 1
+0x24B8,9401,PZIT-613_R,Alarm Reset,Signal Tag,605,float 32, , ,Digital,ON,OFF,Variable #:439
+0x24BA,9403,PZIT-613_MOS1,,Signal Tag,606,float 32, , ,Digital,ON,OFF,Variable #:441
+0x24BC,9405,PZIT-614_CH,,Signal Tag,607,float 32,,0,Analog, , ,Block 2123  Output 1
+0x24BE,9407,PZIT-614_CH_F,Channel Fail,Signal Tag,608,float 32, , ,Digital,ON,OFF,Block 2137  Output 1
+0x24C0,9409,PZIT-614_D_F,Discrepancy Fail,Signal Tag,609,float 32, , ,Digital,ON,OFF,Block 2142  Output 1
+0x24C2,9411,PZIT-614_FO,First Out,Signal Tag,610,float 32, , ,Digital,ON,OFF,Block 3760  Output 1
+0x24C4,9413,PZIT-614_STO,Startup Override,Signal Tag,611,float 32, , ,Digital,ON,OFF,Block 2145  Output 1
+0x24C6,9415,PZIT-614_HH,Alarm High High,Signal Tag,612,float 32, , ,Digital,ON,OFF,Block 2130  Output 1
+0x24C8,9417,PZIT-614_LL,Alarm Low Low,Signal Tag,613,float 32, , ,Digital,ON,OFF,Block 2134  Output 1
+0x24CA,9419,PZIT-614_RAW,,Signal Tag,614,float 32,barg,3,Analog, , ,Block 2122  Output 6
+0x24CC,9421,PZIT-614_V,Analog Value,Signal Tag,615,float 32,,0,Analog, , ,Variable #:442
+0x24CE,9423,PZIT-614_F,,Signal Tag,616,float 32, , ,Digital,ON,OFF,Block 2135  Output 1
+0x24D0,9425,PZIT-614_R,Alarm Reset,Signal Tag,617,float 32, , ,Digital,ON,OFF,Variable #:448
+0x24D2,9427,PZIT-614_MOS1,,Signal Tag,618,float 32, , ,Digital,ON,OFF,Variable #:450
+0x24D4,9429,PZIT-616_CH,,Signal Tag,619,float 32,,0,Analog, , ,Block 2148  Output 1
+0x24D6,9431,PZIT-616_CH_F,Channel Fail,Signal Tag,620,float 32, , ,Digital,ON,OFF,Block 2162  Output 1
+0x24D8,9433,PZIT-616_D_F,Discrepancy Fail,Signal Tag,621,float 32, , ,Digital,ON,OFF,Block 2167  Output 1
+0x24DA,9435,PZIT-616_FO,First Out,Signal Tag,622,float 32, , ,Digital,ON,OFF,Block 3590  Output 1
+0x24DC,9437,PZIT-616_STO,Startup Override,Signal Tag,623,float 32, , ,Digital,ON,OFF,Block 2170  Output 1
+0x24DE,9439,PZIT-616_HH,Alarm High High,Signal Tag,624,float 32, , ,Digital,ON,OFF,Block 2155  Output 1
+0x24E0,9441,PZIT-616_LL,Alarm Low Low,Signal Tag,625,float 32, , ,Digital,ON,OFF,Block 2159  Output 1
+0x24E2,9443,PZIT-616_RAW,,Signal Tag,626,float 32,barg,3,Analog, , ,Block 2147  Output 6
+0x24E4,9445,PZIT-616_V,Analog Value,Signal Tag,627,float 32,,0,Analog, , ,Variable #:451
+0x24E6,9447,PZIT-616_F,,Signal Tag,628,float 32, , ,Digital,ON,OFF,Block 2160  Output 1
+0x24E8,9449,PZIT-616_R,Alarm Reset,Signal Tag,629,float 32, , ,Digital,ON,OFF,Variable #:457
+0x24EA,9451,PZIT-616_MOS1,,Signal Tag,630,float 32, , ,Digital,ON,OFF,Variable #:459
+0x24EC,9453,PZIT-617_CH,,Signal Tag,631,float 32,,0,Analog, , ,Block 2173  Output 1
+0x24EE,9455,PZIT-617_CH_F,Channel Fail,Signal Tag,632,float 32, , ,Digital,ON,OFF,Block 2187  Output 1
+0x24F0,9457,PZIT-617_D_F,Discrepancy Fail,Signal Tag,633,float 32, , ,Digital,ON,OFF,Block 2192  Output 1
+0x24F2,9459,PZIT-617_FO,First Out,Signal Tag,634,float 32, , ,Digital,ON,OFF,Block 3595  Output 1
+0x24F4,9461,PZIT-617_STO,Startup Override,Signal Tag,635,float 32, , ,Digital,ON,OFF,Block 2195  Output 1
+0x24F6,9463,PZIT-617_HH,Alarm High High,Signal Tag,636,float 32, , ,Digital,ON,OFF,Block 2180  Output 1
+0x24F8,9465,PZIT-617_LL,Alarm Low Low,Signal Tag,637,float 32, , ,Digital,ON,OFF,Block 2184  Output 1
+0x24FA,9467,PZIT-617_RAW,,Signal Tag,638,float 32,barg,3,Analog, , ,Block 2172  Output 6
+0x24FC,9469,PZIT-617_V,Analog Value,Signal Tag,639,float 32,,0,Analog, , ,Variable #:460
+0x24FE,9471,PZIT-617_F,,Signal Tag,640,float 32, , ,Digital,ON,OFF,Block 2185  Output 1
+0x2500,9473,PZIT-617_R,Alarm Reset,Signal Tag,641,float 32, , ,Digital,ON,OFF,Variable #:466
+0x2502,9475,PZIT-617_MOS1,,Signal Tag,642,float 32, , ,Digital,ON,OFF,Variable #:468
+0x2504,9477,LZIT-603_CH,,Signal Tag,643,float 32,,0,Analog, , ,Block 2198  Output 1
+0x2506,9479,LZIT-603_CH_F,Channel Fail,Signal Tag,644,float 32, , ,Digital,ON,OFF,Block 2212  Output 1
+0x2508,9481,LZIT-603_D_F,Discrepancy Fail,Signal Tag,645,float 32, , ,Digital,ON,OFF,Block 2217  Output 1
+0x250A,9483,LZIT-603_FO,First Out,Signal Tag,646,float 32, , ,Digital,ON,OFF,Block 3735  Output 1
+0x250C,9485,LZIT-603_STO,Startup Override,Signal Tag,647,float 32, , ,Digital,ON,OFF,Block 2220  Output 1
+0x250E,9487,LZIT-603_HH,Alarm High High,Signal Tag,648,float 32, , ,Digital,ON,OFF,Block 2205  Output 1
+0x2510,9489,LZIT-603_LL,Alarm Low Low,Signal Tag,649,float 32, , ,Digital,ON,OFF,Block 2209  Output 1
+0x2512,9491,LZIT-603_RAW,,Signal Tag,650,float 32,mm,3,Analog, , ,Block 2197  Output 6
+0x2514,9493,LZIT-603_V,Analog Value,Signal Tag,651,float 32,,0,Analog, , ,Variable #:469
+0x2516,9495,LZIT-603_F,,Signal Tag,652,float 32, , ,Digital,ON,OFF,Block 2210  Output 1
+0x2518,9497,LZIT-603_R,Alarm Reset,Signal Tag,653,float 32, , ,Digital,ON,OFF,Variable #:475
+0x251A,9499,LZIT-603_MOS1,,Signal Tag,654,float 32, , ,Digital,ON,OFF,Variable #:477
+0x251C,9501,LZIT-604_CH,,Signal Tag,655,float 32,,0,Analog, , ,Block 2223  Output 1
+0x251E,9503,LZIT-604_CH_F,Channel Fail,Signal Tag,656,float 32, , ,Digital,ON,OFF,Block 2237  Output 1
+0x2520,9505,LZIT-604_D_F,Discrepancy Fail,Signal Tag,657,float 32, , ,Digital,ON,OFF,Block 2242  Output 1
+0x2522,9507,LZIT-604_FO,First Out,Signal Tag,658,float 32, , ,Digital,ON,OFF,Block 3740  Output 1
+0x2524,9509,LZIT-604_STO,Startup Override,Signal Tag,659,float 32, , ,Digital,ON,OFF,Block 2245  Output 1
+0x2526,9511,LZIT-604_HH,Alarm High High,Signal Tag,660,float 32, , ,Digital,ON,OFF,Block 2230  Output 1
+0x2528,9513,LZIT-604_LL,Alarm Low Low,Signal Tag,661,float 32, , ,Digital,ON,OFF,Block 2234  Output 1
+0x252A,9515,LZIT-604_RAW,,Signal Tag,662,float 32,mm,3,Analog, , ,Block 2222  Output 6
+0x252C,9517,LZIT-604_V,Analog Value,Signal Tag,663,float 32,,0,Analog, , ,Variable #:486
+0x252E,9519,LZIT-604_F,,Signal Tag,664,float 32, , ,Digital,ON,OFF,Block 2235  Output 1
+0x2530,9521,LZIT-604_R,Alarm Reset,Signal Tag,665,float 32, , ,Digital,ON,OFF,Variable #:480
+0x2532,9523,LZIT-604_MOS1,,Signal Tag,666,float 32, , ,Digital,ON,OFF,Variable #:478
+0x2534,9525,HS-ESD-001_CH,,Signal Tag,667,float 32, , ,Digital,ON,OFF,Block 2251  Output 5
+0x2536,9527,HS-ESD-001_FO,First Out,Signal Tag,668,float 32, , ,Digital,ON,OFF,Block 3529  Output 1
+0x2538,9529,HS-ESD-001_STO,Startup Override,Signal Tag,669,float 32, , ,Digital,ON,OFF,Block 2272  Output 1
+0x253A,9531,HS-ESD-001_CH_F,Channel Fail,Signal Tag,670,float 32, , ,Digital,ON,OFF,Block 2256  Output 1
+0x253C,9533,HS-ESD-001_D_F,Discrepancy Fail,Signal Tag,671,float 32, , ,Digital,ON,OFF,Block 2261  Output 1
+0x253E,9535,HS-ESD-001_ALARM,HH or LL Alarm,Signal Tag,672,float 32, , ,Digital,ON,OFF,Block 2269  Output 1
+0x2540,9537,HS-ESD-001_R,Alarm Reset,Signal Tag,673,float 32, , ,Digital,ON,OFF,Variable #:489
+0x2542,9539,HS-ESD-001_MOS1,,Signal Tag,674,float 32, , ,Digital,ON,OFF,Variable #:490
+0x2544,9541,HS-ESD-001_F,,Signal Tag,675,float 32, , ,Digital,ON,OFF,Block 2254  Output 1
+0x2546,9543,HS-ESD-002_CH,,Signal Tag,676,float 32, , ,Digital,ON,OFF,Block 2274  Output 5
+0x2548,9545,HS-ESD-002_FO,First Out,Signal Tag,677,float 32, , ,Digital,ON,OFF,Block 3534  Output 1
+0x254A,9547,HS-ESD-002_STO,Startup Override,Signal Tag,678,float 32, , ,Digital,ON,OFF,Block 2295  Output 1
+0x254C,9549,HS-ESD-002_CH_F,Channel Fail,Signal Tag,679,float 32, , ,Digital,ON,OFF,Block 2279  Output 1
+0x254E,9551,HS-ESD-002_D_F,Discrepancy Fail,Signal Tag,680,float 32, , ,Digital,ON,OFF,Block 2284  Output 1
+0x2550,9553,HS-ESD-002_ALARM,HH or LL Alarm,Signal Tag,681,float 32, , ,Digital,ON,OFF,Block 2292  Output 1
+0x2552,9555,HS-ESD-002_R,Alarm Reset,Signal Tag,682,float 32, , ,Digital,ON,OFF,Variable #:492
+0x2554,9557,HS-ESD-002_MOS1,,Signal Tag,683,float 32, , ,Digital,ON,OFF,Variable #:491
+0x2556,9559,HS-ESD-002_F,,Signal Tag,684,float 32, , ,Digital,ON,OFF,Block 2277  Output 1
+0x2558,9561,HS-ESD-003_CH,,Signal Tag,685,float 32, , ,Digital,ON,OFF,Block 2297  Output 5
+0x255A,9563,HS-ESD-003_FO,First Out,Signal Tag,686,float 32, , ,Digital,ON,OFF,Block 3539  Output 1
+0x255C,9565,HS-ESD-003_STO,Startup Override,Signal Tag,687,float 32, , ,Digital,ON,OFF,Block 2318  Output 1
+0x255E,9567,HS-ESD-003_CH_F,Channel Fail,Signal Tag,688,float 32, , ,Digital,ON,OFF,Block 2302  Output 1
+0x2560,9569,HS-ESD-003_D_F,Discrepancy Fail,Signal Tag,689,float 32, , ,Digital,ON,OFF,Block 2307  Output 1
+0x2562,9571,HS-ESD-003_ALARM,HH or LL Alarm,Signal Tag,690,float 32, , ,Digital,ON,OFF,Block 2315  Output 1
+0x2564,9573,HS-ESD-003_R,Alarm Reset,Signal Tag,691,float 32, , ,Digital,ON,OFF,Variable #:496
+0x2566,9575,HS-ESD-003_MOS1,,Signal Tag,692,float 32, , ,Digital,ON,OFF,Variable #:495
+0x2568,9577,HS-ESD-003_F,,Signal Tag,693,float 32, , ,Digital,ON,OFF,Block 2300  Output 1
+0x256A,9579,HS-ESD-004_CH,,Signal Tag,694,float 32, , ,Digital,ON,OFF,Block 2320  Output 5
+0x256C,9581,HS-ESD-004_FO,First Out,Signal Tag,695,float 32, , ,Digital,ON,OFF,Block 3544  Output 1
+0x256E,9583,HS-ESD-004_STO,Startup Override,Signal Tag,696,float 32, , ,Digital,ON,OFF,Block 2341  Output 1
+0x2570,9585,HS-ESD-004_CH_F,Channel Fail,Signal Tag,697,float 32, , ,Digital,ON,OFF,Block 2325  Output 1
+0x2572,9587,HS-ESD-004_D_F,Discrepancy Fail,Signal Tag,698,float 32, , ,Digital,ON,OFF,Block 2330  Output 1
+0x2574,9589,HS-ESD-004_ALARM,HH or LL Alarm,Signal Tag,699,float 32, , ,Digital,ON,OFF,Block 2338  Output 1
+0x2576,9591,HS-ESD-004_R,Alarm Reset,Signal Tag,700,float 32, , ,Digital,ON,OFF,Variable #:500
+0x2578,9593,HS-ESD-004_MOS1,,Signal Tag,701,float 32, , ,Digital,ON,OFF,Variable #:499
+0x257A,9595,HS-ESD-004_F,,Signal Tag,702,float 32, , ,Digital,ON,OFF,Block 2323  Output 1
+0x257C,9597,HS-ESD-007_CH,,Signal Tag,703,float 32, , ,Digital,ON,OFF,Block 2343  Output 5
+0x257E,9599,HS-ESD-007_FO,First Out,Signal Tag,704,float 32, , ,Digital,ON,OFF,Block 3549  Output 1
+0x2580,9601,HS-ESD-007_STO,Startup Override,Signal Tag,705,float 32, , ,Digital,ON,OFF,Block 2364  Output 1
+0x2582,9603,HS-ESD-007_CH_F,Channel Fail,Signal Tag,706,float 32, , ,Digital,ON,OFF,Block 2348  Output 1
+0x2584,9605,HS-ESD-007_D_F,Discrepancy Fail,Signal Tag,707,float 32, , ,Digital,ON,OFF,Block 2353  Output 1
+0x2586,9607,HS-ESD-007_ALARM,HH or LL Alarm,Signal Tag,708,float 32, , ,Digital,ON,OFF,Block 2361  Output 1
+0x2588,9609,HS-ESD-007_R,Alarm Reset,Signal Tag,709,float 32, , ,Digital,ON,OFF,Variable #:504
+0x258A,9611,HS-ESD-007_MOS1,,Signal Tag,710,float 32, , ,Digital,ON,OFF,Variable #:503
+0x258C,9613,HS-ESD-007_F,,Signal Tag,711,float 32, , ,Digital,ON,OFF,Block 2346  Output 1
+0x258E,9615,HS-ESD-008_CH,,Signal Tag,712,float 32, , ,Digital,ON,OFF,Block 2366  Output 5
+0x2590,9617,HS-ESD-008_FO,First Out,Signal Tag,713,float 32, , ,Digital,ON,OFF,Block 3554  Output 1
+0x2592,9619,HS-ESD-008_STO,Startup Override,Signal Tag,714,float 32, , ,Digital,ON,OFF,Block 2387  Output 1
+0x2594,9621,HS-ESD-008_CH_F,Channel Fail,Signal Tag,715,float 32, , ,Digital,ON,OFF,Block 2371  Output 1
+0x2596,9623,HS-ESD-008_D_F,Discrepancy Fail,Signal Tag,716,float 32, , ,Digital,ON,OFF,Block 2376  Output 1
+0x2598,9625,HS-ESD-008_ALARM,HH or LL Alarm,Signal Tag,717,float 32, , ,Digital,ON,OFF,Block 2384  Output 1
+0x259A,9627,HS-ESD-008_R,Alarm Reset,Signal Tag,718,float 32, , ,Digital,ON,OFF,Variable #:508
+0x259C,9629,HS-ESD-008_MOS1,,Signal Tag,719,float 32, , ,Digital,ON,OFF,Variable #:507
+0x259E,9631,HS-ESD-008_F,,Signal Tag,720,float 32, , ,Digital,ON,OFF,Block 2369  Output 1
+0x25A0,9633,HS-ESD-009_CH,,Signal Tag,721,float 32, , ,Digital,ON,OFF,Block 2389  Output 5
+0x25A2,9635,HS-ESD-009_FO,First Out,Signal Tag,722,float 32, , ,Digital,ON,OFF,Block 3559  Output 1
+0x25A4,9637,HS-ESD-009_STO,Startup Override,Signal Tag,723,float 32, , ,Digital,ON,OFF,Block 2410  Output 1
+0x25A6,9639,HS-ESD-009_CH_F,Channel Fail,Signal Tag,724,float 32, , ,Digital,ON,OFF,Block 2394  Output 1
+0x25A8,9641,HS-ESD-009_D_F,Discrepancy Fail,Signal Tag,725,float 32, , ,Digital,ON,OFF,Block 2399  Output 1
+0x25AA,9643,HS-ESD-009_ALARM,HH or LL Alarm,Signal Tag,726,float 32, , ,Digital,ON,OFF,Block 2407  Output 1
+0x25AC,9645,HS-ESD-009_R,Alarm Reset,Signal Tag,727,float 32, , ,Digital,ON,OFF,Variable #:512
+0x25AE,9647,HS-ESD-009_MOS1,,Signal Tag,728,float 32, , ,Digital,ON,OFF,Variable #:511
+0x25B0,9649,HS-ESD-009_F,,Signal Tag,729,float 32, , ,Digital,ON,OFF,Block 2392  Output 1
+0x25B2,9651,HS-ESD-005_CH,,Signal Tag,730,float 32, , ,Digital,ON,OFF,Block 2412  Output 5
+0x25B4,9653,HS-ESD-005_FO,First Out,Signal Tag,731,float 32, , ,Digital,ON,OFF,Block 3564  Output 1
+0x25B6,9655,HS-ESD-005_STO,Startup Override,Signal Tag,732,float 32, , ,Digital,ON,OFF,Block 2433  Output 1
+0x25B8,9657,HS-ESD-005_CH_F,Channel Fail,Signal Tag,733,float 32, , ,Digital,ON,OFF,Block 2417  Output 1
+0x25BA,9659,HS-ESD-005_D_F,Discrepancy Fail,Signal Tag,734,float 32, , ,Digital,ON,OFF,Block 2422  Output 1
+0x25BC,9661,HS-ESD-005_ALARM,HH or LL Alarm,Signal Tag,735,float 32, , ,Digital,ON,OFF,Block 2430  Output 1
+0x25BE,9663,HS-ESD-005_R,Alarm Reset,Signal Tag,736,float 32, , ,Digital,ON,OFF,Variable #:516
+0x25C0,9665,HS-ESD-005_MOS1,,Signal Tag,737,float 32, , ,Digital,ON,OFF,Variable #:515
+0x25C2,9667,HS-ESD-005_F,,Signal Tag,738,float 32, , ,Digital,ON,OFF,Block 2415  Output 1
+0x25C4,9669,HS-ESD-006_CH,,Signal Tag,739,float 32, , ,Digital,ON,OFF,Block 2435  Output 5
+0x25C6,9671,HS-ESD-006_FO,First Out,Signal Tag,740,float 32, , ,Digital,ON,OFF,Block 3569  Output 1
+0x25C8,9673,HS-ESD-006_STO,Startup Override,Signal Tag,741,float 32, , ,Digital,ON,OFF,Block 2456  Output 1
+0x25CA,9675,HS-ESD-006_CH_F,Channel Fail,Signal Tag,742,float 32, , ,Digital,ON,OFF,Block 2440  Output 1
+0x25CC,9677,HS-ESD-006_D_F,Discrepancy Fail,Signal Tag,743,float 32, , ,Digital,ON,OFF,Block 2445  Output 1
+0x25CE,9679,HS-ESD-006_ALARM,HH or LL Alarm,Signal Tag,744,float 32, , ,Digital,ON,OFF,Block 2453  Output 1
+0x25D0,9681,HS-ESD-006_R,Alarm Reset,Signal Tag,745,float 32, , ,Digital,ON,OFF,Variable #:520
+0x25D2,9683,HS-ESD-006_MOS1,,Signal Tag,746,float 32, , ,Digital,ON,OFF,Variable #:519
+0x25D4,9685,HS-ESD-006_F,,Signal Tag,747,float 32, , ,Digital,ON,OFF,Block 2438  Output 1
+0x25D6,9687,PS-906_CH,,Signal Tag,748,float 32, , ,Digital,ON,OFF,Block 2458  Output 5
+0x25D8,9689,PS-906_FO,First Out,Signal Tag,749,float 32, , ,Digital,ON,OFF,Block 3585  Output 1
+0x25DA,9691,PS-906_STO,Startup Override,Signal Tag,750,float 32, , ,Digital,ON,OFF,Block 2479  Output 1
+0x25DC,9693,PS-906_CH_F,Channel Fail,Signal Tag,751,float 32, , ,Digital,ON,OFF,Block 2463  Output 1
+0x25DE,9695,PS-906_D_F,Discrepancy Fail,Signal Tag,752,float 32, , ,Digital,ON,OFF,Block 2468  Output 1
+0x25E0,9697,PS-906_ALARM,HH or LL Alarm,Signal Tag,753,float 32, , ,Digital,ON,OFF,Block 2476  Output 1
+0x25E2,9699,PS-906_R,Alarm Reset,Signal Tag,754,float 32, , ,Digital,ON,OFF,Variable #:524
+0x25E4,9701,PS-906_MOS1,,Signal Tag,755,float 32, , ,Digital,ON,OFF,Variable #:523
+0x25E6,9703,PS-906_F,,Signal Tag,756,float 32, , ,Digital,ON,OFF,Block 2461  Output 1
+0x25E8,9705,PS-907_CH,,Signal Tag,757,float 32, , ,Digital,ON,OFF,Block 2481  Output 5
+0x25EA,9707,PS-907_FO,First Out,Signal Tag,758,float 32, , ,Digital,ON,OFF,Block 2503  Output 1
+0x25EC,9709,PS-907_STO,Startup Override,Signal Tag,759,float 32, , ,Digital,ON,OFF,Block 2502  Output 1
+0x25EE,9711,PS-907_CH_F,Channel Fail,Signal Tag,760,float 32, , ,Digital,ON,OFF,Block 2486  Output 1
+0x25F0,9713,PS-907_D_F,Discrepancy Fail,Signal Tag,761,float 32, , ,Digital,ON,OFF,Block 2491  Output 1
+0x25F2,9715,PS-907_ALARM,HH or LL Alarm,Signal Tag,762,float 32, , ,Digital,ON,OFF,Block 2499  Output 1
+0x25F4,9717,PS-907_R,Alarm Reset,Signal Tag,763,float 32, , ,Digital,ON,OFF,Variable #:528
+0x25F6,9719,PS-907_MOS1,,Signal Tag,764,float 32, , ,Digital,ON,OFF,Variable #:527
+0x25F8,9721,PS-907_F,,Signal Tag,765,float 32, , ,Digital,ON,OFF,Block 2484  Output 1
+0x25FA,9723,XS-018_CH,,Signal Tag,766,float 32, , ,Digital,ON,OFF,Block 2504  Output 5
+0x25FC,9725,XS-018_FO,First Out,Signal Tag,767,float 32, , ,Digital,ON,OFF,Block 3626  Output 1
+0x25FE,9727,XS-018_STO,Startup Override,Signal Tag,768,float 32, , ,Digital,ON,OFF,Block 2525  Output 1
+0x2600,9729,XS-018_CH_F,Channel Fail,Signal Tag,769,float 32, , ,Digital,ON,OFF,Block 2509  Output 1
+0x2602,9731,XS-018_D_F,Discrepancy Fail,Signal Tag,770,float 32, , ,Digital,ON,OFF,Block 2514  Output 1
+0x2604,9733,XS-018_ALARM,HH or LL Alarm,Signal Tag,771,float 32, , ,Digital,ON,OFF,Block 2522  Output 1
+0x2606,9735,XS-018_R,Alarm Reset,Signal Tag,772,float 32, , ,Digital,ON,OFF,Variable #:532
+0x2608,9737,XS-018_MOS1,,Signal Tag,773,float 32, , ,Digital,ON,OFF,Variable #:531
+0x260A,9739,XS-018_F,,Signal Tag,774,float 32, , ,Digital,ON,OFF,Block 2507  Output 1
+0x260C,9741,XS-019_CH,,Signal Tag,775,float 32, , ,Digital,ON,OFF,Block 2527  Output 5
+0x260E,9743,XS-019_FO,First Out,Signal Tag,776,float 32, , ,Digital,ON,OFF,Block 2549  Output 1
+0x2610,9745,XS-019_STO,Startup Override,Signal Tag,777,float 32, , ,Digital,ON,OFF,Block 2548  Output 1
+0x2612,9747,XS-019_CH_F,Channel Fail,Signal Tag,778,float 32, , ,Digital,ON,OFF,Block 2532  Output 1
+0x2614,9749,XS-019_D_F,Discrepancy Fail,Signal Tag,779,float 32, , ,Digital,ON,OFF,Block 2537  Output 1
+0x2616,9751,XS-019_ALARM,HH or LL Alarm,Signal Tag,780,float 32, , ,Digital,ON,OFF,Block 2545  Output 1
+0x2618,9753,XS-019_R,Alarm Reset,Signal Tag,781,float 32, , ,Digital,ON,OFF,Variable #:536
+0x261A,9755,XS-019_MOS1,,Signal Tag,782,float 32, , ,Digital,ON,OFF,Variable #:535
+0x261C,9757,XS-019_F,,Signal Tag,783,float 32, , ,Digital,ON,OFF,Block 2530  Output 1
+0x261E,9759,XS-012_CH,,Signal Tag,784,float 32, , ,Digital,ON,OFF,Block 2550  Output 5
+0x2620,9761,XS-012_FO,First Out,Signal Tag,785,float 32, , ,Digital,ON,OFF,Block 3615  Output 1
+0x2622,9763,XS-012_STO,Startup Override,Signal Tag,786,float 32, , ,Digital,ON,OFF,Block 2571  Output 1
+0x2624,9765,XS-012_CH_F,Channel Fail,Signal Tag,787,float 32, , ,Digital,ON,OFF,Block 2555  Output 1
+0x2626,9767,XS-012_D_F,Discrepancy Fail,Signal Tag,788,float 32, , ,Digital,ON,OFF,Block 2560  Output 1
+0x2628,9769,XS-012_ALARM,HH or LL Alarm,Signal Tag,789,float 32, , ,Digital,ON,OFF,Block 2568  Output 1
+0x262A,9771,XS-012_R,Alarm Reset,Signal Tag,790,float 32, , ,Digital,ON,OFF,Variable #:540
+0x262C,9773,XS-012_MOS1,,Signal Tag,791,float 32, , ,Digital,ON,OFF,Variable #:539
+0x262E,9775,XS-012_F,,Signal Tag,792,float 32, , ,Digital,ON,OFF,Block 2553  Output 1
+0x2630,9777,XS-013_CH,,Signal Tag,793,float 32, , ,Digital,ON,OFF,Block 2573  Output 5
+0x2632,9779,XS-013_FO,First Out,Signal Tag,794,float 32, , ,Digital,ON,OFF,Block 3620  Output 1
+0x2634,9781,XS-013_STO,Startup Override,Signal Tag,795,float 32, , ,Digital,ON,OFF,Block 2594  Output 1
+0x2636,9783,XS-013_CH_F,Channel Fail,Signal Tag,796,float 32, , ,Digital,ON,OFF,Block 2578  Output 1
+0x2638,9785,XS-013_D_F,Discrepancy Fail,Signal Tag,797,float 32, , ,Digital,ON,OFF,Block 2583  Output 1
+0x263A,9787,XS-013_ALARM,HH or LL Alarm,Signal Tag,798,float 32, , ,Digital,ON,OFF,Block 2591  Output 1
+0x263C,9789,XS-013_R,Alarm Reset,Signal Tag,799,float 32, , ,Digital,ON,OFF,Variable #:544
+0x263E,9791,XS-013_MOS1,,Signal Tag,800,float 32, , ,Digital,ON,OFF,Variable #:543
+0x2640,9793,XS-013_F,,Signal Tag,801,float 32, , ,Digital,ON,OFF,Block 2576  Output 1
+0x2642,9795,PB-001_CH,,Signal Tag,802,float 32, , ,Digital,ON,OFF,Block 2596  Output 5
+0x2644,9797,PB-001_FO,First Out,Signal Tag,803,float 32, , ,Digital,ON,OFF,Block 2618  Output 1
+0x2646,9799,PB-001_STO,Startup Override,Signal Tag,804,float 32, , ,Digital,ON,OFF,Block 2617  Output 1
+0x2648,9801,PB-001_CH_F,Channel Fail,Signal Tag,805,float 32, , ,Digital,ON,OFF,Block 2601  Output 1
+0x264A,9803,PB-001_D_F,Discrepancy Fail,Signal Tag,806,float 32, , ,Digital,ON,OFF,Block 2606  Output 1
+0x264C,9805,PB-001_ALARM,HH or LL Alarm,Signal Tag,807,float 32, , ,Digital,ON,OFF,Block 2614  Output 1
+0x264E,9807,PB-001_R,Alarm Reset,Signal Tag,808,float 32, , ,Digital,ON,OFF,Variable #:548
+0x2650,9809,PB-001_MOS1,,Signal Tag,809,float 32, , ,Digital,ON,OFF,Variable #:547
+0x2652,9811,PB-001_F,,Signal Tag,810,float 32, , ,Digital,ON,OFF,Block 2599  Output 1
+0x2654,9813,PB-002_CH,,Signal Tag,811,float 32, , ,Digital,ON,OFF,Block 2619  Output 5
+0x2656,9815,PB-002_FO,First Out,Signal Tag,812,float 32, , ,Digital,ON,OFF,Block 2641  Output 1
+0x2658,9817,PB-002_STO,Startup Override,Signal Tag,813,float 32, , ,Digital,ON,OFF,Block 2640  Output 1
+0x265A,9819,PB-002_CH_F,Channel Fail,Signal Tag,814,float 32, , ,Digital,ON,OFF,Block 2624  Output 1
+0x265C,9821,PB-002_D_F,Discrepancy Fail,Signal Tag,815,float 32, , ,Digital,ON,OFF,Block 2629  Output 1
+0x265E,9823,PB-002_ALARM,HH or LL Alarm,Signal Tag,816,float 32, , ,Digital,ON,OFF,Block 2637  Output 1
+0x2660,9825,PB-002_R,Alarm Reset,Signal Tag,817,float 32, , ,Digital,ON,OFF,Variable #:552
+0x2662,9827,PB-002_MOS1,,Signal Tag,818,float 32, , ,Digital,ON,OFF,Variable #:551
+0x2664,9829,PB-002_F,,Signal Tag,819,float 32, , ,Digital,ON,OFF,Block 2622  Output 1
+0x2666,9831,PB-003_CH,,Signal Tag,820,float 32, , ,Digital,ON,OFF,Block 2642  Output 5
+0x2668,9833,PB-003_FO,First Out,Signal Tag,821,float 32, , ,Digital,ON,OFF,Block 3600  Output 1
+0x266A,9835,PB-003_STO,Startup Override,Signal Tag,822,float 32, , ,Digital,ON,OFF,Block 2663  Output 1
+0x266C,9837,PB-003_CH_F,Channel Fail,Signal Tag,823,float 32, , ,Digital,ON,OFF,Block 2647  Output 1
+0x266E,9839,PB-003_D_F,Discrepancy Fail,Signal Tag,824,float 32, , ,Digital,ON,OFF,Block 2652  Output 1
+0x2670,9841,PB-003_ALARM,HH or LL Alarm,Signal Tag,825,float 32, , ,Digital,ON,OFF,Block 2660  Output 1
+0x2672,9843,PB-003_R,Alarm Reset,Signal Tag,826,float 32, , ,Digital,ON,OFF,Variable #:556
+0x2674,9845,PB-003_MOS1,,Signal Tag,827,float 32, , ,Digital,ON,OFF,Variable #:555
+0x2676,9847,PB-003_F,,Signal Tag,828,float 32, , ,Digital,ON,OFF,Block 2645  Output 1
+0x2678,9849,PB-004_CH,,Signal Tag,829,float 32, , ,Digital,ON,OFF,Block 2665  Output 5
+0x267A,9851,PB-004_FO,First Out,Signal Tag,830,float 32, , ,Digital,ON,OFF,Block 3605  Output 1
+0x267C,9853,PB-004_STO,Startup Override,Signal Tag,831,float 32, , ,Digital,ON,OFF,Block 2686  Output 1
+0x267E,9855,PB-004_CH_F,Channel Fail,Signal Tag,832,float 32, , ,Digital,ON,OFF,Block 2670  Output 1
+0x2680,9857,PB-004_D_F,Discrepancy Fail,Signal Tag,833,float 32, , ,Digital,ON,OFF,Block 2675  Output 1
+0x2682,9859,PB-004_ALARM,HH or LL Alarm,Signal Tag,834,float 32, , ,Digital,ON,OFF,Block 2683  Output 1
+0x2684,9861,PB-004_R,Alarm Reset,Signal Tag,835,float 32, , ,Digital,ON,OFF,Variable #:560
+0x2686,9863,PB-004_MOS1,,Signal Tag,836,float 32, , ,Digital,ON,OFF,Variable #:559
+0x2688,9865,PB-004_F,,Signal Tag,837,float 32, , ,Digital,ON,OFF,Block 2668  Output 1
+0x268A,9867,PB-005_CH,,Signal Tag,838,float 32, , ,Digital,ON,OFF,Block 2688  Output 5
+0x268C,9869,PB-005_FO,First Out,Signal Tag,839,float 32, , ,Digital,ON,OFF,Block 2710  Output 1
+0x268E,9871,PB-005_STO,Startup Override,Signal Tag,840,float 32, , ,Digital,ON,OFF,Block 2709  Output 1
+0x2690,9873,PB-005_CH_F,Channel Fail,Signal Tag,841,float 32, , ,Digital,ON,OFF,Block 2693  Output 1
+0x2692,9875,PB-005_D_F,Discrepancy Fail,Signal Tag,842,float 32, , ,Digital,ON,OFF,Block 2698  Output 1
+0x2694,9877,PB-005_ALARM,HH or LL Alarm,Signal Tag,843,float 32, , ,Digital,ON,OFF,Block 2706  Output 1
+0x2696,9879,PB-005_R,Alarm Reset,Signal Tag,844,float 32, , ,Digital,ON,OFF,Variable #:564
+0x2698,9881,PB-005_MOS1,,Signal Tag,845,float 32, , ,Digital,ON,OFF,Variable #:563
+0x269A,9883,PB-005_F,,Signal Tag,846,float 32, , ,Digital,ON,OFF,Block 2691  Output 1
+0x269C,9885,PB-006_CH,,Signal Tag,847,float 32, , ,Digital,ON,OFF,Block 2711  Output 5
+0x269E,9887,PB-006_FO,First Out,Signal Tag,848,float 32, , ,Digital,ON,OFF,Block 2733  Output 1
+0x26A0,9889,PB-006_STO,Startup Override,Signal Tag,849,float 32, , ,Digital,ON,OFF,Block 2732  Output 1
+0x26A2,9891,PB-006_CH_F,Channel Fail,Signal Tag,850,float 32, , ,Digital,ON,OFF,Block 2716  Output 1
+0x26A4,9893,PB-006_D_F,Discrepancy Fail,Signal Tag,851,float 32, , ,Digital,ON,OFF,Block 2721  Output 1
+0x26A6,9895,PB-006_ALARM,HH or LL Alarm,Signal Tag,852,float 32, , ,Digital,ON,OFF,Block 2729  Output 1
+0x26A8,9897,PB-006_R,Alarm Reset,Signal Tag,853,float 32, , ,Digital,ON,OFF,Variable #:568
+0x26AA,9899,PB-006_MOS1,,Signal Tag,854,float 32, , ,Digital,ON,OFF,Variable #:567
+0x26AC,9901,PB-006_F,,Signal Tag,855,float 32, , ,Digital,ON,OFF,Block 2714  Output 1
+0x26AE,9903,PB-007_CH,,Signal Tag,856,float 32, , ,Digital,ON,OFF,Block 2734  Output 5
+0x26B0,9905,PB-007_FO,First Out,Signal Tag,857,float 32, , ,Digital,ON,OFF,Block 2756  Output 1
+0x26B2,9907,PB-007_STO,Startup Override,Signal Tag,858,float 32, , ,Digital,ON,OFF,Block 2755  Output 1
+0x26B4,9909,PB-007_CH_F,Channel Fail,Signal Tag,859,float 32, , ,Digital,ON,OFF,Block 2739  Output 1
+0x26B6,9911,PB-007_D_F,Discrepancy Fail,Signal Tag,860,float 32, , ,Digital,ON,OFF,Block 2744  Output 1
+0x26B8,9913,PB-007_ALARM,HH or LL Alarm,Signal Tag,861,float 32, , ,Digital,ON,OFF,Block 2752  Output 1
+0x26BA,9915,PB-007_R,Alarm Reset,Signal Tag,862,float 32, , ,Digital,ON,OFF,Variable #:572
+0x26BC,9917,PB-007_MOS1,,Signal Tag,863,float 32, , ,Digital,ON,OFF,Variable #:571
+0x26BE,9919,PB-007_F,,Signal Tag,864,float 32, , ,Digital,ON,OFF,Block 2737  Output 1
+0x26C0,9921,PB-008_CH,,Signal Tag,865,float 32, , ,Digital,ON,OFF,Block 2757  Output 5
+0x26C2,9923,PB-008_FO,First Out,Signal Tag,866,float 32, , ,Digital,ON,OFF,Block 2779  Output 1
+0x26C4,9925,PB-008_STO,Startup Override,Signal Tag,867,float 32, , ,Digital,ON,OFF,Block 2778  Output 1
+0x26C6,9927,PB-008_CH_F,Channel Fail,Signal Tag,868,float 32, , ,Digital,ON,OFF,Block 2762  Output 1
+0x26C8,9929,PB-008_D_F,Discrepancy Fail,Signal Tag,869,float 32, , ,Digital,ON,OFF,Block 2767  Output 1
+0x26CA,9931,PB-008_ALARM,HH or LL Alarm,Signal Tag,870,float 32, , ,Digital,ON,OFF,Block 2775  Output 1
+0x26CC,9933,PB-008_R,Alarm Reset,Signal Tag,871,float 32, , ,Digital,ON,OFF,Variable #:576
+0x26CE,9935,PB-008_MOS1,,Signal Tag,872,float 32, , ,Digital,ON,OFF,Variable #:575
+0x26D0,9937,PB-008_F,,Signal Tag,873,float 32, , ,Digital,ON,OFF,Block 2760  Output 1
+0x26D2,9939,PB-009_CH,,Signal Tag,874,float 32, , ,Digital,ON,OFF,Block 2780  Output 5
+0x26D4,9941,PB-009_FO,First Out,Signal Tag,875,float 32, , ,Digital,ON,OFF,Block 2802  Output 1
+0x26D6,9943,PB-009_STO,Startup Override,Signal Tag,876,float 32, , ,Digital,ON,OFF,Block 2801  Output 1
+0x26D8,9945,PB-009_CH_F,Channel Fail,Signal Tag,877,float 32, , ,Digital,ON,OFF,Block 2785  Output 1
+0x26DA,9947,PB-009_D_F,Discrepancy Fail,Signal Tag,878,float 32, , ,Digital,ON,OFF,Block 2790  Output 1
+0x26DC,9949,PB-009_ALARM,HH or LL Alarm,Signal Tag,879,float 32, , ,Digital,ON,OFF,Block 2798  Output 1
+0x26DE,9951,PB-009_R,Alarm Reset,Signal Tag,880,float 32, , ,Digital,ON,OFF,Variable #:580
+0x26E0,9953,PB-009_MOS1,,Signal Tag,881,float 32, , ,Digital,ON,OFF,Variable #:579
+0x26E2,9955,PB-009_F,,Signal Tag,882,float 32, , ,Digital,ON,OFF,Block 2783  Output 1
+0x26E4,9957,PB-011_CH,,Signal Tag,883,float 32, , ,Digital,ON,OFF,Block 2803  Output 5
+0x26E6,9959,PB-011_FO,First Out,Signal Tag,884,float 32, , ,Digital,ON,OFF,Block 2825  Output 1
+0x26E8,9961,PB-011_STO,Startup Override,Signal Tag,885,float 32, , ,Digital,ON,OFF,Block 2824  Output 1
+0x26EA,9963,PB-011_CH_F,Channel Fail,Signal Tag,886,float 32, , ,Digital,ON,OFF,Block 2808  Output 1
+0x26EC,9965,PB-011_D_F,Discrepancy Fail,Signal Tag,887,float 32, , ,Digital,ON,OFF,Block 2813  Output 1
+0x26EE,9967,PB-011_ALARM,HH or LL Alarm,Signal Tag,888,float 32, , ,Digital,ON,OFF,Block 2821  Output 1
+0x26F0,9969,PB-011_R,Alarm Reset,Signal Tag,889,float 32, , ,Digital,ON,OFF,Variable #:584
+0x26F2,9971,PB-011_MOS1,,Signal Tag,890,float 32, , ,Digital,ON,OFF,Variable #:583
+0x26F4,9973,PB-011_F,,Signal Tag,891,float 32, , ,Digital,ON,OFF,Block 2806  Output 1
+0x26F6,9975,PB-012_CH,,Signal Tag,892,float 32, , ,Digital,ON,OFF,Block 2826  Output 5
+0x26F8,9977,PB-012_FO,First Out,Signal Tag,893,float 32, , ,Digital,ON,OFF,Block 2848  Output 1
+0x26FA,9979,PB-012_STO,Startup Override,Signal Tag,894,float 32, , ,Digital,ON,OFF,Block 2847  Output 1
+0x26FC,9981,PB-012_CH_F,Channel Fail,Signal Tag,895,float 32, , ,Digital,ON,OFF,Block 2831  Output 1
+0x26FE,9983,PB-012_D_F,Discrepancy Fail,Signal Tag,896,float 32, , ,Digital,ON,OFF,Block 2836  Output 1
+0x2700,9985,PB-012_ALARM,HH or LL Alarm,Signal Tag,897,float 32, , ,Digital,ON,OFF,Block 2844  Output 1
+0x2702,9987,PB-012_R,Alarm Reset,Signal Tag,898,float 32, , ,Digital,ON,OFF,Variable #:588
+0x2704,9989,PB-012_MOS1,,Signal Tag,899,float 32, , ,Digital,ON,OFF,Variable #:587
+0x2706,9991,PB-012_F,,Signal Tag,900,float 32, , ,Digital,ON,OFF,Block 2829  Output 1
+0x2708,9993,PB-013_CH,,Signal Tag,901,float 32, , ,Digital,ON,OFF,Block 2849  Output 5
+0x270A,9995,PB-013_FO,First Out,Signal Tag,902,float 32, , ,Digital,ON,OFF,Block 2871  Output 1
+0x270C,9997,PB-013_STO,Startup Override,Signal Tag,903,float 32, , ,Digital,ON,OFF,Block 2870  Output 1
+0x270E,9999,PB-013_CH_F,Channel Fail,Signal Tag,904,float 32, , ,Digital,ON,OFF,Block 2854  Output 1
+0x2710,10001,PB-013_D_F,Discrepancy Fail,Signal Tag,905,float 32, , ,Digital,ON,OFF,Block 2859  Output 1
+0x2712,10003,PB-013_ALARM,HH or LL Alarm,Signal Tag,906,float 32, , ,Digital,ON,OFF,Block 2867  Output 1
+0x2714,10005,PB-013_R,Alarm Reset,Signal Tag,907,float 32, , ,Digital,ON,OFF,Variable #:592
+0x2716,10007,PB-013_MOS1,,Signal Tag,908,float 32, , ,Digital,ON,OFF,Variable #:591
+0x2718,10009,PB-013_F,,Signal Tag,909,float 32, , ,Digital,ON,OFF,Block 2852  Output 1
+0x271A,10011,PB-014_CH,,Signal Tag,910,float 32, , ,Digital,ON,OFF,Block 2872  Output 5
+0x271C,10013,PB-014_FO,First Out,Signal Tag,911,float 32, , ,Digital,ON,OFF,Block 2894  Output 1
+0x271E,10015,PB-014_STO,Startup Override,Signal Tag,912,float 32, , ,Digital,ON,OFF,Block 2893  Output 1
+0x2720,10017,PB-014_CH_F,Channel Fail,Signal Tag,913,float 32, , ,Digital,ON,OFF,Block 2877  Output 1
+0x2722,10019,PB-014_D_F,Discrepancy Fail,Signal Tag,914,float 32, , ,Digital,ON,OFF,Block 2882  Output 1
+0x2724,10021,PB-014_ALARM,HH or LL Alarm,Signal Tag,915,float 32, , ,Digital,ON,OFF,Block 2890  Output 1
+0x2726,10023,PB-014_R,Alarm Reset,Signal Tag,916,float 32, , ,Digital,ON,OFF,Variable #:596
+0x2728,10025,PB-014_MOS1,,Signal Tag,917,float 32, , ,Digital,ON,OFF,Variable #:595
+0x272A,10027,PB-014_F,,Signal Tag,918,float 32, , ,Digital,ON,OFF,Block 2875  Output 1
+0x272C,10029,PB-015_CH,,Signal Tag,919,float 32, , ,Digital,ON,OFF,Block 2895  Output 5
+0x272E,10031,PB-015_FO,First Out,Signal Tag,920,float 32, , ,Digital,ON,OFF,Block 2917  Output 1
+0x2730,10033,PB-015_STO,Startup Override,Signal Tag,921,float 32, , ,Digital,ON,OFF,Block 2916  Output 1
+0x2732,10035,PB-015_CH_F,Channel Fail,Signal Tag,922,float 32, , ,Digital,ON,OFF,Block 2900  Output 1
+0x2734,10037,PB-015_D_F,Discrepancy Fail,Signal Tag,923,float 32, , ,Digital,ON,OFF,Block 2905  Output 1
+0x2736,10039,PB-015_ALARM,HH or LL Alarm,Signal Tag,924,float 32, , ,Digital,ON,OFF,Block 2913  Output 1
+0x2738,10041,PB-015_R,Alarm Reset,Signal Tag,925,float 32, , ,Digital,ON,OFF,Variable #:600
+0x273A,10043,PB-015_MOS1,,Signal Tag,926,float 32, , ,Digital,ON,OFF,Variable #:599
+0x273C,10045,PB-015_F,,Signal Tag,927,float 32, , ,Digital,ON,OFF,Block 2898  Output 1
+0x273E,10047,PB-016_CH,,Signal Tag,928,float 32, , ,Digital,ON,OFF,Block 2918  Output 5
+0x2740,10049,PB-016_FO,First Out,Signal Tag,929,float 32, , ,Digital,ON,OFF,Block 2940  Output 1
+0x2742,10051,PB-016_STO,Startup Override,Signal Tag,930,float 32, , ,Digital,ON,OFF,Block 2939  Output 1
+0x2744,10053,PB-016_CH_F,Channel Fail,Signal Tag,931,float 32, , ,Digital,ON,OFF,Block 2923  Output 1
+0x2746,10055,PB-016_D_F,Discrepancy Fail,Signal Tag,932,float 32, , ,Digital,ON,OFF,Block 2928  Output 1
+0x2748,10057,PB-016_ALARM,HH or LL Alarm,Signal Tag,933,float 32, , ,Digital,ON,OFF,Block 2936  Output 1
+0x274A,10059,PB-016_R,Alarm Reset,Signal Tag,934,float 32, , ,Digital,ON,OFF,Variable #:604
+0x274C,10061,PB-016_MOS1,,Signal Tag,935,float 32, , ,Digital,ON,OFF,Variable #:603
+0x274E,10063,PB-016_F,,Signal Tag,936,float 32, , ,Digital,ON,OFF,Block 2921  Output 1
+0x2750,10065,ESD-W010_TRIP,,Signal Tag,937,float 32, , ,Digital,ON,OFF,Block 2973  Output 1
+0x2752,10067,PSD-W010_TRIP,,Signal Tag,938,float 32, , ,Digital,ON,OFF,Block 2978  Output 1
+0x2754,10069,CG-001_TRIP,,Signal Tag,939,float 32, , ,Digital,ON,OFF,Block 2988  Output 1
+0x2756,10071,HS-ESD-001_TRIP,TRIP,Signal Tag,940,float 32, , ,Digital,ON,OFF,Block 2999  Output 1
+0x2758,10073,PB-003_TRIP,TRIP,Signal Tag,941,float 32, , ,Digital,ON,OFF,Block 3011  Output 1
+0x275A,10075,PZIT-617_TRIP,TRIP,Signal Tag,942,float 32, , ,Digital,ON,OFF,Block 3015  Output 1
+0x275C,10077,PB-004_TRIP,TRIP,Signal Tag,943,float 32, , ,Digital,ON,OFF,Block 3019  Output 1
+0x275E,10079,XS-012_TRIP,TRIP,Signal Tag,944,float 32, , ,Digital,ON,OFF,Block 3021  Output 1
+0x2760,10081,LZIT-605_TRIP,,Signal Tag,945,float 32, , ,Digital,ON,OFF,Block 2949  Output 1
+0x2762,10083,PZIT-219_TRIP,,Signal Tag,946,float 32, , ,Digital,ON,OFF,Block 3056  Output 1
+0x2764,10085,XS-013_TRIP,TRIP,Signal Tag,947,float 32, , ,Digital,ON,OFF,Block 3022  Output 1
+0x2766,10087,CF-001_TRIP,,Signal Tag,948,float 32, , ,Digital,ON,OFF,Block 2983  Output 1
+0x2768,10089,HS-ESD-001_V,,Signal Tag,949,float 32, , ,Digital,ON,OFF,Variable #:487
+0x276A,10091,HS-ESD-002_V,,Signal Tag,950,float 32, , ,Digital,ON,OFF,Variable #:494
+0x276C,10093,HS-ESD-003_V,,Signal Tag,951,float 32, , ,Digital,ON,OFF,Variable #:498
+0x276E,10095,HS-ESD-004_V,,Signal Tag,952,float 32, , ,Digital,ON,OFF,Variable #:502
+0x2770,10097,HS-ESD-007_V,,Signal Tag,953,float 32, , ,Digital,ON,OFF,Variable #:506
+0x2772,10099,HS-ESD-008_V,,Signal Tag,954,float 32, , ,Digital,ON,OFF,Variable #:510
+0x2774,10101,HS-ESD-009_V,,Signal Tag,955,float 32, , ,Digital,ON,OFF,Variable #:514
+0x2776,10103,HS-ESD-005_V,,Signal Tag,956,float 32, , ,Digital,ON,OFF,Variable #:518
+0x2778,10105,HS-ESD-006_V,,Signal Tag,957,float 32, , ,Digital,ON,OFF,Variable #:522
+0x277A,10107,PS-906_V,,Signal Tag,958,float 32, , ,Digital,ON,OFF,Variable #:526
+0x277C,10109,PS-907_V,,Signal Tag,959,float 32, , ,Digital,ON,OFF,Variable #:530
+0x277E,10111,XS-018_V,,Signal Tag,960,float 32, , ,Digital,ON,OFF,Variable #:534
+0x2780,10113,XS-019_V,,Signal Tag,961,float 32, , ,Digital,ON,OFF,Variable #:538
+0x2782,10115,XS-012_V,,Signal Tag,962,float 32, , ,Digital,ON,OFF,Variable #:542
+0x2784,10117,XS-013_V,,Signal Tag,963,float 32, , ,Digital,ON,OFF,Variable #:546
+0x2786,10119,PB-001_V,,Signal Tag,964,float 32, , ,Digital,ON,OFF,Variable #:550
+0x2788,10121,PB-002_V,,Signal Tag,965,float 32, , ,Digital,ON,OFF,Variable #:554
+0x278A,10123,PB-003_V,,Signal Tag,966,float 32, , ,Digital,ON,OFF,Variable #:558
+0x278C,10125,PB-004_V,,Signal Tag,967,float 32, , ,Digital,ON,OFF,Variable #:562
+0x278E,10127,PB-005_V,,Signal Tag,968,float 32, , ,Digital,ON,OFF,Variable #:566
+0x2790,10129,PB-006_V,,Signal Tag,969,float 32, , ,Digital,ON,OFF,Variable #:570
+0x2792,10131,PB-007_V,,Signal Tag,970,float 32, , ,Digital,ON,OFF,Variable #:574
+0x2794,10133,PB-008_V,,Signal Tag,971,float 32, , ,Digital,ON,OFF,Variable #:578
+0x2796,10135,PB-009_V,,Signal Tag,972,float 32, , ,Digital,ON,OFF,Variable #:582
+0x2798,10137,PB-011_V,,Signal Tag,973,float 32, , ,Digital,ON,OFF,Variable #:586
+0x279A,10139,PB-012_V,,Signal Tag,974,float 32, , ,Digital,ON,OFF,Variable #:590
+0x279C,10141,PB-013_V,,Signal Tag,975,float 32, , ,Digital,ON,OFF,Variable #:594
+0x279E,10143,PB-014_V,,Signal Tag,976,float 32, , ,Digital,ON,OFF,Variable #:598
+0x27A0,10145,PB-015_V,,Signal Tag,977,float 32, , ,Digital,ON,OFF,Variable #:602
+0x27A2,10147,PB-016_V,,Signal Tag,978,float 32, , ,Digital,ON,OFF,Variable #:606
+0x27A4,10149,HS-ESD-002_TRIP,TRIP,Signal Tag,979,float 32, , ,Digital,ON,OFF,Block 3000  Output 1
+0x27A6,10151,HS-ESD-003_TRIP,TRIP,Signal Tag,980,float 32, , ,Digital,ON,OFF,Block 3001  Output 1
+0x27A8,10153,HS-ESD-004_TRIP,TRIP,Signal Tag,981,float 32, , ,Digital,ON,OFF,Block 3002  Output 1
+0x27AA,10155,HS-ESD-005_TRIP,TRIP,Signal Tag,982,float 32, , ,Digital,ON,OFF,Block 3003  Output 1
+0x27AC,10157,HS-ESD-006_TRIP,TRIP,Signal Tag,983,float 32, , ,Digital,ON,OFF,Block 3004  Output 1
+0x27AE,10159,HS-ESD-007_TRIP,TRIP,Signal Tag,984,float 32, , ,Digital,ON,OFF,Block 3005  Output 1
+0x27B0,10161,HS-ESD-008_TRIP,TRIP,Signal Tag,985,float 32, , ,Digital,ON,OFF,Block 3006  Output 1
+0x27B2,10163,HS-ESD-009_TRIP,TRIP,Signal Tag,986,float 32, , ,Digital,ON,OFF,Block 3007  Output 1
+0x27B4,10165,PZIT-616_TRIP,TRIP,Signal Tag,987,float 32, , ,Digital,ON,OFF,Block 3010  Output 1
+0x27B6,10167,XS-018/019_TRIP,TRIP,Signal Tag,988,float 32, , ,Digital,ON,OFF,Block 3026  Output 1
+0x27B8,10169,PZIT-W208A_TRIP,TRIP,Signal Tag,989,float 32, , ,Digital,ON,OFF,Block 3029  Output 1
+0x27BA,10171,PZIT-W207A_TRIP,TRIP,Signal Tag,990,float 32, , ,Digital,ON,OFF,Block 3031  Output 1
+0x27BC,10173,PZIT-W208B_TRIP,TRIP,Signal Tag,991,float 32, , ,Digital,ON,OFF,Block 3033  Output 1
+0x27BE,10175,PZIT-W207B_TRIP,TRIP,Signal Tag,992,float 32, , ,Digital,ON,OFF,Block 3035  Output 1
+0x27C0,10177,PZIT-W208C_TRIP,TRIP,Signal Tag,993,float 32, , ,Digital,ON,OFF,Block 3037  Output 1
+0x27C2,10179,PZIT-W207C_TRIP,TRIP,Signal Tag,994,float 32, , ,Digital,ON,OFF,Block 3039  Output 1
+0x27C4,10181,PZIT-W208D_TRIP,TRIP,Signal Tag,995,float 32, , ,Digital,ON,OFF,Block 3041  Output 1
+0x27C6,10183,PZIT-W207D_TRIP,TRIP,Signal Tag,996,float 32, , ,Digital,ON,OFF,Block 3043  Output 1
+0x27C8,10185,PZIT-230_TRIP,,Signal Tag,997,float 32, , ,Digital,ON,OFF,Block 3059  Output 1
+0x27CA,10187,LZIT-602_TRIP,TRIP,Signal Tag,998,float 32, , ,Digital,ON,OFF,Block 3061  Output 1
+0x27CC,10189,FZIT-103_TRIP,TRIP,Signal Tag,999,float 32, , ,Digital,ON,OFF,Block 3202  Output 1
+0x27CE,10191,LZIT-607_TRIP,TRIP,Signal Tag,1000,float 32, , ,Digital,ON,OFF,Block 3065  Output 1
+0x4330,17201,FZIT-104_TRIP,TRIP,Signal Tag,1001,float 32, , ,Digital,ON,OFF,Block 3204  Output 1
+0x4332,17203,LZIT-625_TRIP,TRIP,Signal Tag,1002,float 32, , ,Digital,ON,OFF,Block 3069  Output 1
+0x4334,17205,PZIT-226A_TRIP,TRIP,Signal Tag,1003,float 32, , ,Digital,ON,OFF,Block 3071  Output 1
+0x4336,17207,PZIT-226B_TRIP,TRIP,Signal Tag,1004,float 32, , ,Digital,ON,OFF,Block 3073  Output 1
+0x4338,17209,LZIT-627_TRIP,TRIP,Signal Tag,1005,float 32, , ,Digital,ON,OFF,Block 3075  Output 1
+0x433A,17211,PZIT-227A_TRIP,TRIP,Signal Tag,1006,float 32, , ,Digital,ON,OFF,Block 3077  Output 1
+0x433C,17213,PZIT-227B_TRIP,TRIP,Signal Tag,1007,float 32, , ,Digital,ON,OFF,Block 3079  Output 1
+0x433E,17215,LZIT-629_TRIP,TRIP,Signal Tag,1008,float 32, , ,Digital,ON,OFF,Block 3081  Output 1
+0x4340,17217,PZIT-228A_TRIP,TRIP,Signal Tag,1009,float 32, , ,Digital,ON,OFF,Block 3083  Output 1
+0x4342,17219,PZIT-228B_TRIP,TRIP,Signal Tag,1010,float 32, , ,Digital,ON,OFF,Block 3085  Output 1
+0x4344,17221,LZIT-632_TRIP,TRIP,Signal Tag,1011,float 32, , ,Digital,ON,OFF,Block 3087  Output 1
+0x4346,17223,PZIT-229A_TRIP,TRIP,Signal Tag,1012,float 32, , ,Digital,ON,OFF,Block 3089  Output 1
+0x4348,17225,PZIT-229B_TRIP,TRIP,Signal Tag,1013,float 32, , ,Digital,ON,OFF,Block 3091  Output 1
+0x434A,17227,LZIT-603_TRIP,TRIP,Signal Tag,1014,float 32, , ,Digital,ON,OFF,Block 3093  Output 1
+0x434C,17229,LZIT-604_TRIP,TRIP,Signal Tag,1015,float 32, , ,Digital,ON,OFF,Block 3095  Output 1
+0x434E,17231,PZIT-606_TRIP,TRIP,Signal Tag,1016,float 32, , ,Digital,ON,OFF,Block 3097  Output 1
+0x4350,17233,PZIT-613_TRIP,TRIP,Signal Tag,1017,float 32, , ,Digital,ON,OFF,Block 3101  Output 1
+0x4352,17235,PZIT-608_TRIP,TRIP,Signal Tag,1018,float 32, , ,Digital,ON,OFF,Block 3103  Output 1
+0x4354,17237,PZIT-614_TRIP,TRIP,Signal Tag,1019,float 32, , ,Digital,ON,OFF,Block 3105  Output 1
+0x4356,17239,HSR-W902A_TRIP,,Signal Tag,1020,float 32, , ,Digital,ON,OFF,Block 3106  Output 1
+0x4358,17241,HSR-W903A_TRIP,,Signal Tag,1021,float 32, , ,Digital,ON,OFF,Block 3116  Output 1
+0x435A,17243,HSR-W902B_TRIP,,Signal Tag,1022,float 32, , ,Digital,ON,OFF,Block 3121  Output 1
+0x435C,17245,HSR-W903B_TRIP,,Signal Tag,1023,float 32, , ,Digital,ON,OFF,Block 3126  Output 1
+0x435E,17247,HSR-W902C_TRIP,,Signal Tag,1024,float 32, , ,Digital,ON,OFF,Block 3131  Output 1
+0x4360,17249,HSR-W903C_TRIP,,Signal Tag,1025,float 32, , ,Digital,ON,OFF,Block 3136  Output 1
+0x4362,17251,HSR-W902D_TRIP,,Signal Tag,1026,float 32, , ,Digital,ON,OFF,Block 3141  Output 1
+0x4364,17253,HSR-W903D_TRIP,,Signal Tag,1027,float 32, , ,Digital,ON,OFF,Block 3146  Output 1
+0x4366,17255,HS-908_TRIP,,Signal Tag,1028,float 32, , ,Digital,ON,OFF,Block 3151  Output 1
+0x4368,17257,HS-906_TRIP,,Signal Tag,1029,float 32, , ,Digital,ON,OFF,Block 3156  Output 1
+0x436A,17259,HS-907_TRIP,,Signal Tag,1030,float 32, , ,Digital,ON,OFF,Block 3161  Output 1
+0x436C,17261,STO_TRIP,,Signal Tag,1031,float 32, , ,Digital,ON,OFF,Block 3183  Output 1
+0x436E,17263,STO_FO,,Signal Tag,1032,float 32, , ,Digital,ON,OFF,Block 3188  Output 1
+0x4370,17265,STO_FO_N,Number Of FO,Signal Tag,1033,float 32,,0,Analog, , ,Block 3181  Output 1
+0x4372,17267,ANNUCIATE_TRIP,,Signal Tag,1034,float 32, , ,Digital,ON,OFF,Block 3199  Output 1
+0x4374,17269,EFFECT2_V1,,Signal Tag,1035,float 32, , ,Digital,ON,OFF,Block 3207  Output 1
+0x4376,17271,EFFECT2_V2,,Signal Tag,1036,float 32, , ,Digital,ON,OFF,Block 3222  Output 1
+0x4378,17273,EFFECT2_V3,,Signal Tag,1037,float 32, , ,Digital,ON,OFF,Block 3223  Output 1
+0x437A,17275,PZIT-219_E01,,Signal Tag,1038,float 32, , ,Digital,ON,OFF,Block 3182  Output 1
+0x437C,17277,PZIT-230_E01,,Signal Tag,1039,float 32, , ,Digital,ON,OFF,Block 3190  Output 1
+0x437E,17279,FZIT-103_E01,,Signal Tag,1040,float 32, , ,Digital,ON,OFF,Block 3193  Output 1
+0x4380,17281,FZIT-104_E01,,Signal Tag,1041,float 32, , ,Digital,ON,OFF,Block 3196  Output 1
+0x4382,17283,ESD-W010_E02,,Signal Tag,1042,float 32, , ,Digital,ON,OFF,Block 3247  Output 1
+0x4384,17285,PSD-W010_E02,,Signal Tag,1043,float 32, , ,Digital,ON,OFF,Block 3259  Output 1
+0x4386,17287,ANNUCIATE_FO,,Signal Tag,1044,float 32, , ,Digital,ON,OFF,Block 3441  Output 1
+0x4388,17289,HS-ESD-001_E02,,Signal Tag,1045,float 32, , ,Digital,ON,OFF,Block 3262  Output 1
+0x438A,17291,HS-ESD-002_E02,,Signal Tag,1046,float 32, , ,Digital,ON,OFF,Block 3265  Output 1
+0x438C,17293,HS-ESD-003_E02,,Signal Tag,1047,float 32, , ,Digital,ON,OFF,Block 3268  Output 1
+0x438E,17295,HS-ESD-004_E02,,Signal Tag,1048,float 32, , ,Digital,ON,OFF,Block 3271  Output 1
+0x4390,17297,HS-ESD-005_E02,,Signal Tag,1049,float 32, , ,Digital,ON,OFF,Block 3274  Output 1
+0x4392,17299,HS-ESD-006_E02,,Signal Tag,1050,float 32, , ,Digital,ON,OFF,Block 3277  Output 1
+0x4394,17301,HS-ESD-007_E02,,Signal Tag,1051,float 32, , ,Digital,ON,OFF,Block 3280  Output 1
+0x4396,17303,HS-ESD-008_E02,,Signal Tag,1052,float 32, , ,Digital,ON,OFF,Block 3283  Output 1
+0x4398,17305,HS-ESD-009_E02,,Signal Tag,1053,float 32, , ,Digital,ON,OFF,Block 3287  Output 1
+0x439A,17307,PZIT-616_E02,,Signal Tag,1054,float 32, , ,Digital,ON,OFF,Block 3290  Output 1
+0x439C,17309,PB-003_E02,,Signal Tag,1055,float 32, , ,Digital,ON,OFF,Block 3293  Output 1
+0x439E,17311,CF-001_E02,,Signal Tag,1056,float 32, , ,Digital,ON,OFF,Block 3296  Output 1
+0x43A0,17313,CG-001_E02,,Signal Tag,1057,float 32, , ,Digital,ON,OFF,Block 3299  Output 1
+0x43A2,17315,PZIT-617_E02,,Signal Tag,1058,float 32, , ,Digital,ON,OFF,Block 3302  Output 1
+0x43A4,17317,LZIT-605_E02,,Signal Tag,1059,float 32, , ,Digital,ON,OFF,Block 3305  Output 1
+0x43A6,17319,PB-004_E02,,Signal Tag,1060,float 32, , ,Digital,ON,OFF,Block 3308  Output 1
+0x43A8,17321,XS-012_E02,,Signal Tag,1061,float 32, , ,Digital,ON,OFF,Block 3311  Output 1
+0x43AA,17323,XS-013_E02,,Signal Tag,1062,float 32, , ,Digital,ON,OFF,Block 3314  Output 1
+0x43AC,17325,XS-018/019_E02,,Signal Tag,1063,float 32, , ,Digital,ON,OFF,Block 3317  Output 1
+0x43AE,17327,PZIT-219_E02,,Signal Tag,1064,float 32, , ,Digital,ON,OFF,Block 3320  Output 1
+0x43B0,17329,PZIT-W208A_E02,,Signal Tag,1065,float 32, , ,Digital,ON,OFF,Block 3335  Output 1
+0x43B2,17331,PZIT-W207A_E02,,Signal Tag,1066,float 32, , ,Digital,ON,OFF,Block 3338  Output 1
+0x43B4,17333,PZIT-W208B_E02,,Signal Tag,1067,float 32, , ,Digital,ON,OFF,Block 3341  Output 1
+0x43B6,17335,PZIT-W207B_E02,,Signal Tag,1068,float 32, , ,Digital,ON,OFF,Block 3344  Output 1
+0x43B8,17337,PZIT-W208C_E02,,Signal Tag,1069,float 32, , ,Digital,ON,OFF,Block 3347  Output 1
+0x43BA,17339,PZIT-W207C_E02,,Signal Tag,1070,float 32, , ,Digital,ON,OFF,Block 3350  Output 1
+0x43BC,17341,PZIT-W208D_E02,,Signal Tag,1071,float 32, , ,Digital,ON,OFF,Block 3353  Output 1
+0x43BE,17343,PZIT-W207D_E02,,Signal Tag,1072,float 32, , ,Digital,ON,OFF,Block 3356  Output 1
+0x43C0,17345,PZIT-230_E02,,Signal Tag,1073,float 32, , ,Digital,ON,OFF,Block 3359  Output 1
+0x43C2,17347,LZIT-602_E02,,Signal Tag,1074,float 32, , ,Digital,ON,OFF,Block 3368  Output 1
+0x43C4,17349,FZIT-103_E02,,Signal Tag,1075,float 32, , ,Digital,ON,OFF,Block 3371  Output 1
+0x43C6,17351,LZIT-607_E02,,Signal Tag,1076,float 32, , ,Digital,ON,OFF,Block 3374  Output 1
+0x43C8,17353,FZIT-104_E02,,Signal Tag,1077,float 32, , ,Digital,ON,OFF,Block 3377  Output 1
+0x43CA,17355,LZIT-625_E02,,Signal Tag,1078,float 32, , ,Digital,ON,OFF,Block 3380  Output 1
+0x43CC,17357,PZIT-226A_E02,,Signal Tag,1079,float 32, , ,Digital,ON,OFF,Block 3383  Output 1
+0x43CE,17359,PZIT-226B_E02,,Signal Tag,1080,float 32, , ,Digital,ON,OFF,Block 3386  Output 1
+0x43D0,17361,LZIT-627_E02,,Signal Tag,1081,float 32, , ,Digital,ON,OFF,Block 3389  Output 1
+0x43D2,17363,PZIT-227A_E02,,Signal Tag,1082,float 32, , ,Digital,ON,OFF,Block 3392  Output 1
+0x43D4,17365,PZIT-227B_E02,,Signal Tag,1083,float 32, , ,Digital,ON,OFF,Block 3395  Output 1
+0x43D6,17367,LZIT-629_E02,,Signal Tag,1084,float 32, , ,Digital,ON,OFF,Block 3398  Output 1
+0x43D8,17369,PZIT-228A_E02,,Signal Tag,1085,float 32, , ,Digital,ON,OFF,Block 3401  Output 1
+0x43DA,17371,PZIT-228B_E02,,Signal Tag,1086,float 32, , ,Digital,ON,OFF,Block 3404  Output 1
+0x43DC,17373,LZIT-632_E02,,Signal Tag,1087,float 32, , ,Digital,ON,OFF,Block 3407  Output 1
+0x43DE,17375,PZIT-229A_E02,,Signal Tag,1088,float 32, , ,Digital,ON,OFF,Block 3410  Output 1
+0x43E0,17377,PZIT-229B_E02,,Signal Tag,1089,float 32, , ,Digital,ON,OFF,Block 3413  Output 1
+0x43E2,17379,LZIT-603_E02,,Signal Tag,1090,float 32, , ,Digital,ON,OFF,Block 3416  Output 1
+0x43E4,17381,LZIT-604_E02,,Signal Tag,1091,float 32, , ,Digital,ON,OFF,Block 3419  Output 1
+0x43E6,17383,PZIT-606_E02,,Signal Tag,1092,float 32, , ,Digital,ON,OFF,Block 3422  Output 1
+0x43E8,17385,PZIT-613_E02,,Signal Tag,1093,float 32, , ,Digital,ON,OFF,Block 3425  Output 1
+0x43EA,17387,PZIT-608_E02,,Signal Tag,1094,float 32, , ,Digital,ON,OFF,Block 3428  Output 1
+0x43EC,17389,PZIT-614_E02,,Signal Tag,1095,float 32, , ,Digital,ON,OFF,Block 3431  Output 1
+0x43EE,17391,ANNUCIATE_FO_N,Number Of FO,Signal Tag,1096,float 32,,0,Analog, , ,Block 3499  Output 1
+0x43F0,17393,ESD-W010_FO,First Out,Signal Tag,1097,float 32, , ,Digital,ON,OFF,Block 3509  Output 1
+0x43F2,17395,PSD-W010_FO,First Out,Signal Tag,1098,float 32, , ,Digital,ON,OFF,Block 3514  Output 1
+0x43F4,17397,CF-001_FO,First Out,Signal Tag,1099,float 32, , ,Digital,ON,OFF,Block 3519  Output 1
+0x43F6,17399,CG-001_FO,First Out,Signal Tag,1100,float 32, , ,Digital,ON,OFF,Block 3524  Output 1
+0x43F8,17401,SY-W903B_TRIP,,Signal Tag,1101,float 32, , ,Digital,ON,OFF,Block 4387  Output 1
+0x43FA,17403,ESD-W010_E10,,Signal Tag,1102,float 32, , ,Digital,ON,OFF,Block 4390  Output 1
+0x43FC,17405,SY-W903A_TRIP,,Signal Tag,1103,float 32, , ,Digital,ON,OFF,Block 4174  Output 1
+0x43FE,17407,ESD-W010_E05,,Signal Tag,1104,float 32, , ,Digital,ON,OFF,Block 3951  Output 1
+0x4400,17409,PSD-W010_E05,,Signal Tag,1105,float 32, , ,Digital,ON,OFF,Block 3954  Output 1
+0x4402,17411,SY-W902A_FO,,Signal Tag,1106,float 32, , ,Digital,ON,OFF,Block 4173  Output 1
+0x4404,17413,HS-ESD-001_E05,,Signal Tag,1107,float 32, , ,Digital,ON,OFF,Block 3957  Output 1
+0x4406,17415,HS-ESD-002_E05,,Signal Tag,1108,float 32, , ,Digital,ON,OFF,Block 3960  Output 1
+0x4408,17417,HS-ESD-003_E05,,Signal Tag,1109,float 32, , ,Digital,ON,OFF,Block 3963  Output 1
+0x440A,17419,HS-ESD-004_E05,,Signal Tag,1110,float 32, , ,Digital,ON,OFF,Block 3966  Output 1
+0x440C,17421,HS-ESD-005_E05,,Signal Tag,1111,float 32, , ,Digital,ON,OFF,Block 3969  Output 1
+0x440E,17423,HS-ESD-006_E05,,Signal Tag,1112,float 32, , ,Digital,ON,OFF,Block 3972  Output 1
+0x4410,17425,HS-ESD-007_E05,,Signal Tag,1113,float 32, , ,Digital,ON,OFF,Block 3975  Output 1
+0x4412,17427,HS-ESD-008_E05,,Signal Tag,1114,float 32, , ,Digital,ON,OFF,Block 3978  Output 1
+0x4414,17429,HS-ESD-009_E05,,Signal Tag,1115,float 32, , ,Digital,ON,OFF,Block 3983  Output 1
+0x4416,17431,PSD-W010_E10,,Signal Tag,1116,float 32, , ,Digital,ON,OFF,Block 4393  Output 1
+0x4418,17433,PB-003_E05,,Signal Tag,1117,float 32, , ,Digital,ON,OFF,Block 3989  Output 1
+0x441A,17435,CF-001_E05,,Signal Tag,1118,float 32, , ,Digital,ON,OFF,Block 3992  Output 1
+0x441C,17437,CG-001_E05,,Signal Tag,1119,float 32, , ,Digital,ON,OFF,Block 3995  Output 1
+0x441E,17439,SY-W903B_FO,,Signal Tag,1120,float 32, , ,Digital,ON,OFF,Block 4451  Output 1
+0x4420,17441,LZIT-605_E05,,Signal Tag,1121,float 32, , ,Digital,ON,OFF,Block 4001  Output 1
+0x4422,17443,PB-004_E05,,Signal Tag,1122,float 32, , ,Digital,ON,OFF,Block 4004  Output 1
+0x4424,17445,XS-012_E05,,Signal Tag,1123,float 32, , ,Digital,ON,OFF,Block 4007  Output 1
+0x4426,17447,XS-013_E05,,Signal Tag,1124,float 32, , ,Digital,ON,OFF,Block 4010  Output 1
+0x4428,17449,XS-018/019_E05,,Signal Tag,1125,float 32, , ,Digital,ON,OFF,Block 4013  Output 1
+0x442A,17451,PZIT-219_E05,,Signal Tag,1126,float 32, , ,Digital,ON,OFF,Block 4015  Output 1
+0x442C,17453,PZIT-W208A_E05,,Signal Tag,1127,float 32, , ,Digital,ON,OFF,Block 4026  Output 1
+0x442E,17455,PZIT-W207A_E05,,Signal Tag,1128,float 32, , ,Digital,ON,OFF,Block 4029  Output 1
+0x4430,17457,ESD-W010_E06,,Signal Tag,1129,float 32, , ,Digital,ON,OFF,Block 4186  Output 1
+0x4432,17459,PSD-W010_E06,,Signal Tag,1130,float 32, , ,Digital,ON,OFF,Block 4189  Output 1
+0x4434,17461,SY-W903A_FO,,Signal Tag,1131,float 32, , ,Digital,ON,OFF,Block 4247  Output 1
+0x4436,17463,HS-ESD-001_E06,,Signal Tag,1132,float 32, , ,Digital,ON,OFF,Block 4192  Output 1
+0x4438,17465,HS-ESD-002_E06,,Signal Tag,1133,float 32, , ,Digital,ON,OFF,Block 4195  Output 1
+0x443A,17467,HS-ESD-003_E06,,Signal Tag,1134,float 32, , ,Digital,ON,OFF,Block 4198  Output 1
+0x443C,17469,HS-ESD-004_E06,,Signal Tag,1135,float 32, , ,Digital,ON,OFF,Block 4201  Output 1
+0x443E,17471,HS-ESD-005_E06,,Signal Tag,1136,float 32, , ,Digital,ON,OFF,Block 4204  Output 1
+0x4440,17473,HS-ESD-006_E06,,Signal Tag,1137,float 32, , ,Digital,ON,OFF,Block 4207  Output 1
+0x4442,17475,HS-ESD-007_E06,,Signal Tag,1138,float 32, , ,Digital,ON,OFF,Block 4210  Output 1
+0x4444,17477,HS-ESD-008_E06,,Signal Tag,1139,float 32, , ,Digital,ON,OFF,Block 4213  Output 1
+0x4446,17479,HS-ESD-009_E06,,Signal Tag,1140,float 32, , ,Digital,ON,OFF,Block 4217  Output 1
+0x4448,17481,PB-003_E06,,Signal Tag,1141,float 32, , ,Digital,ON,OFF,Block 4220  Output 1
+0x444A,17483,CF-001_E06,,Signal Tag,1142,float 32, , ,Digital,ON,OFF,Block 4223  Output 1
+0x444C,17485,CG-001_E06,,Signal Tag,1143,float 32, , ,Digital,ON,OFF,Block 4226  Output 1
+0x444E,17487,LZIT-605_E06,,Signal Tag,1144,float 32, , ,Digital,ON,OFF,Block 4229  Output 1
+0x4450,17489,PB-004_E06,,Signal Tag,1145,float 32, , ,Digital,ON,OFF,Block 4232  Output 1
+0x4452,17491,XS-012_E06,,Signal Tag,1146,float 32, , ,Digital,ON,OFF,Block 4235  Output 1
+0x4454,17493,XS-013_E06,,Signal Tag,1147,float 32, , ,Digital,ON,OFF,Block 4238  Output 1
+0x4456,17495,XS-018/019_E06,,Signal Tag,1148,float 32, , ,Digital,ON,OFF,Block 4241  Output 1
+0x4458,17497,PZIT-219_E06,,Signal Tag,1149,float 32, , ,Digital,ON,OFF,Block 4243  Output 1
+0x445A,17499,PZIT-W208A_E06,,Signal Tag,1150,float 32, , ,Digital,ON,OFF,Block 4250  Output 1
+0x445C,17501,PZIT-W207A_E06,,Signal Tag,1151,float 32, , ,Digital,ON,OFF,Block 4253  Output 1
+0x445E,17503,SY-W903A_FO_N,Number Of FO,Signal Tag,1152,float 32,,0,Analog, , ,Block 4275  Output 1
+0x4460,17505,SY-W902B_TRIP,,Signal Tag,1153,float 32, , ,Digital,ON,OFF,Block 4276  Output 1
+0x4462,17507,HS-ESD-001_E10,,Signal Tag,1154,float 32, , ,Digital,ON,OFF,Block 4396  Output 1
+0x4464,17509,HS-ESD-002_E10,,Signal Tag,1155,float 32, , ,Digital,ON,OFF,Block 4399  Output 1
+0x4466,17511,ESD-W010_E09,,Signal Tag,1156,float 32, , ,Digital,ON,OFF,Block 4288  Output 1
+0x4468,17513,PSD-W010_E09,,Signal Tag,1157,float 32, , ,Digital,ON,OFF,Block 4291  Output 1
+0x446A,17515,SY-W902A_FO_N,Number Of FO,Signal Tag,1158,float 32,,0,Analog, , ,Block 4140  Output 1
+0x446C,17517,SY-W902B_FO,,Signal Tag,1159,float 32, , ,Digital,ON,OFF,Block 4349  Output 1
+0x446E,17519,HS-ESD-001_E09,,Signal Tag,1160,float 32, , ,Digital,ON,OFF,Block 4294  Output 1
+0x4470,17521,HS-ESD-002_E09,,Signal Tag,1161,float 32, , ,Digital,ON,OFF,Block 4297  Output 1
+0x4472,17523,HS-ESD-003_E09,,Signal Tag,1162,float 32, , ,Digital,ON,OFF,Block 4300  Output 1
+0x4474,17525,HS-ESD-004_E09,,Signal Tag,1163,float 32, , ,Digital,ON,OFF,Block 4303  Output 1
+0x4476,17527,HS-ESD-005_E09,,Signal Tag,1164,float 32, , ,Digital,ON,OFF,Block 4306  Output 1
+0x4478,17529,HS-ESD-006_E09,,Signal Tag,1165,float 32, , ,Digital,ON,OFF,Block 4309  Output 1
+0x447A,17531,HS-ESD-007_E09,,Signal Tag,1166,float 32, , ,Digital,ON,OFF,Block 4312  Output 1
+0x447C,17533,HS-ESD-008_E09,,Signal Tag,1167,float 32, , ,Digital,ON,OFF,Block 4315  Output 1
+0x447E,17535,HS-ESD-009_E09,,Signal Tag,1168,float 32, , ,Digital,ON,OFF,Block 4319  Output 1
+0x4480,17537,PB-003_E09,,Signal Tag,1169,float 32, , ,Digital,ON,OFF,Block 4322  Output 1
+0x4482,17539,CF-001_E09,,Signal Tag,1170,float 32, , ,Digital,ON,OFF,Block 4325  Output 1
+0x4484,17541,CG-001_E09,,Signal Tag,1171,float 32, , ,Digital,ON,OFF,Block 4328  Output 1
+0x4486,17543,LZIT-605_E09,,Signal Tag,1172,float 32, , ,Digital,ON,OFF,Block 4331  Output 1
+0x4488,17545,PB-004_E09,,Signal Tag,1173,float 32, , ,Digital,ON,OFF,Block 4334  Output 1
+0x448A,17547,XS-012_E09,,Signal Tag,1174,float 32, , ,Digital,ON,OFF,Block 4337  Output 1
+0x448C,17549,XS-013_E09,,Signal Tag,1175,float 32, , ,Digital,ON,OFF,Block 4340  Output 1
+0x448E,17551,XS-018/019_E09,,Signal Tag,1176,float 32, , ,Digital,ON,OFF,Block 4343  Output 1
+0x4490,17553,PZIT-219_E09,,Signal Tag,1177,float 32, , ,Digital,ON,OFF,Block 4345  Output 1
+0x4492,17555,PZIT-W208B_E09,,Signal Tag,1178,float 32, , ,Digital,ON,OFF,Block 4352  Output 1
+0x4494,17557,PZIT-W207B_E09,,Signal Tag,1179,float 32, , ,Digital,ON,OFF,Block 4355  Output 1
+0x4496,17559,SY-W902B_FO_N,Number Of FO,Signal Tag,1180,float 32,,0,Analog, , ,Block 4377  Output 1
+0x4498,17561,HS-ESD-003_E10,,Signal Tag,1181,float 32, , ,Digital,ON,OFF,Block 4402  Output 1
+0x449A,17563,HS-ESD-004_E10,,Signal Tag,1182,float 32, , ,Digital,ON,OFF,Block 4405  Output 1
+0x449C,17565,HS-ESD-005_E10,,Signal Tag,1183,float 32, , ,Digital,ON,OFF,Block 4408  Output 1
+0x449E,17567,HS-ESD-006_E10,,Signal Tag,1184,float 32, , ,Digital,ON,OFF,Block 4411  Output 1
+0x44A0,17569,HS-ESD-007_E10,,Signal Tag,1185,float 32, , ,Digital,ON,OFF,Block 4414  Output 1
+0x44A2,17571,HS-ESD-008_E10,,Signal Tag,1186,float 32, , ,Digital,ON,OFF,Block 4417  Output 1
+0x44A4,17573,HS-ESD-009_E10,,Signal Tag,1187,float 32, , ,Digital,ON,OFF,Block 4421  Output 1
+0x44A6,17575,PB-003_E10,,Signal Tag,1188,float 32, , ,Digital,ON,OFF,Block 4424  Output 1
+0x44A8,17577,CF-001_E10,,Signal Tag,1189,float 32, , ,Digital,ON,OFF,Block 4427  Output 1
+0x44AA,17579,CG-001_E10,,Signal Tag,1190,float 32, , ,Digital,ON,OFF,Block 4430  Output 1
+0x44AC,17581,LZIT-605_E10,,Signal Tag,1191,float 32, , ,Digital,ON,OFF,Block 4433  Output 1
+0x44AE,17583,PB-004_E10,,Signal Tag,1192,float 32, , ,Digital,ON,OFF,Block 4436  Output 1
+0x44B0,17585,XS-012_E10,,Signal Tag,1193,float 32, , ,Digital,ON,OFF,Block 4439  Output 1
+0x44B2,17587,XS-013_E10,,Signal Tag,1194,float 32, , ,Digital,ON,OFF,Block 4442  Output 1
+0x44B4,17589,XS-018/019_E10,,Signal Tag,1195,float 32, , ,Digital,ON,OFF,Block 4445  Output 1
+0x44B6,17591,PZIT-219_E10,,Signal Tag,1196,float 32, , ,Digital,ON,OFF,Block 4447  Output 1
+0x44B8,17593,PZIT-W208B_E10,,Signal Tag,1197,float 32, , ,Digital,ON,OFF,Block 4454  Output 1
+0x44BA,17595,PZIT-W207B_E10,,Signal Tag,1198,float 32, , ,Digital,ON,OFF,Block 4457  Output 1
+0x44BC,17597,SY-W903B_FO_N,Number Of FO,Signal Tag,1199,float 32,,0,Analog, , ,Block 4479  Output 1
+0x44BE,17599,SY-W902C_TRIP,,Signal Tag,1200,float 32, , ,Digital,ON,OFF,Block 4486  Output 1
+0x44C0,17601,ESD-W010_E13,,Signal Tag,1201,float 32, , ,Digital,ON,OFF,Block 4489  Output 1
+0x44C2,17603,PSD-W010_E13,,Signal Tag,1202,float 32, , ,Digital,ON,OFF,Block 4492  Output 1
+0x44C4,17605,SY-W902C_FO,,Signal Tag,1203,float 32, , ,Digital,ON,OFF,Block 4550  Output 1
+0x44C6,17607,HS-ESD-001_E13,,Signal Tag,1204,float 32, , ,Digital,ON,OFF,Block 4495  Output 1
+0x44C8,17609,HS-ESD-002_E13,,Signal Tag,1205,float 32, , ,Digital,ON,OFF,Block 4498  Output 1
+0x44CA,17611,HS-ESD-003_E13,,Signal Tag,1206,float 32, , ,Digital,ON,OFF,Block 4501  Output 1
+0x44CC,17613,HS-ESD-004_E13,,Signal Tag,1207,float 32, , ,Digital,ON,OFF,Block 4504  Output 1
+0x44CE,17615,HS-ESD-005_E13,,Signal Tag,1208,float 32, , ,Digital,ON,OFF,Block 4507  Output 1
+0x44D0,17617,HS-ESD-006_E13,,Signal Tag,1209,float 32, , ,Digital,ON,OFF,Block 4510  Output 1
+0x44D2,17619,HS-ESD-007_E13,,Signal Tag,1210,float 32, , ,Digital,ON,OFF,Block 4513  Output 1
+0x44D4,17621,HS-ESD-008_E13,,Signal Tag,1211,float 32, , ,Digital,ON,OFF,Block 4516  Output 1
+0x44D6,17623,HS-ESD-009_E13,,Signal Tag,1212,float 32, , ,Digital,ON,OFF,Block 4520  Output 1
+0x44D8,17625,PB-003_E13,,Signal Tag,1213,float 32, , ,Digital,ON,OFF,Block 4523  Output 1
+0x44DA,17627,CF-001_E13,,Signal Tag,1214,float 32, , ,Digital,ON,OFF,Block 4526  Output 1
+0x44DC,17629,CG-001_E13,,Signal Tag,1215,float 32, , ,Digital,ON,OFF,Block 4529  Output 1
+0x44DE,17631,LZIT-605_E13,,Signal Tag,1216,float 32, , ,Digital,ON,OFF,Block 4532  Output 1
+0x44E0,17633,PB-004_E13,,Signal Tag,1217,float 32, , ,Digital,ON,OFF,Block 4535  Output 1
+0x44E2,17635,XS-012_E13,,Signal Tag,1218,float 32, , ,Digital,ON,OFF,Block 4538  Output 1
+0x44E4,17637,XS-013_E13,,Signal Tag,1219,float 32, , ,Digital,ON,OFF,Block 4541  Output 1
+0x44E6,17639,XS-018/019_E13,,Signal Tag,1220,float 32, , ,Digital,ON,OFF,Block 4544  Output 1
+0x44E8,17641,PZIT-219_E13,,Signal Tag,1221,float 32, , ,Digital,ON,OFF,Block 4546  Output 1
+0x44EA,17643,PZIT-W208C_E13,,Signal Tag,1222,float 32, , ,Digital,ON,OFF,Block 4553  Output 1
+0x44EC,17645,PZIT-W207C_E13,,Signal Tag,1223,float 32, , ,Digital,ON,OFF,Block 4556  Output 1
+0x44EE,17647,SY-W902C_FO_N,Number Of FO,Signal Tag,1224,float 32,,0,Analog, , ,Block 4578  Output 1
+0x44F0,17649,SY-W903C_TRIP,,Signal Tag,1225,float 32, , ,Digital,ON,OFF,Block 4585  Output 1
+0x44F2,17651,ESD-W010_E14,,Signal Tag,1226,float 32, , ,Digital,ON,OFF,Block 4588  Output 1
+0x44F4,17653,PSD-W010_E14,,Signal Tag,1227,float 32, , ,Digital,ON,OFF,Block 4591  Output 1
+0x44F6,17655,SY-W903C_FO,,Signal Tag,1228,float 32, , ,Digital,ON,OFF,Block 4649  Output 1
+0x44F8,17657,HS-ESD-001_E14,,Signal Tag,1229,float 32, , ,Digital,ON,OFF,Block 4594  Output 1
+0x44FA,17659,HS-ESD-002_E14,,Signal Tag,1230,float 32, , ,Digital,ON,OFF,Block 4597  Output 1
+0x44FC,17661,HS-ESD-003_E14,,Signal Tag,1231,float 32, , ,Digital,ON,OFF,Block 4600  Output 1
+0x44FE,17663,HS-ESD-004_E14,,Signal Tag,1232,float 32, , ,Digital,ON,OFF,Block 4603  Output 1
+0x4500,17665,HS-ESD-005_E14,,Signal Tag,1233,float 32, , ,Digital,ON,OFF,Block 4606  Output 1
+0x4502,17667,HS-ESD-006_E14,,Signal Tag,1234,float 32, , ,Digital,ON,OFF,Block 4609  Output 1
+0x4504,17669,HS-ESD-007_E14,,Signal Tag,1235,float 32, , ,Digital,ON,OFF,Block 4612  Output 1
+0x4506,17671,HS-ESD-008_E14,,Signal Tag,1236,float 32, , ,Digital,ON,OFF,Block 4615  Output 1
+0x4508,17673,HS-ESD-009_E14,,Signal Tag,1237,float 32, , ,Digital,ON,OFF,Block 4619  Output 1
+0x450A,17675,PB-003_E14,,Signal Tag,1238,float 32, , ,Digital,ON,OFF,Block 4622  Output 1
+0x450C,17677,CF-001_E14,,Signal Tag,1239,float 32, , ,Digital,ON,OFF,Block 4625  Output 1
+0x450E,17679,CG-001_E14,,Signal Tag,1240,float 32, , ,Digital,ON,OFF,Block 4628  Output 1
+0x4510,17681,LZIT-605_E14,,Signal Tag,1241,float 32, , ,Digital,ON,OFF,Block 4631  Output 1
+0x4512,17683,PB-004_E14,,Signal Tag,1242,float 32, , ,Digital,ON,OFF,Block 4634  Output 1
+0x4514,17685,XS-012_E14,,Signal Tag,1243,float 32, , ,Digital,ON,OFF,Block 4637  Output 1
+0x4516,17687,XS-013_E14,,Signal Tag,1244,float 32, , ,Digital,ON,OFF,Block 4640  Output 1
+0x4518,17689,XS-018/019_E14,,Signal Tag,1245,float 32, , ,Digital,ON,OFF,Block 4643  Output 1
+0x451A,17691,PZIT-219_E14,,Signal Tag,1246,float 32, , ,Digital,ON,OFF,Block 4645  Output 1
+0x451C,17693,SY-W902D_TRIP,,Signal Tag,1247,float 32, , ,Digital,ON,OFF,Block 4684  Output 1
+0x451E,17695,ESD-W010_E17,,Signal Tag,1248,float 32, , ,Digital,ON,OFF,Block 4687  Output 1
+0x4520,17697,SY-W903C_FO_N,Number Of FO,Signal Tag,1249,float 32,,0,Analog, , ,Block 4675  Output 1
+0x4522,17699,PSD-W010_E17,,Signal Tag,1250,float 32, , ,Digital,ON,OFF,Block 4690  Output 1
+0x4524,17701,SY-W902D_FO,,Signal Tag,1251,float 32, , ,Digital,ON,OFF,Block 4748  Output 1
+0x4526,17703,HS-ESD-001_E17,,Signal Tag,1252,float 32, , ,Digital,ON,OFF,Block 4693  Output 1
+0x4528,17705,HS-ESD-002_E17,,Signal Tag,1253,float 32, , ,Digital,ON,OFF,Block 4696  Output 1
+0x452A,17707,HS-ESD-003_E17,,Signal Tag,1254,float 32, , ,Digital,ON,OFF,Block 4699  Output 1
+0x452C,17709,HS-ESD-004_E17,,Signal Tag,1255,float 32, , ,Digital,ON,OFF,Block 4702  Output 1
+0x452E,17711,HS-ESD-005_E17,,Signal Tag,1256,float 32, , ,Digital,ON,OFF,Block 4705  Output 1
+0x4530,17713,HS-ESD-006_E17,,Signal Tag,1257,float 32, , ,Digital,ON,OFF,Block 4708  Output 1
+0x4532,17715,HS-ESD-007_E17,,Signal Tag,1258,float 32, , ,Digital,ON,OFF,Block 4711  Output 1
+0x4534,17717,HS-ESD-008_E17,,Signal Tag,1259,float 32, , ,Digital,ON,OFF,Block 4714  Output 1
+0x4536,17719,HS-ESD-009_E17,,Signal Tag,1260,float 32, , ,Digital,ON,OFF,Block 4718  Output 1
+0x4538,17721,PB-003_E17,,Signal Tag,1261,float 32, , ,Digital,ON,OFF,Block 4721  Output 1
+0x453A,17723,CF-001_E17,,Signal Tag,1262,float 32, , ,Digital,ON,OFF,Block 4724  Output 1
+0x453C,17725,CG-001_E17,,Signal Tag,1263,float 32, , ,Digital,ON,OFF,Block 4727  Output 1
+0x453E,17727,LZIT-605_E17,,Signal Tag,1264,float 32, , ,Digital,ON,OFF,Block 4730  Output 1
+0x4540,17729,PB-004_E17,,Signal Tag,1265,float 32, , ,Digital,ON,OFF,Block 4733  Output 1
+0x4542,17731,XS-012_E17,,Signal Tag,1266,float 32, , ,Digital,ON,OFF,Block 4736  Output 1
+0x4544,17733,XS-013_E17,,Signal Tag,1267,float 32, , ,Digital,ON,OFF,Block 4739  Output 1
+0x4546,17735,XS-018/019_E17,,Signal Tag,1268,float 32, , ,Digital,ON,OFF,Block 4742  Output 1
+0x4548,17737,PZIT-219_E17,,Signal Tag,1269,float 32, , ,Digital,ON,OFF,Block 4744  Output 1
+0x454A,17739,PZIT-W208D_E17,,Signal Tag,1270,float 32, , ,Digital,ON,OFF,Block 4751  Output 1
+0x454C,17741,PZIT-W207D_E17,,Signal Tag,1271,float 32, , ,Digital,ON,OFF,Block 4754  Output 1
+0x454E,17743,SY-W902D_FO_N,Number Of FO,Signal Tag,1272,float 32,,0,Analog, , ,Block 4776  Output 1
+0x4550,17745,SY-W903D_TRIP,,Signal Tag,1273,float 32, , ,Digital,ON,OFF,Block 4783  Output 1
+0x4552,17747,ESD-W010_E18,,Signal Tag,1274,float 32, , ,Digital,ON,OFF,Block 4786  Output 1
+0x4554,17749,PSD-W010_E18,,Signal Tag,1275,float 32, , ,Digital,ON,OFF,Block 4789  Output 1
+0x4556,17751,SY-W903D_FO,,Signal Tag,1276,float 32, , ,Digital,ON,OFF,Block 4847  Output 1
+0x4558,17753,HS-ESD-001_E18,,Signal Tag,1277,float 32, , ,Digital,ON,OFF,Block 4792  Output 1
+0x455A,17755,HS-ESD-002_E18,,Signal Tag,1278,float 32, , ,Digital,ON,OFF,Block 4795  Output 1
+0x455C,17757,HS-ESD-003_E18,,Signal Tag,1279,float 32, , ,Digital,ON,OFF,Block 4798  Output 1
+0x455E,17759,HS-ESD-004_E18,,Signal Tag,1280,float 32, , ,Digital,ON,OFF,Block 4801  Output 1
+0x4560,17761,HS-ESD-005_E18,,Signal Tag,1281,float 32, , ,Digital,ON,OFF,Block 4804  Output 1
+0x4562,17763,HS-ESD-006_E18,,Signal Tag,1282,float 32, , ,Digital,ON,OFF,Block 4807  Output 1
+0x4564,17765,HS-ESD-007_E18,,Signal Tag,1283,float 32, , ,Digital,ON,OFF,Block 4810  Output 1
+0x4566,17767,HS-ESD-008_E18,,Signal Tag,1284,float 32, , ,Digital,ON,OFF,Block 4813  Output 1
+0x4568,17769,HS-ESD-009_E18,,Signal Tag,1285,float 32, , ,Digital,ON,OFF,Block 4817  Output 1
+0x456A,17771,PB-003_E18,,Signal Tag,1286,float 32, , ,Digital,ON,OFF,Block 4820  Output 1
+0x456C,17773,CF-001_E18,,Signal Tag,1287,float 32, , ,Digital,ON,OFF,Block 4823  Output 1
+0x456E,17775,CG-001_E18,,Signal Tag,1288,float 32, , ,Digital,ON,OFF,Block 4826  Output 1
+0x4570,17777,LZIT-605_E18,,Signal Tag,1289,float 32, , ,Digital,ON,OFF,Block 4829  Output 1
+0x4572,17779,PB-004_E18,,Signal Tag,1290,float 32, , ,Digital,ON,OFF,Block 4832  Output 1
+0x4574,17781,XS-012_E18,,Signal Tag,1291,float 32, , ,Digital,ON,OFF,Block 4835  Output 1
+0x4576,17783,XS-013_E18,,Signal Tag,1292,float 32, , ,Digital,ON,OFF,Block 4838  Output 1
+0x4578,17785,XS-018/019_E18,,Signal Tag,1293,float 32, , ,Digital,ON,OFF,Block 4841  Output 1
+0x457A,17787,PZIT-219_E18,,Signal Tag,1294,float 32, , ,Digital,ON,OFF,Block 4843  Output 1
+0x457C,17789,PZIT-W208D_E18,,Signal Tag,1295,float 32, , ,Digital,ON,OFF,Block 4850  Output 1
+0x457E,17791,PZIT-W207D_E18,,Signal Tag,1296,float 32, , ,Digital,ON,OFF,Block 4853  Output 1
+0x4580,17793,SY-W903D_FO_N,Number Of FO,Signal Tag,1297,float 32,,0,Analog, , ,Block 4875  Output 1
+0x4582,17795,SY-W902A_CH,,Signal Tag,1298,float 32, , ,Digital,ON,OFF,Block 4876  Output 5
+0x4584,17797,SY-W902A_STAT,,Signal Tag,1299,float 32, , ,Digital,ON,OFF,Block 4883  Output 1
+0x4586,17799,SY-W902A,,Signal Tag,1300,float 32,,0,Analog, , ,Block 4885  Output 1

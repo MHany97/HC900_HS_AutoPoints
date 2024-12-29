@@ -1,0 +1,29 @@
+ï»¿RevisionID:,0106.0036.0012.0002.0022
+File Name:,HC900-C75S Rev 7.2x : WEB_SIS_Test_241201_Demo *
+Controller Name,CONTROLLER
+Title:,
+Author:,
+Created Date:,2/14/2005 5:38:48 PM
+Modified Date:,12/1/2024 1:50:44 PM
+Report Title:,Modbus Signal Tags and Variables Report [Process & Safety]
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,EU,Decimal Places,Tag Type,'On' Label,'Off' Label,Initial/Source
+0x18C0,6337,PZIT-219-2_L,Range Low,Variable,1,float 32,,0,Analog, , ,0.00
+0x18C4,6341,PZIT-219-2_H,Range High,Variable,3,float 32,,0,Analog, , ,0.00
+0x18C6,6343,PZIT-219-2_LL_EN,,Variable,4,float 32, , ,Digital,ON,OFF,OFF
+0x18C8,6345,PZIT-219-2_HH_EN,,Variable,5,float 32, , ,Digital,ON,OFF,OFF
+0x18CA,6347,PZIT-219-2_DELAY,,Variable,6,float 32,,0,Analog, , ,0.00
+0x18EA,6379,PZIT-219-2_ACK,PZIT-219-1_ACK,Variable,22,float 32, , ,Digital,ON,OFF,OFF
+0x18EC,6381,PZIT-219-2,,Variable,23,float 32,barg,3,Analog, , ,0.00
+0x18EE,6383,PZIT-219-2_FORCE,,Variable,24,float 32, , ,Digital,ON,OFF,OFF
+0x18F0,6385,PZIT-219-2_LL_V,,Variable,25,float 32,barg,3,Analog, , ,0.00
+0x18F2,6387,PZIT-219-2_HH_V,,Variable,26,float 32,barg,3,Analog, , ,0.00
+0x2000,8193,PZIT-219-2_R,,Signal Tag,1,float 32, , ,Digital,ON,OFF,Variable #:22
+0x2002,8195,PZIT-219-2_F,,Signal Tag,2,float 32, , ,Digital,ON,OFF,Block 299  Output 1
+0x2004,8197,PZIT-219-2_LL_NE,LL Alarm Disable,Signal Tag,3,float 32, , ,Digital,ON,OFF,Block 439  Output 1
+0x2006,8199,PZIT-219-2_HH_NE,HH Alarm Disable,Signal Tag,4,float 32, , ,Digital,ON,OFF,Block 440  Output 1
+0x2008,8201,PZIT-219-2_V,PZIT-219-2,Signal Tag,5,float 32,barg,3,Analog, , ,Variable #:23
+0x200A,8203,PZIT-219-2_RAW,,Signal Tag,6,float 32,barg,3,Analog, , ,Block 298  Output 6
+0x2028,8233,PZIT-219-2_CH,,Signal Tag,21,float 32,barg,3,Analog, , ,Block 436  Output 1
+0x202A,8235,PZIT-219-2_STAT,,Signal Tag,22,float 32, , ,Digital,ON,OFF,Block 305  Output 1
+0x202C,8237,PZIT-219-2_LL,,Signal Tag,23,float 32, , ,Digital,ON,OFF,Block 306  Output 1
+0x202E,8239,PZIT-219-2_HH,,Signal Tag,24,float 32, , ,Digital,ON,OFF,Block 307  Output 1

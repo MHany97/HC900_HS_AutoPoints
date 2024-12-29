@@ -1,0 +1,24 @@
+﻿RevisionID:,0106.0036.0012.0002.0022
+File Name:,HC900-C75S Rev 7.2x : WEB_SIS_DI_241216_Demo
+Controller Name,WEBSIS
+Title:,
+Author:,
+Created Date:,2/14/2005 5:38:48 PM
+Modified Date:,12/16/2024 1:42:45 PM
+
+Report Title:,Modbus Signal Tags and Variables Report [Process & Safety]
+
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,EU,Decimal Places,Tag Type,'On' Label,'Off' Label,Initial/Source
+0x18C0,6337,DI,,Variable,1,float 32, , ,Digital,ON,OFF,OFF
+0x18C2,6339,DI_MANON,,Variable,2,float 32, , ,Digital,ON,OFF,OFF
+0x18C4,6341,DI_ACK,,Variable,3,float 32, , ,Digital,ON,OFF,OFF
+0x18C6,6343,DI_MOS,,Variable,4,float 32, , ,Digital,ON,OFF,OFF
+0x2000,8193,DI_CH,,Signal Tag,1,float 32, , ,Digital,ON,OFF,Block 642  Output 5
+0x2002,8195,DI_FO,First Out,Signal Tag,2,float 32, , ,Digital,ON,OFF,Block 664  Output 1
+0x2004,8197,DI_STO,Startup Override,Signal Tag,3,float 32, , ,Digital,ON,OFF,Block 663  Output 1
+0x2006,8199,DI_CH_F,Channel Fail,Signal Tag,4,float 32, , ,Digital,ON,OFF,Block 647  Output 1
+0x2008,8201,DI_D_F,Discrepancy Fail,Signal Tag,5,float 32, , ,Digital,ON,OFF,Block 652  Output 1
+0x200A,8203,DI_ALARM,HH or LL Alarm,Signal Tag,6,float 32, , ,Digital,ON,OFF,Block 660  Output 1
+0x200C,8205,DI_R,Alarm Reset,Signal Tag,7,float 32, , ,Digital,ON,OFF,Variable #:3
+0x200E,8207,DI_MOS1,,Signal Tag,8,float 32, , ,Digital,ON,OFF,Variable #:4
+0x2010,8209,DI_F,,Signal Tag,9,float 32, , ,Digital,ON,OFF,Block 645  Output 1

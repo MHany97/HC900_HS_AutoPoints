@@ -1,0 +1,33 @@
+﻿RevisionID:,0106.0036.0012.0002.0022,,,,,,,,,,,
+File Name:,HC900-C75S Rev 7.2x : WEB_SIS_241216_Demo,,,,,,,,,,,
+Controller Name,WEBSIS,,,,,,,,,,,
+Title:,,,,,,,,,,,,
+Author:,,,,,,,,,,,,
+Created Date:,2/14/2005 17:38,,,,,,,,,,,
+Modified Date:,12/16/2024 11:35,,,,,,,,,,,
+,,,,,,,,,,,,
+Report Title:,Modbus Signal Tags and Variables Report [Process & Safety],,,,,,,,,,,
+,,,,,,,,,,,,
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,EU,Decimal Places,Tag Type,'On' Label,'Off' Label,Initial/Source
+0x18C0,6337,AI,PV,Variable,1,float 32,,0,Analog, , ,0
+0x18C2,6339,AI_RH,,Variable,2,float 32,,0,Analog, , ,100
+0x18C4,6341,AI_RL,,Variable,3,float 32,,0,Analog, , ,0
+0x18C6,6343,AI_HH_V,,Variable,4,float 32,,0,Analog, , ,100
+0x18C8,6345,AI_LL_V,,Variable,5,float 32,,0,Analog, , ,0
+0x18CA,6347,AI_DELAY,,Variable,6,float 32,,1,Analog, , ,0
+0x18CC,6349,AI_ACK,Acknowledge,Variable,7,float 32, , ,Digital,ON,OFF,OFF
+0x18CE,6351,AI_MANON,,Variable,8,float 32, , ,Digital,ON,OFF,OFF
+0x18D0,6353,AI_MOS,,Variable,9,float 32, , ,Digital,ON,OFF,OFF
+0x2000,8193,AI_CH,Field Val,Signal Tag,1,float 32,,0,Analog, , ,Block 610  Output 1
+0x2002,8195,AI_CH_F,Channel Fail,Signal Tag,2,float 32, , ,Digital,ON,OFF,Block 624  Output 1
+0x2004,8197,AI_D_F,Discrepancy Fail,Signal Tag,3,float 32, , ,Digital,ON,OFF,Block 629  Output 1
+0x2006,8199,AI_FO,First Out,Signal Tag,4,float 32, , ,Digital,ON,OFF,Block 633  Output 1
+0x2008,8201,AI_STO,Startup Override,Signal Tag,5,float 32, , ,Digital,ON,OFF,Block 632  Output 1
+0x200A,8203,AI_HH,Alarm High High,Signal Tag,6,float 32, , ,Digital,ON,OFF,Block 617  Output 1
+0x200C,8205,AI_LL,Alarm Low Low,Signal Tag,7,float 32, , ,Digital,ON,OFF,Block 621  Output 1
+0x200E,8207,AI_RAW,,Signal Tag,8,float 32,barg,3,Analog, , ,Block 609  Output 6
+0x2010,8209,AI_V,Analog Value,Signal Tag,9,float 32,,0,Analog, , ,Variable #:1
+0x2012,8211,AI_F,,Signal Tag,10,float 32, , ,Digital,ON,OFF,Block 622  Output 1
+0x2014,8213,AI_R,Alarm Reset,Signal Tag,11,float 32, , ,Digital,ON,OFF,Variable #:7
+0x2016,8215,AI_MOS1,,Signal Tag,12,float 32, , ,Digital,ON,OFF,Variable #:9
+0x2018,8217,AI_D_F1,Vote Discrepancy,Signal Tag,13,float 32, , ,Digital,ON,OFF,Block 635  Output 1
